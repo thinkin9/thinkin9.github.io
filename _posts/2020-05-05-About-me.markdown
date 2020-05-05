@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "About me"
+date:   2020-05-05 12:01:36 +0900
+categories: Introduce
+---
+Hello. My name is Hyeonjin Jo.   
+I'm a 2nd-Year undergraduate student at [UNIST](https://www.unist.ac.kr/)   
+Major in [Computer Science and Engineering](http://cse.unist.ac.kr/)
+Minor in [Management Engineering](http://sme.unist.ac.kr/) 
+
+## Research Interest
+* Optimization
+* Parallel computing
+* Generative Adversarial Network (GAN)
+* Quantitative Analysis
+    * [Automatic Trading BOT](https://github.com/thinkin9/Automatic_Trading_BOT) with Python (Ongoing)   
