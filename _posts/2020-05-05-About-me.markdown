@@ -7,9 +7,11 @@ categories: Introduce
 Hello. My name is Hyeonjin Jo.   
 I'm a 2nd-Year undergraduate student at [UNIST](https://www.unist.ac.kr/)   
 Major in [Computer Science and Engineering](http://cse.unist.ac.kr/)
-Minor in [Management Engineering](http://sme.unist.ac.kr/) 
+Minor in [Management Engineering](http://sme.unist.ac.kr/)   
 
-## Research Interest
+<br>
+
+## RESEARCH INTERESTS
 * Optimization
 * Parallel Computing   
     * [Programming Massively Parallel Processors: A Hands-on Approach](https://www.amazon.com/Programming-Massively-Parallel-Processors-Hands/dp/0124159923) (Ongoing)   
@@ -17,3 +19,33 @@ Minor in [Management Engineering](http://sme.unist.ac.kr/)
     * [Generative Deep Learning](https://www.amazon.com/Generative-Deep-Learning-Teaching-Machines/dp/1492041947) (Ongoing)   
 * Quantitative Analysis   
     * [Automatic Trading BOT](https://github.com/thinkin9/Automatic_Trading_BOT) with Python (Ongoing)   
+
+<br>
+
+## LANGUAGE
+* Korean (Native)
+* English (Intermediate)   
+
+<br>
+
+## TECHNICAL SKILLS
+* Python (Tensorflow) 
+* C/C++ git 
+* HTML/ CSS   
+
+<br>
+
+## COURSE
+### 2020 SPRING
+* CSE201 Digital Logic (Prof. Jongwon Lee)
+* CSE232 Discrete Mathematics (Prof. Antoine Vigneron)
+* CSE242 Object-oriented Programming (Prof. Kwangin Kim)
+* MGE209 Operations Management (Prof. Chiehyeon Lim)
+* MTH203 Applied Linear Algebra (Prof. Jungjin Lee)
+* MTH211 Statistics (Prof. Bogume Jang)
+
+### 2019 FALL
+* ITP107 Introduction to Artificial Intelligence Programming I (Prof. Prof. Young Je Moon)
+
+### 2019 SPRING
+* ITP117 Introduction to Artificial Intelligence Programming II (Prof. Prof. Young Je Moon)
