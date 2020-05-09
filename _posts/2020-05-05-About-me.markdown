@@ -11,7 +11,9 @@ Minor in [Management Engineering](http://sme.unist.ac.kr/)
 
 ## Research Interest
 * Optimization
-* Parallel computing
-* Generative Adversarial Network (GAN)
-* Quantitative Analysis
+* Parallel Computing   
+    * [Programming Massively Parallel Processors: A Hands-on Approach](https://www.amazon.com/Programming-Massively-Parallel-Processors-Hands/dp/0124159923) (Ongoing)   
+* Generative Adversarial Network (GAN)   
+    * [Generative Deep Learning](https://www.amazon.com/Generative-Deep-Learning-Teaching-Machines/dp/1492041947) (Ongoing)   
+* Quantitative Analysis   
     * [Automatic Trading BOT](https://github.com/thinkin9/Automatic_Trading_BOT) with Python (Ongoing)   
