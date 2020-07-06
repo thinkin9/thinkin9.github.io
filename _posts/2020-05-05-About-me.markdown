@@ -8,14 +8,16 @@ categories: Introduce
 <span style="font-family: Times"> 
 
 <span style="text-align: center">
-    <i><b>Last Updated on July 6th, 2020   </b></i>
+
+<i><b>Last Updated on July 6th, 2020   </b></i>
+
 </span>
 
 ## Education
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
 &emsp;[Ulsan National Institute of Science and Technology (UNIST)](https://www.unist.ac.kr/)<span style="float: right"> *Feb. 2019 - Present* </span>   
-&emsp;&emsp;Majoring in [Computer Science and Engineering](http://cse.unist.ac.kr/) <span style="float: right">Overall GPA: 4.06 / 4.3 (as of Spring, 2020)</span>   
+&emsp;&emsp;Majoring in [Computer Science and Engineering](http://cse.unist.ac.kr/) <span style="float: right">Overall GPA: 4.06 / 4.3 (as of *Spring, 2020*)</span>   
 &emsp;&emsp;Minoring in [Management Engineering](http://sme.unist.ac.kr/)   
 
 
@@ -47,4 +49,4 @@ categories: Introduce
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
 &emsp; **Dean's List**, UNIST <span style="float: right">  *Spring 2019, Fall 2019, Spring 2020* </span>   
-&emsp; **Honor Scholarship**, UNIST <span style="float: right">  *Spring 2019, Fall 2019, Spring 2020, Fall 2020* </span>   
+&emsp; **Honor Scholarship**, UNIST ($3,000 **/** semester) <span style="float: right">  *Spring 2019, Fall 2019, Spring 2020* </span>   
