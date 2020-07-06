@@ -7,11 +7,7 @@ categories: Introduce
 
 <span style="font-family: Times"> 
 
-<span style="text-align: center">
-
-<i><b>Last Updated on July 6th, 2020   </b></i>
-
-</span>
+<div style="text-align: center"><i><b>Last Updated on July 6th, 2020</b></i></div>
 
 ## Education
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
@@ -49,4 +45,4 @@ categories: Introduce
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
 &emsp; **Dean's List**, UNIST <span style="float: right">  *Spring 2019, Fall 2019, Spring 2020* </span>   
-&emsp; **Honor Scholarship**, UNIST ($3,000 **/** semester) <span style="float: right">  *Spring 2019, Fall 2019, Spring 2020* </span>   
+&emsp; **Honor Scholarship**, UNIST ($3,000 / semester) <span style="float: right">  *Spring 2019, Fall 2019, Spring 2020* </span>   
