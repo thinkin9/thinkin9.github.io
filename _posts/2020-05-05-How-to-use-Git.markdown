@@ -12,29 +12,49 @@ categories: Basic
 4. Merge
 
 ### 1. What's the Git?
-
+*
 ### 2. Location
 1. Local storage (e.g. Our computer)
 2. Virtual storage (e.g. Github)
 Since both storages are seperated, we can build up in local storage first then in virtual storage second.
 
 To use branch process is effective in building up the prototype of program      
-1. First Draft   
-    * git clone /&lt;PATH&gt;   
-    * git clone &lt;USERNAME&gt;@&lt;HOST&gt;:/&lt;PATH&gt;   
-2. Debugging with branch   
-    * &lt;PATH&gt; bundle exec jekyll serve   
-      [http://127.0.0.1:4000/](http://127.0.0.1:4000/)
-    * git checkout -b &lt;branch&gt; (-b: branch)
-    * git checkout &lt;branch&gt;
-    * git branch -d &lt;branch&gt; (-d: delete)
-    * git add &lt;FILENAME&gt; or git add *   
-    * git commit -m "Explanation"   
-3. Final Draft   
-    * git push origin &lt;branch&lt; (e.g. master, branch_1, etc.)
-    * git remote add origin &lt;VIRTUAL_STORAGE_PATH&gt;
-    * git pull
-    * git merge &lt;branch&gt;   
+1. Download Virtual storage to Local storage   
+    1. Make current directory to git storage
+        * git init
+    2. Virtual storage to Local storage   
+        * git clone /&lt;URL&gt;
+        * git clone &lt;USERNAME&gt;@&lt;HOST&gt;:/&lt;URL&gt; 
+<br>
 
-### 3. Branch
-### 4. Merge
+2. Debugging
+    1. With Jekyll Server **(Not recommended)**
+        * &lt;PATH&gt; bundle exec jekyll serve
+        and then browse to [http://127.0.0.1:4000/](http://127.0.0.1:4000/)
+<br>
+
+3. With branch
+    1. See the branch
+        * git branch (Current branch is marked with *)
+    2. See the status of branch
+        * git status (List of Modified, added files)
+    3. Create the branch and Move to the branch 
+        * git branch &lt;branch&gt; (Create)
+        * git checkout &lt;branch&gt; (Move)
+        * git checkout -b &lt;branch&gt; (Create and then Move)
+    4. Delete the branch
+        * git branch -d &lt;branch&gt; (-d: delete)
+    5. Create directory or file
+        * git add &lt;FILENAME&gt; or git add *   
+    6. Commit to the Local Storage
+        * git commit -m "Explanation"  
+    7. Push the Local Storage to the Virtual Storage
+        * git remote add origin &lt;VIRTUAL_STORAGE_PATH&gt;
+        * git push origin &lt;branch&gt; (e.g. master, branch_1, etc.)
+    8. Pull the branch of Virtual Storage
+        Move to the branch which I want to pull
+        * git pull
+    9. Merge the branch
+        Move to the Parent branch (usually, master)
+        * git merge &lt;branch&gt;
+        Push the Local Storage to the Virtual Storage
