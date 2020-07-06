@@ -5,41 +5,50 @@ date:   2020-05-05 12:01:36 +0900
 categories: Introduce
 ---
 
-***
+<span style="font-family: Times"> 
+
+<span style="text-align: center">
+
+<i><b>Last Updated on July 6th, 2020</b></i>
+
+</span>
 
 ## Education
-[Ulsan National Institute of Science and Technology (UNIST)](https://www.unist.ac.kr/){: target="_blank" }    
-Mar. 2019 - Present {: .text-right }
-Majoring in [Computer Science and Engineering](http://cse.unist.ac.kr/)   
-Minoring in [Management Engineering](http://sme.unist.ac.kr/)
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black"> </hr>
 
-***
+&emsp;[Ulsan National Institute of Science and Technology (UNIST)](https://www.unist.ac.kr/)<span style="float: right"> *Feb. 2019 - Present* </span>
+&emsp;&emsp;Majoring in [Computer Science and Engineering](http://cse.unist.ac.kr/) <span style="float: right">Overall GPA: 4.06 / 4.3 (as of Spring, 2020)</span>  
+&emsp;&emsp;Minoring in [Management Engineering](http://sme.unist.ac.kr/)
+
+
 ## Research Interests
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black"> </hr>
+
 * Optimization
 * Parallel Computing   
-    * [Programming Massively Parallel Processors: A Hands-on Approach](https://www.amazon.com/Programming-Massively-Parallel-Processors-Hands/dp/0124159923) (Ongoing)   
+    * Programming Massively Parallel Processors: A Hands-on Approach [(Book)](https://www.amazon.com/Programming-Massively-Parallel-Processors-Hands/dp/0124159923) (Reading)
 * Generative Adversarial Network (GAN)   
-    * [Generative Deep Learning](https://www.amazon.com/Generative-Deep-Learning-Teaching-Machines/dp/1492041947) (Ongoing)   
+    * Generative Deep Learning [(Book)](https://www.amazon.com/Generative-Deep-Learning-Teaching-Machines/dp/1492041947) (Reading)
 * Quantitative Analysis   
-    * [Automatic Trading BOT](https://github.com/thinkin9/Automatic_Trading_BOT) with Python (Ongoing)   
-
-<br>
+    * [Automatic Trading BOT](https://github.com/thinkin9/Automatic_Trading_BOT) with C++ API (Yet)
 
 ## Language
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black"> </hr>
+
 * Korean (Native)
 * English (Intermediate)   
 
-<br>
-
 ## Technical Skills
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black"> </hr>
+
 * C/ C++   
 * Python
-* HTML/ CSS   
+* HTML/ CSS
 
-<br>
+## Honors and Awards
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black"> </hr>
 
-## Awards
-* Dean's List, UNIST   
-    * 2019 Spring semester
+&emsp; **Dean's List**, UNIST <span style="float: right">  *Spring 2019, Fall 2019, Spring 2020* </span>
+&emsp; **Honor Scholarship**, UNIST <span style="float: right">  *Spring 2019, Fall 2019, Spring 2020, Fall 2020* </span>
 
 </span>
