@@ -12,7 +12,8 @@ sass:
 plainwhite:
   name: Hyeonjin Jo
   tagline: 
-  date_format: "%b %-d, %Y"
+  fupdate_format: "%b %-d, %Y"
+  lupdate_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
 
   # generate social links in footer

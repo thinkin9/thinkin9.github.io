@@ -18,7 +18,7 @@ layout: default
       {%- assign count = count | plus: 1 -%}
       {%- if count < 6 -%}
         <li>
-          {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
+          {%- assign date_format = site.plainwhite.fupdate_format | default: "%b %-d, %Y" -%}
          <a class="post-link" href="{{ post.url | relative_url }}">
             <h2 class="post-title">{{ post.title | escape }}</h2>
          </a>
@@ -30,7 +30,7 @@ layout: default
             </ul>
            <div class="post-date">
               <i class="icon-calendar"></i>
-              {{ post.date | date: date_format }}</div>
+              {{ post.fupdate | fupdate: date_format }}</div>
           </div>
           <div class="post">
             {%- if site.show_excerpts -%}

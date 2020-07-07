@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "TODO"
+fupdate:   2020-07-07 16:04:19 +0900
+ldupdata:   "2020-07-06 17:36:52 +0900"
+categories: Me
+---
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
+
+### July, 2020
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
+
+- Prepare TOEIC to apply Katusa<span style="float: right"> *~July 26, 2020* </span>
+- Prepare Push-up to apply Auxiliary police (Military service) <span style="float: right"> *~August 17, 2020* </span>
+- System Programming with Intro to Computer Systems of Carnegie Mellon University ([Lecture Slides](http://www.cs.cmu.edu/afs/cs/academic/class/15213-s20/www/schedule.html), [Assigment](http://www.cs.cmu.edu/afs/cs/academic/class/15213-s20/www/schedule.html), and [Videos](https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22b96d90ae-9871-4fae-91e2-b1627b43e25e%22&maxResults=250&sortColumn=1&sortAscending=true)) <span style="float: right"> *~August 30, 2020* </span>
+    - LAB0_Cprogramminglab
+    - LAB1_Datalab
+    - LAB2_Bomblab
+    - LAB3_Attacklab
+    - LAB4_Cachelab
+    - LAB5_Tshlab
+    - LAB6_Malloclab
+    - LAB7_Proxylab
+- Data Structure Assignments with previous semester assignments <span style="float: right"> *~August 30, 2020* </span>
+    - LAB1_Cprogramming
+    - LAB2_Stack_and_Queue
+    - LAB3_Binary_Search_Tree
+    - LAB4_Heap
+    - LAB5_B+Tree
+    - LAB6_Directed Graphs and Dijkstras Algorithm
+- Paper Reading
+    - Artificial Intelligence
+        - Attention Is All You Need / Vaswani, A. et al [(link)](https://arxiv.org/abs/1706.03762)
+- 
