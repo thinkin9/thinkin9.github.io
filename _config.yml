@@ -12,7 +12,7 @@ sass:
 plainwhite:
   name: Hyeonjin Jo
   tagline: 
-  fupdate_format: "%b %-d, %Y"
+  date_format: "%b %-d, %Y"
   lupdate_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
 
