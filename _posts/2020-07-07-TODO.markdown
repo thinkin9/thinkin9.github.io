@@ -7,7 +7,7 @@ categories: Me
 
 <div style="text-align: center"><i><b>Last Updated on July 7th, 2020</b></i></div>
 
-### Summer, 2020
+## Summer, 2020
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
 - Prepare TOEIC to apply Katusa<span style="float: right"> *~July 26, 2020* </span>
@@ -30,4 +30,4 @@ categories: Me
     - LAB6_Directed Graphs and Dijkstras Algorithm
 - Paper Reading
     - Artificial Intelligence
-        - Attention Is All You Need / Vaswani, A. et al [(link)](https://arxiv.org/abs/1706.03762)
+        - *Attention Is All You Need / Vaswani, A. et al* [(PDF)](https://arxiv.org/abs/1706.03762)

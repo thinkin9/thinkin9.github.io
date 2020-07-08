@@ -1,48 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <style>
-        #mainmargin {
-            margin: 150px 20px 20px 100px;
-        }
-    </style>
-    {%- include head.html -%}
+  <style>
+    #mainmargin {
+      margin: 150px 20px 20px 100px;
+    }
+  </style>
+  {%- include head.html -%}
 </head>
-  <body>
-    <main class="container">
-      <section class="about">
-        <a href="/"><img src="{{ "/assets/portfolio.png" | relative_url }}" alt="{{ site.plainwhite.name }}"></a>
-        <h2 id="title" style="text-align: left;">
-          <a href="/">{{ site.plainwhite.name }}</a>
-        </h2>
-        <!--<p class="tagline">{{ site.plainwhite.tagline }}</p>-->
+
+<body>
+  <main class="container">
+    <section class="about">
+      <a href="/"><img src="{{ "/assets/portfolio.png" | relative_url }}" alt="{{ site.plainwhite.name }}"></a>
+      <h2 id="title" style="text-align: left;">
+        <a href="/">{{ site.plainwhite.name }}</a>
+      </h2>
+      <!--<p class="tagline">{{ site.plainwhite.tagline }}</p>-->
       <p style="font-size:12px;">
-          2nd-Year Undergraduate student at UNIST<br>
-          Majoring in Computer Science and Engineering<br>
-          Minoring in Management Engineering<br>
-          <a class="post-link" href="/introduce/2020/05/05/About-me.html"><u>More about</u></a>
+        2nd-Year Undergraduate student at UNIST<br>
+        Majoring in Computer Science and Engineering<br>
+        Minoring in Management Engineering<br>
+        <a href="/me/2020/05/05/About-me.html"><u>More about</u></a>
       </p>
-        <ul class="social">
-          {%- if site.plainwhite.social_links.github -%}
-            <a href="https://github.com/{{ site.plainwhite.social_links.github }}">
-              <li>
-                <i class="icon-github-circled"></i>
-              </li>
-            </a>
-          {%- endif -%}
-          {%- if site.plainwhite.social_links.linkedIn -%}
-            <a href="https://www.linkedin.com/{{ site.plainwhite.social_links.linkedIn }}">
-              <li>
-                <i class="icon-linkedin-squared"></i>
-              </li>
-            </a>
-          {%- endif -%}
-            <a href="https://www.acmicpc.net/user/zxzx1825">
-                <li>
-                    <img src="/assets/baekjoon.png" width="30" height="35">
-                </li>
-            </a>
-        </ul>     
+      <ul class="social">
+        {%- if site.plainwhite.social_links.github -%}
+        <a href="https://github.com/{{ site.plainwhite.social_links.github }}" target="_blank">
+          <li>
+            <i class="icon-github-circled"></i>
+          </li>
+        </a>
+        {%- endif -%}
+        {%- if site.plainwhite.social_links.linkedIn -%}
+        <a href="https://www.linkedin.com/{{ site.plainwhite.social_links.linkedIn }}">
+          <li>
+            <i class="icon-linkedin-squared"></i>
+          </li>
+        </a>
+        {%- endif -%}
+        <a href="https://www.acmicpc.net/user/zxzx1825" target="_blank">
+          <li>
+            <img src="/assets/baekjoon.png" width="30" height="35">
+          </li>
+        </a>
+      </ul>
+      <div class="site-category">Categories
+        <br>
+        <li><a href="/test/category/Git.html">Git</a>
+          <ul>
+            {% for post in site.categories["Git"] %}
+              <li><a href="{{ site.baseurl| }}{{ post.url| }}">{{ post.title }}</a href="">
+            {% endfor %}
+          </ul>
+        </li>
+        <li><a href="/test/category/Me.html">Me</a>
+          <ul>
+            {% for post in site.categories["Me"] %}
+            <li><a href="{{ site.baseurl| }}{{ post.url| }}">{{ post.title }}</a href="">
+            {% endfor %}
+          </ul>
+        </li>
+      </div>
+
+      <!--
         {%- if site.plainwhite.navigation -%}
           <nav class="navigation">
             <ul>
@@ -54,25 +75,24 @@
             </ul>
           </nav>
         {%- endif -%}
-        
-        <!--
         <p>&copy;
           {{ "now" | date: "%Y" }}</p>
         -->
-      </section>
-      <section class="content">
-        {{ content }}
-      </section>
-    </main>
-    {%- if site.plainwhite.analytics_id -%}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.plainwhite.analytics_id }}"></script>
-      <script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
+    </section>
+    <section class="content">
+      {{ content }}
+    </section>
+  </main>
+  {%- if site.plainwhite.analytics_id -%}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.plainwhite.analytics_id }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-		gtag('config', '{{ site.plainwhite.analytics_id }}');
-	</script>
-    {%- endif -%}
-  </body>
+    gtag('config', '{{ site.plainwhite.analytics_id }}');
+  </script>
+  {%- endif -%}
+</body>
+
 </html>
