@@ -2,11 +2,12 @@
 layout: post
 title:  "CS_15_213_LAB0 of CMU"
 date:   2020-07-09 01:03:28 +0900
-categories: System Programming
+categories: "System Programming"
 ---
 <div style="text-align: center"><i><b>Last Updated on July 8th, 2020</b></i></div>
 
-# [CS_15_213_LAB0 of CMU](https://github.com/thinkin9/CS-15-213-Introduction-to-Computer-Systems/tree/master/LAB0_Cprogramming)
+## Source code
+[Github](https://github.com/thinkin9/CS-15-213-Introduction-to-Computer-Systems/tree/master/LAB0_Cprogramming)
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 ## queue.h
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
@@ -186,7 +187,8 @@ categories: System Programming
         q->tail = start;
     }
 
-### Learned
+## Learned
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
     1. typedef struct
         typedef: typedef is a reserved keyword in the C and C++ programming languages. 
                 It is used to create an alias name for another data type.
