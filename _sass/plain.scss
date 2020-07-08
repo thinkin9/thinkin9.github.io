@@ -261,8 +261,7 @@ main {
   text-decoration: none;
   line-height: 1.5;
   li{
-    display: block;
-    margin-right: 10px;
+    display: inline-block;
     font-size: 14px;
   }
   li a{
@@ -287,6 +286,7 @@ main {
     display: inline-block;
   }
   li ul a{
+    display: none;
     text-decoration: none;
   }
 }
