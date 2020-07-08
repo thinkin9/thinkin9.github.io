@@ -261,7 +261,7 @@ main {
   text-decoration: none;
   line-height: 1.5;
   li{
-    display: inline-block;
+    display: flex;
     font-size: 14px;
   }
   li a{
@@ -283,10 +283,9 @@ main {
   }
   li:hover ul{
     background-color: white;
-    display: inline-block;
+    display: flex;
   }
   li ul a{
-    display: none;
     text-decoration: none;
   }
 }
