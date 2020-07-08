@@ -255,31 +255,30 @@ main {
   background-color: white;
   color: #222222;
   font-weight: normal;
-  margin: 0;
+  margin: auto 0;
   padding: 0;
   display: inline-block;
   text-decoration: none;
   line-height: 1.5;
+  width: 100%;
   li{
-    float: left;
-    font-size: 18px;
+    display: inline;
   }
   li a{
+    display: block;
+    font-size: 18px;
     text-decoration: none;
   }
-  li:hover {
-    background-color: white;
-  }
   li ul{
-    font-size: 14px;
-    display: none;
     position: absolute;
+    display: none;
   }
   li:hover ul{
-    background-color: white;
     display: inline-block;
   }
   li ul a{
+    font-size: 14px;
     text-decoration: none;
+    display: block;
   }
 }
