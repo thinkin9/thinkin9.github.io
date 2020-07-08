@@ -250,35 +250,42 @@ main {
 }
 
 .site-category{
-  text-align: left;
   font-size: 22px;
   background-color: white;
   color: #222222;
-  font-weight: normal;
-  margin: 0;
-  padding: 0;
-  display: inline-block;
+  display: block;
   text-decoration: none;
   line-height: 1.5;
   width: 100%;
   li{
-    display: inline-block;
+    position: relative;
+    display: inline;
+    margin: 0;
+    padding: 0;
   }
   li a{
-    display: inline-block;
+    display: block;
     font-size: 18px;
     text-decoration: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
   }
   li ul{
-    position: absolute;
+    position: relative;
     display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
   li:hover ul{
-    display: inline-block;
+    display: inline;
   }
   li ul a{
+    display: block;
     font-size: 14px;
     text-decoration: none;
-    display: block;
+    margin: 0;
+    padding: 0;
   }
 }
