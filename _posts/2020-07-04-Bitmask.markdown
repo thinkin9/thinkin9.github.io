@@ -5,7 +5,7 @@ date:   2020-07-03 21:04:47 +0900
 categories: Algorithm
 ---
 
-<div style="text-align: center"><i><b>Last Updated on July 7th, 2020</b></i></div>
+<div style="text-align: center"><i><b>Last Updated on July 3rd, 2020</b></i></div>
 
 참고: [마이구미의 HelloWorld](https://mygumi.tistory.com/361)
 
@@ -23,12 +23,12 @@ categories: Algorithm
 ## Operations
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
-* "&" (AND)
-* "|" (OR)
-* "^" (XOR)
-* "~" (NOT)
-* "A << B", A ×2^B, 직관적으로 A비트에 (<<) 방향으로 추가적인 B개의 0 bits를 채운다
-* "A >> B", A ÷2^B, 직관적으로 A비트에 (<<) 방향으로 추가적인 B개의 0 bits를 채운다
+* & (AND)
+* &#124; (OR)
+* ^ (XOR)
+* ~ (NOT)
+* A << B, A ×2^B, 직관적으로 A비트에 (<<) 방향으로 추가적인 B개의 0 bits를 채운다
+* A >> B, A ÷2^B, 직관적으로 A비트에 (<<) 방향으로 추가적인 B개의 0 bits를 채운다
 
 ## More about operation 
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
@@ -77,4 +77,3 @@ i = 2 이라고 가정할 때, 결과는 1110 을 원한다.
         cout << '\n';
     }
     ```
-

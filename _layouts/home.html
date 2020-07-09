@@ -16,7 +16,7 @@ layout: default
     {%- assign count = 0 -%}
     {%- for post in site.posts -%}
       {%- assign count = count | plus: 1 -%}
-      {%- if count < 6 -%}
+      {%- if count < 10 -%}
         <li>
           {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
          <a class="post-link" href="{{ post.url | relative_url }}">

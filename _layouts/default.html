@@ -54,6 +54,13 @@
             {% endfor %}
           </ul>
         </li>
+        <li><a href="/category/Data_Structure.html">Data Structure</a>
+          <ul>
+            {% for post in site.categories["Data_Structure"] %}
+            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a href="">
+            {% endfor %}
+          </ul>
+        </li>
         <li><a href="/category/Git.html">Git</a>
           <ul>
             {% for post in site.categories["Git"] %}
