@@ -5,7 +5,7 @@ date:   2020-07-01 15:37:22 +0900
 categories: Algorithm Data_Structure
 ---
 
-<div style="text-align: center"><i><b>Last Updated on July 1st, 2020</b></i></div>
+<div style="text-align: center"><i><b>Last Updated on July 9th, 2020</b></i></div>
 
 참고: 13. Graph Algorithms, Data Structures and Algorithms in C++ - Michael T. Goodrich, Roberto Tamassia, David M. Mount (2011) [(Amazon)](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/0470383275)
 
@@ -65,7 +65,6 @@ The number of Vertices and Edges are V and E, respectively
 
     <br>
 
-    ![alt text](/img/Adjacency_Matrix_2.png)
     ```cpp
     #include <vector>
     vector<vector<int>> a(row, vector<int>(col));
@@ -78,7 +77,6 @@ The number of Vertices and Edges are V and E, respectively
     
     <br>
 
-    ![alt text](/img/Adjacency_Matrix_3.png)
     ```cpp
     #include <vector>
     vector<vector<int>> a(row, vector<int>(col));
@@ -143,6 +141,8 @@ The number of Vertices and Edges are V and E, respectively
     incidentEdges *O(n)*   
     insertEdge, eraseEdge *O(1)*   
     insertVertex, eraseVertex *O(n2)*   
+
+<br>
 
 * Edge-List (간선리스트)
     * 간선을 모두 저장
@@ -247,8 +247,8 @@ The number of Vertices and Edges are V and E, respectively
 ## Cautions
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
-* Selecting which traversal method to implement is based on the understanding of problem 
+* Selecting which traversal method to implement is based on the understanding of problem   
 (문제의 조건을 생각하며, BFS와 DFS 중 어느 방법으로 최적화할 수 있는지 생각해야한다)
 
-* Deciding where traversal method is implemented is also based on the understanding of problem 
+* Deciding where traversal method is implemented is also based on the understanding of problem   
 (Function으로 구현하여 사용하는 것과 Main에서 바로 구현하여 사용하는 것에는 미묘한 차이가 있다)
