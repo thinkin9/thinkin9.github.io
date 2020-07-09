@@ -5,7 +5,7 @@ date:   "2020-05-05 15:03:24 +0900"
 categories: Git
 ---
 
-<div style="text-align: center"><i><b>Last Updated on July 6th, 2020</b></i></div>
+<div style="text-align: center"><i><b>Last Updated on July 9th, 2020</b></i></div>
 
 ## Abstract
 0. Reference: [https://rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/git-guide/index.ko.html)
@@ -68,3 +68,5 @@ To use branch process is effective in building up the prototype of program
         Move to the Parent branch (usually, master)
         * git merge &lt;branch&gt;
         Push the Local Storage to the Virtual Storage
+    11. Cancel (add, commit, push)
+        [[Git] git add 취소하기, git commit 취소하기, git push 취소하기](https://gmlwjd9405.github.io/2018/05/25/git-add-cancle.html)

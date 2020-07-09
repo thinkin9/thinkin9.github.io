@@ -61,102 +61,125 @@ The number of Vertices and Edges are V and E, respectively
 * Adjacency-Matrix (인접행렬)
     * 2-dimensional array (Size: V X V)
     * a[i][j] = 1/ a[i][j] = *w*
-    * ![alt text]("/img/Adjacency_Matrix_1.JPG")
-    * ![alt text]("/img/Adjacency_Matrix_2.png")
-        ```cpp
-    	#include <vector>
-	    vector<vector<int>> a(row, vector<int>(col));
-	    for (int i = 0; i < row; i++){
-		    for (int j = 0; j < col; j++){
-			c   in >> a[i][j];
-		    }
-	    }
-        ```
-    * ![alt text]("/img/Adjacency_Matrix_3.png")
-        ```cpp
-    	#include <vector>
-	    vector<vector<int>> a(row, vector<int>(col));
-	    for (int i = 0; i < row; i++){
-		    for (int j = 0; j < col; j++){
-			 cin >> a[i][j];
-		    }
-	    }
-        ```
+    ![alt text](/img/Adjacency_Matrix_1.JPG)
+
+    <br>
+
+    ![alt text](/img/Adjacency_Matrix_2.png)
+    ```cpp
+    #include <vector>
+    vector<vector<int>> a(row, vector<int>(col));
+    for (int i = 0; i < row; i++){
+        for (int j = 0; j < col; j++){
+        c   in >> a[i][j];
+        }
+    }
+    ```
+    
+    <br>
+
+    ![alt text](/img/Adjacency_Matrix_3.png)
+    ```cpp
+    #include <vector>
+    vector<vector<int>> a(row, vector<int>(col));
+    for (int i = 0; i < row; i++){
+        for (int j = 0; j < col; j++){
+            cin >> a[i][j];
+        }
+    }
+    ```
+    <br>
+
     * Operation and Time
-        vertices *O(n)*
-        edges *O(m)*
-        endVertices, opposite *O(1)*
-        incidentEdges, isAdjacentTo *O(m)*
-        isIncidentOn *O(1)*
-        insertVertex, insertEdge, eraseEdge *O(1)*
-        eraseVertex *O(m)*
+    vertices *O(n)*   
+    edges *O(m)*   
+    endVertices, opposite *O(1)*   
+    incidentEdges, isAdjacentTo *O(m)*   
+    isIncidentOn *O(1)*   
+    insertVertex, insertEdge, eraseEdge *O(1)*   
+    eraseVertex *O(m)*   
+
+<br>
 
 * Adjacency-List (인접리스트)
     * 연결된 정점을 리스트로 표현한다. 
     * 주로 크기를 동적으로 변경할 수 있는 vector (C++), list (Python)을 사용
     * a[i] = *v* or *(v,w)*
-    * ![alt text]("/img/Adjacency_List_1.JPG")
-    * ![alt text]("/img/Adjacency_List_2.png")
-        ```cpp
-    	#include <vector>
-	    vector<vector<int>> a(row, vector<int>());
-        for (int i = 0; i < numofedges; i++){
-            int x, y;
-            cin >> x >> y;
-            a[x].push_back(y);
-            a[y].push_back(x);
-        }
+    ![alt text](/img/Adjacency_List_1.JPG)
 
-    * ![alt text]("/img/Adjacency_List_3.png")
-        ```cpp
-    	#include <vector>
-        vector<vector<pair<int, int>>> a(row, vector<pair<int, int>>());
-        for (int i = 0; i < numofedges; i++){
-            int x, y, val;
-            cin >> x >> y >> val;
-            a[x].push_back(make_pair(y, val));
-            a[y].push_back(make_pair(x, val));
-        }
-        ```
+    <br>
+
+    ```cpp
+    #include <vector>
+    vector<vector<int>> a(row, vector<int>());
+    for (int i = 0; i < numofedges; i++){
+        int x, y;
+        cin >> x >> y;
+        a[x].push_back(y);
+        a[y].push_back(x);
+    }
+    ```
+
+    <br>
+
+    ```cpp
+    #include <vector>
+    vector<vector<pair<int, int>>> a(row, vector<pair<int, int>>());
+    for (int i = 0; i < numofedges; i++){
+        int x, y, val;
+        cin >> x >> y >> val;
+        a[x].push_back(make_pair(y, val));
+        a[y].push_back(make_pair(x, val));
+    }
+    ```
+
+    <br>
+
     * Operation and Time
-        vertices *O(n)*
-        edges *O(n2)*
-        endVertices, opposite *O(1)*
-        isAdjacentTo, isIncidentOn *O(1)*
-        incidentEdges *O(n)*
-        insertEdge, eraseEdge *O(1)*
-        insertVertex, eraseVertex *O(n2)*
+    vertices *O(n)*   
+    edges *O(n2)*   
+    endVertices, opposite *O(1)*   
+    isAdjacentTo, isIncidentOn *O(1)*   
+    incidentEdges *O(n)*   
+    insertEdge, eraseEdge *O(1)*   
+    insertVertex, eraseVertex *O(n2)*   
 
 * Edge-List (간선리스트)
     * 간선을 모두 저장
-    * ![alt text]("/img/Edge_List_1.JPG")
-    * ![alt text]("/img/Edge_List_2.png")
-    * ![alt text]("/img/Edge_List_3.png")
-        ```cpp
-        #include <vector>
-        vector<pair<int, int>> a;
-        vector<int> e(numofvertices);
-        for (int i = 0; i < numofedges; i++){
-            int x, y;
-            cin >> x >> y;
-            a.push_back(make_pair(x, y));
-        }
-        sort(a.begin(), a.end());
-        for (int i = 0; i < numofedges; i++){
-            cnt[e[i][0]]++;
-        }
-        for (int i = 1; i <= numofvertices; i++){
-            cnt[i] += cnt[i - 1];
-        }
-        ```
+    ![alt text](/img/Edge_List_1.JPG)
+
+    <br>
+
+    ```cpp
+    #include <vector>
+    vector<pair<int, int>> a;
+    vector<int> e(numofvertices);
+    for (int i = 0; i < numofedges; i++){
+        int x, y;
+        cin >> x >> y;
+        a.push_back(make_pair(x, y));
+    }
+    sort(a.begin(), a.end());
+    for (int i = 0; i < numofedges; i++){
+        cnt[e[i][0]]++;
+    }
+    for (int i = 1; i <= numofvertices; i++){
+        cnt[i] += cnt[i - 1];
+    }
+    ```
+
+    <br>
+
     * Operation and Time
-        vertices *O(n)*
-        edges *O(m)*
-        endVertices, opposite *O(1)*
-        incidentEdges, isAdjacentTo *O(m)*
-        isIncidentOn *O(1)*
-        insertVertex, insertEdge, eraseEdge *O(1)*
-        eraseVertex *O(m)*
+    vertices *O(n)*   
+    edges *O(m)*   
+    endVertices, opposite *O(1)*   
+    incidentEdges, isAdjacentTo *O(m)*   
+    isIncidentOn *O(1)*   
+    insertVertex, insertEdge, eraseEdge *O(1)*   
+    eraseVertex *O(m)*   
+
+<br>
 
 ## Graph Traversals
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
@@ -224,6 +247,8 @@ The number of Vertices and Edges are V and E, respectively
 ## Cautions
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
-* Selecting which traversal method to implement is based on the understanding of problem (문제의 조건을 생각하며, BFS와 DFS 중 어느 방법으로 최적화할 수 있는지 생각해야한다)
+* Selecting which traversal method to implement is based on the understanding of problem 
+(문제의 조건을 생각하며, BFS와 DFS 중 어느 방법으로 최적화할 수 있는지 생각해야한다)
 
-* Deciding where traversal method is implemented is also based on the understanding of problem (Function으로 구현하여 사용하는 것과 Main에서 구현하여 사용하는 것에는 미묘한 차이가 있다)
+* Deciding where traversal method is implemented is also based on the understanding of problem 
+(Function으로 구현하여 사용하는 것과 Main에서 바로 구현하여 사용하는 것에는 미묘한 차이가 있다)
