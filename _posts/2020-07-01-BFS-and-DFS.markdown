@@ -154,7 +154,7 @@ The number of Vertices and Edges are V and E, respectively
     * 간선을 모두 저장
     
     <br>
-    
+
     ![alt text](/img/Edge_List_1.JPG)
 
     <br>
@@ -193,7 +193,7 @@ The number of Vertices and Edges are V and E, respectively
 ## Graph Traversals
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
-1. Depth First Search, DFS
+1. Depth First Search, DFS   
 	Non-Queue
     * *V×O(V)=O(V^2)*
         ```cpp
@@ -216,7 +216,7 @@ The number of Vertices and Edges are V and E, respectively
         }
         ```
 
-2. Breadth First Search, BFS
+2. Breadth First Search, BFS   
 	Queue
     * *O(V^2)*
         ```cpp
@@ -257,7 +257,7 @@ The number of Vertices and Edges are V and E, respectively
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
 * Selecting which traversal method to implement is based on the understanding of problem   
-(문제의 조건을 생각하며, BFS와 DFS 중 어느 방법으로 최적화할 수 있는지 생각해야한다)
+문제의 조건을 생각하며, BFS와 DFS 중 어느 방법으로 최적화할 수 있는지 생각해야한다
 
 * Deciding where traversal method is implemented is also based on the understanding of problem   
-(Function으로 구현하여 사용하는 것과 Main에서 바로 구현하여 사용하는 것에는 미묘한 차이가 있다)
+Function으로 구현하여 사용하는 것과 Main에서 바로 구현하여 사용하는 것에는 미묘한 차이가 있다
