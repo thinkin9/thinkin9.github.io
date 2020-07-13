@@ -35,10 +35,15 @@ categories: Me
 ## Technical Skills
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
-* C/ C++   
-* Python
-* HTML/ CSS
-
+* Programming 
+    * C/ C++   
+    * Python
+    * HTML/ CSS
+* 3D modeling 
+    * Fusion 360 of Autodesk, Inc. (Intermediate)
+* Fluid Simulation Software
+    * Fluent of Ansys, Inc. (Beginner)   
+    High School Research Project
 ## Honors and Awards
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
