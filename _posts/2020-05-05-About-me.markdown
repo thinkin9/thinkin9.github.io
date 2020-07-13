@@ -5,7 +5,7 @@ date:   2020-05-05 12:01:36 +0900
 categories: Me
 ---
 
-<div style="text-align: center"><i><b>Last Updated on July 6th, 2020</b></i></div>
+<div style="text-align: center"><i><b>Last Updated on July 13th, 2020</b></i></div>
 
 ## Education
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
