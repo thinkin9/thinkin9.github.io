@@ -16,9 +16,9 @@ categories: Algorithm
 * Computer represent the number via bits   
 * bits representing specific number doesn't overlap to each other
 (e.g. 1 = 0000001, 2 = 00000010)   
-* Thus, Bitmask is effective method when we consider some cases from 0 to 2n-1   
+* Thus, Bitmask is effective method when we consider some cases from 0 to 2<sup>n</sup>-1   
 → Minimize occupied memory and reduce overhead   
-→ Each bits represents one of cases from 0 to 2n-1
+→ Each bits represents one of cases from 0 to 2<sup>n</sup>-1
 
 ## Operations
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
@@ -27,8 +27,8 @@ categories: Algorithm
 * &#124; (OR)
 * ^ (XOR)
 * ~ (NOT)
-* A << B, A ×2^B, 직관적으로 A비트에 (<<) 방향으로 추가적인 B개의 0 bits를 채운다
-* A >> B, A ÷2^B, 직관적으로 A비트에 (<<) 방향으로 추가적인 B개의 0 bits를 채운다
+* A << B, A × 2<sup>B</sup>, 직관적으로 A비트에 (<<) 방향으로 추가적인 B개의 0 bits를 채운다
+* A >> B, A ÷ 2<sup>B</sup>, 직관적으로 A비트에 (<<) 방향으로 추가적인 B개의 0 bits를 채운다
 
 ## More about operation 
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
@@ -59,14 +59,14 @@ i = 2 이라고 가정할 때, 결과는 1110 을 원한다.
 ## Implementation
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
-* 2n가지의 탐색이 필요할 때
+* 2<sup>n</sup>가지의 탐색이 필요할 때
     ```cpp
     for (int i = 0; i < (1<<n); i++) { 
         statements
     }
     ```
 
-* 2n가지의 부분집합의 탐색이 필요할 때
+* 2<sup>n</sup>가지의 부분집합의 탐색이 필요할 때
     ```cpp
     for (int i = 0; i < (1 << num); i++) {
         for (int j = 0; j < num; j++) {

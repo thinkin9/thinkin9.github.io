@@ -141,12 +141,12 @@ The number of Vertices and Edges are V and E, respectively
 
     * Operation and Time
     vertices *O(n)*   
-    edges *O(n2)*   
+    edges *O(n<sup>2</sup>)*   
     endVertices, opposite *O(1)*   
     isAdjacentTo, isIncidentOn *O(1)*   
     incidentEdges *O(n)*   
     insertEdge, eraseEdge *O(1)*   
-    insertVertex, eraseVertex *O(n2)*   
+    insertVertex, eraseVertex *O(n<sup>2</sup>)*   
 
 <br>
 
@@ -195,7 +195,7 @@ The number of Vertices and Edges are V and E, respectively
 
 1. Depth First Search, DFS   
 	Non-Queue
-    * *V×O(V)=O(V^2)*
+    * *V×O(V)=O(V<sup>2</sup>)*
         ```cpp
         check[x] = true;
         for (int i = 1; i <= n; i++) {
@@ -218,7 +218,7 @@ The number of Vertices and Edges are V and E, respectively
 
 2. Breadth First Search, BFS   
 	Queue
-    * *O(V^2)*
+    * *O(V<sup>2</sup>)*
         ```cpp
         queue<int> q;
         check[x] = true;
