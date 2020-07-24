@@ -2,7 +2,7 @@
 layout: post
 title: "How to use Git"
 date:   "2020-05-05 15:03:24 +0900"
-categories: Git
+categories: Git Etc
 ---
 
 <div style="text-align: center"><i><b>Last Updated on July 9th, 2020</b></i></div>
