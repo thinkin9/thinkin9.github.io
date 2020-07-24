@@ -48,5 +48,5 @@ categories: Me
 ## Honors and Awards
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
-&emsp; **Dean's List**, UNIST ( For students whose Grade Point of semester is higher than 3.9 / 4.3 ) <span style="float: right">  *Spring 2019, Fall 2019, and Spring 2020* </span>   
-&emsp; **Honor Scholarship**, UNIST ( &#8773; $3,000 / Semester ) <span style="float: right">  *Spring 2019, Fall 2019, Spring 2020, and Fall 2020* </span>   
+&emsp; **Dean's List**, UNIST (For students whose Grade Point of semester is higher than 3.9 / 4.3) <span style="float: right">  *Spring 2019, Fall 2019, and Spring 2020* </span>   
+&emsp; **Honor Scholarship**, UNIST (&#8773; $3,000 / Semester) <span style="float: right">  *Spring 2019, Fall 2019, Spring 2020, and Fall 2020* </span>   
