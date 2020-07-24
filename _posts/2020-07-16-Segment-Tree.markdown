@@ -21,7 +21,8 @@ categories: Algorithm Data_Structure
     * Maximum
     * Minimum
 * Problem Solving
-    * [2042, 구간 합 구하기 (Platinum 5)](https://www.acmicpc.net/problem/2042)
-    * [10999, 구간 합 구하기 2 (Platinum 4)](https://www.acmicpc.net/problem/10999)
-    * [10868, 최솟값 (Platinum 5)](https://www.acmicpc.net/problem/10868)
-    * [2357, 최솟값과 최댓값 (Platinum 5)](https://www.acmicpc.net/problem/2357)
+    * [2042, 구간 합 구하기 (Platinum V)](https://www.acmicpc.net/problem/2042)
+    * [10999, 구간 합 구하기 2 (Platinum IV)](https://www.acmicpc.net/problem/10999)
+    * [10868, 최솟값 (Platinum V)](https://www.acmicpc.net/problem/10868)
+    * [2357, 최솟값과 최댓값 (Platinum V)](https://www.acmicpc.net/problem/2357)
+    * [7578, 공장 (Platinum V)](https://www.acmicpc.net/problem/7578) - [Inverse Counting](https://justicehui.github.io/koi/2018/11/20/BOJ7578/)
