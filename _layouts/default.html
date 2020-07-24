@@ -75,6 +75,13 @@
             {% endfor %}
           </ul>
         </li>
+        <li><a href="/category/Quantitative_Analysis.html">Quantitative Analysis</a>
+          <ul>
+            {% for post in site.categories["Quantitative_Analysis"] %}
+            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a href="">
+            {% endfor %}
+          </ul>
+        </li>
         <li><a href="/category/System_Programming.html">System Programming</a>
           <ul>
             {% for post in site.categories["System_Programming"] %}
