@@ -5,7 +5,7 @@ date:   2020-07-07 16:04:19 +0900
 categories: Me
 ---
 
-<div style="text-align: center"><i><b>Last Updated on July 7th, 2020</b></i></div>
+<div style="text-align: center"><i><b>Last Updated on July 29th, 2020</b></i></div>
 
 ## Summer, 2020
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
@@ -41,3 +41,6 @@ categories: Me
 - Paper Reading
     - Artificial Intelligence
         - *Attention Is All You Need / Vaswani, A. et al* [(PDF)](https://arxiv.org/abs/1706.03762)
+
+    - Quantitative Analysis
+        - *Generative Adversarial Networks for Financial Trading Strategies Fine-Tuning and Combination / Koshiyama, A., Firoozye, N., and Treleaven, P.* [(PDF)](https://arxiv.org/abs/1901.01751)
