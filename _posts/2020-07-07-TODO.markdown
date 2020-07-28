@@ -10,7 +10,7 @@ categories: Me
 ## Summer, 2020
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
-- Prepare TOEIC to apply Katusa (Obligatory Military service) <span style="float: right"> *~July 26, 2020* </span>
+- ~~Prepare TOEIC to apply Katusa (Obligatory Military service)~~ <span style="float: right"> *~July 26, 2020* </span>
 - Prepare Push-up to apply Auxiliary police (Obligatory Military service) <span style="float: right"> *~August 17, 2020* </span>
 - System Programming with Introduction to Computer Systems of Carnegie Mellon University <span style="float: right"> *~August 30, 2020* </span><br>([Lecture Slides](http://www.cs.cmu.edu/afs/cs/academic/class/15213-s20/www/schedule.html), [Assigment](http://www.cs.cmu.edu/afs/cs/academic/class/15213-s20/www/schedule.html), and [Videos](https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22b96d90ae-9871-4fae-91e2-b1627b43e25e%22&maxResults=250&sortColumn=1&sortAscending=true))
     - [~~LAB0_Cprogramminglab~~](https://thinkin9.github.io/system_programming/2020/07/08/CS_15_213_LAB0.html)
