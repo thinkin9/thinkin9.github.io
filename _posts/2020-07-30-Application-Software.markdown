@@ -2,7 +2,7 @@
 layout: post
 title:  "Application Software"
 date:   2020-07-30 22:07:43 +0900
-categories: "Quantitative Analysis"
+categories: Quantitative_Analysis
 ---
 
 <div style="text-align: center"><i><b>Last Updated on July 30th, 2020</b></i></div>

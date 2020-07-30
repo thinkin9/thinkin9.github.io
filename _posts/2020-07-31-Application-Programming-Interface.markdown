@@ -2,7 +2,7 @@
 layout: post
 title:  "Application Programming Interface"
 date:   2020-07-31 01:10:01 +0900
-categories: "Quantitative Analysis"
+categories: Quantitative_Analysis
 ---
 
 <div style="text-align: center"><i><b>Last Updated on July 31th, 2020</b></i></div>

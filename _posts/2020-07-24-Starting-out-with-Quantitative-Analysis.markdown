@@ -2,7 +2,7 @@
 layout: post
 title:  "Starting out with Quantitative Analysis"
 date:   2020-07-24 17:41:55 +0900
-categories: "Quantitative Analysis"
+categories: Quantitative_Analysis
 ---
 
 <div style="text-align: center"><i><b>Last Updated on July 30th, 2020</b></i></div>

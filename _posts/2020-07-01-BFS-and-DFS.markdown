@@ -2,7 +2,7 @@
 layout: post
 title:  "BFS and DFS"
 date:   2020-07-01 15:37:22 +0900
-categories: "Algorithm & Data Structure"
+categories: Algorithm&Data_Structure
 
 ---
 
