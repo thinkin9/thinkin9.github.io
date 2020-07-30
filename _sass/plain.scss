@@ -281,7 +281,10 @@ main {
     position: relative;
     display: none;
     list-style: none;
+    text-decoration: none;
+    font-size: 14px;
     margin: 0;
+    margin-left: 1em;
     padding: 0;
   }
   li:hover ul{
