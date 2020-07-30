@@ -1,18 +1,18 @@
 ---
 layout: post
-title:  "Required Knowledge"
+title:  "Starting out with Quantitative Analysis"
 date:   2020-07-24 17:41:55 +0900
 categories: Quantitative_Analysis
 ---
 
-<div style="text-align: center"><i><b>Last Updated on July th, 2020</b></i></div>
+<div style="text-align: center"><i><b>Last Updated on July 30th, 2020</b></i></div>
 
 ## Contents
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
 1. What is Quantitative Research?
 2. Goal
-3. Language
+3. Programming language
 4. Aplication Programming Interface(API) Selection
 5. Module configuration
 
@@ -33,12 +33,12 @@ categories: Quantitative_Analysis
 2. Automatic Trading Bot
     1. Develop automatic machine
     책정한 적정가를 바탕으로 자동 매매
-    2. Short-term (1 ~ 5 Day) swing trading, ([Swing trading, Wikipedia](https://en.wikipedia.org/wiki/Swing_trading))    
+    2. Short-term (1 ~ 5 Day) swing trading, (Swing trading, [Wikipedia](https://en.wikipedia.org/wiki/Swing_trading))    
     1일 ~ 5일 이내의 단기 저점 및 단기 고점을 파악하여 Swing trading
     3. Detect buy and sell signals based on chart, trading volume, tick data, etc.     
     차트, 거래량, 틱데이터를 기반으로 작전세력 매수 및 매도 신호 포착 후 대응
 
-## Programming Language
+## Programming language
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
 1. Quantitative analysis with Python
@@ -58,7 +58,7 @@ categories: Quantitative_Analysis
     * But, few clients use this API, then it is difficult to find information and build an application with it
     * That's why I have been writing these series of post :smile:
 
-## Module configuration
+## Module Configuration
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
 * Quantitative analysis with Python 
