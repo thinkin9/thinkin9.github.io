@@ -5,7 +5,7 @@ date:   2020-07-24 17:41:55 +0900
 categories: Quantitative_Analysis
 ---
 
-<div style="text-align: center"><i><b>Last Updated on July 24th, 2020</b></i></div>
+<div style="text-align: center"><i><b>Last Updated on July th, 2020</b></i></div>
 
 ## Contents
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
@@ -13,7 +13,7 @@ categories: Quantitative_Analysis
 1. What is Quantitative Research?
 2. Goal
 3. Language
-4. API
+4. Aplication Programming Interface(API) Selection
 5. Module configuration
 
 ## What is Quantitative Research?
@@ -49,20 +49,20 @@ categories: Quantitative_Analysis
     * It analyze the dynamic data, not the static one
     * It can respond more quickly to the buy or sell signal
     
-## Aplication Programming Interface, API
+## Aplication Programming Interface(API) Selection
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
 * There are a lot of brokerage firm in South Korea
 * Some brokerage firms which want to expand there clients currently give free-commission event to clients who open a untact bank account
-* Hence, I select [NH INVESTMENT & SECURITIES CO.,LTD.](https://www.nhqv.com/) which is the only firm having C++ API
+* Since I want to programming with C++ API, I select [NH INVESTMENT & SECURITIES CO.,LTD.](https://www.nhqv.com/) which is the only firm serving C++ API
     * But, few clients use this API, then it is difficult to find information and build an application with it
     * That's why I have been writing these series of post :smile:
 
 ## Module configuration
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
-* Quantitative analysis with Python
-    ![alt text](/img/QA.JPG)
+* Quantitative analysis with Python 
+    <img src="/img/QA.JPG">   
 
-* Automatic Trading Bot with C++
-    ![alt text](/img/ATB.JPG)
+* Automatic Trading Bot with C++    
+    <img src="/img/ATB.JPG">   

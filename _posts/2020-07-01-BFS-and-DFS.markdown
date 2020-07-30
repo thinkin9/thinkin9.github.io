@@ -60,8 +60,8 @@ categories: Algorithm Data_Structure
 The number of Vertices and Edges are V and E, respectively
 * Adjacency-Matrix (인접행렬)
     * 2-dimensional array (Size: V X V)
-    * a[i][j] = 1/ a[i][j] = *w*
-    ![alt text](/img/Adjacency_Matrix_1.JPG)
+    * a[i][j] = 1/ a[i][j] = *w*    
+    <img src="/img/Adjacency_Matrix_1.JPG">   
     ```cpp
     #include <vector>
     vector<vector<int>> a(row, vector<int>(col));
@@ -94,8 +94,8 @@ The number of Vertices and Edges are V and E, respectively
 * Adjacency-List (인접리스트)
     * 연결된 정점을 리스트로 표현한다. 
     * 주로 크기를 동적으로 변경할 수 있는 vector (C++), list (Python)을 사용
-    * a[i] = *v* or *(v,w)*
-    ![alt text](/img/Adjacency_List_1.JPG)
+    * a[i] = *v* or *(v,w)*    
+    <img src="/img/Adjacency_List_1.JPG">   
     ```cpp
     #include <vector>
     vector<vector<int>> a(row, vector<int>());
@@ -128,8 +128,8 @@ The number of Vertices and Edges are V and E, respectively
 <hr style="height: 2px; border:none; margin-bottom:0.5em; margin-left: 1em; padding: 0; background:black">
 
 * Edge-List (간선리스트)
-    * 간선을 모두 저장
-    ![alt text](/img/Edge_List_1.JPG)
+    * 간선을 모두 저장    
+    <img src="/img/Edge_List_1.JPG">   
     ```cpp
     #include <vector>
     vector<pair<int, int>> a;
@@ -155,7 +155,7 @@ The number of Vertices and Edges are V and E, respectively
     isIncidentOn *O(1)*   
     insertVertex, insertEdge, eraseEdge *O(1)*   
     eraseVertex *O(m)*   
-    
+
 ## Graph Traversals
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 

@@ -28,6 +28,9 @@ embed,
 object,
 video {
   max-width: 100%;
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
 }
 
 a {
