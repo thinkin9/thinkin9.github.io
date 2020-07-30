@@ -2,7 +2,7 @@
 layout: post
 title:  "Segment Tree"
 date:   2020-07-16 12:39:55 +0900
-categories: Algorithm Data_Structure
+categories: Algorithm&Data_Structure
 ---
 
 <div style="text-align: center"><i><b>Last Updated on July 16th, 2020</b></i></div>
