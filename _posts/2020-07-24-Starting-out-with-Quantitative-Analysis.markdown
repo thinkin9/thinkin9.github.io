@@ -31,12 +31,12 @@ categories: Quantitative_Analysis
     주식의 적정가를 책정
 
 2. Automatic Trading Bot
-    1. Develop automatic machine
+    1. Develop automatic machine   
     책정한 적정가를 바탕으로 자동 매매
     2. Short-term (1 ~ 5 Day) swing trading, (Swing trading, [Wikipedia](https://en.wikipedia.org/wiki/Swing_trading))    
     1일 ~ 5일 이내의 단기 저점 및 단기 고점을 파악하여 Swing trading
     3. Detect buy and sell signals based on chart, trading volume, tick data, etc.     
-    차트, 거래량, 틱데이터를 기반으로 작전세력 매수 및 매도 신호 포착 후 대응
+    차트, 거래량, 틱데이터 등을 기반으로 외인, 기관, 세력의 매수 및 매도 신호 포착 후 대응
 
 ## Programming language
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
@@ -56,7 +56,7 @@ categories: Quantitative_Analysis
 * Some brokerage firms which want to expand there clients currently give free-commission event to clients who open a untact bank account
 * Since I want to programming with C++ API, I select [NH INVESTMENT & SECURITIES CO.,LTD.](https://www.nhqv.com/) which is the only firm serving C++ API
     * But, few clients use this API, then it is difficult to find information and build an application with it
-    * That's why I have been writing these series of post :smile:
+    * That's why I have been writing these series of post :D
 
 ## Module Configuration
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
