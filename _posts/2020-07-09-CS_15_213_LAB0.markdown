@@ -2,7 +2,7 @@
 layout: post
 title:  "CS_15_213_LAB0"
 date:   2020-07-09 01:03:28 +0900
-categories: System_Programming
+categories: "System Programming"
 ---
 <div style="text-align: center"><i><b>Last Updated on July 9th, 2020</b></i></div>
 

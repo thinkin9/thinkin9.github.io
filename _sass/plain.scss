@@ -281,14 +281,19 @@ main {
     position: relative;
     display: none;
     list-style: none;
-    text-decoration: none;
-    font-size: 14px;
     margin: 0;
-    margin-left: 1em;
     padding: 0;
   }
   li:hover ul{
     display: flex;
     flex-direction: column-reverse;
+  }
+  li ul a{
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0;
+    margin-left: 1em;
+    padding: 0;
   }
 }

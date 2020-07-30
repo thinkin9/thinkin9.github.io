@@ -2,7 +2,7 @@
 layout: post
 title:  "What's the Generative Adversarial Network?"
 date:   2020-07-29 22:06:21 +0900
-categories: Generative_Adversarial_Network
+categories: "Generative Adversarial Network"
 ---
 <div style="text-align: center"><i><b>Last Updated on July 29th, 2020</b></i></div>
 

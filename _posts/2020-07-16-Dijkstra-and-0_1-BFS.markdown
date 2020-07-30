@@ -2,7 +2,7 @@
 layout: post
 title:  "Dijkstra and 0_1 BFS"
 date:   2020-07-16 00:07:04 +0900
-categories: Algorithm&Data_Structure
+categories: "Algorithm & Data Structure"
 ---
 
 <div style="text-align: center"><i><b>Last Updated on July 16th, 2020</b></i></div>
