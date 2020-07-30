@@ -9,7 +9,7 @@ categories: Generative_Adversarial_Network
 ## Introduction
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
-In last two decades, many improvements of machine learning were primarily focused on discriminative modeling. For example, image classification, object detection, and object recognition. When performing discriminative modeling, each observation in the training data has a binary label based on the prediction probability. We don't care about how the data was generated, but instead want to know hao a new example should be categorized or valued. While discriminative modeling has so far provided the bulk of the impetus behind advances in machine learning, in the last three to five years many of the most interesting advancements in the field have come through innovative applications of deep leaerning to generative modeling tasks.
+In last two decades, many improvements of machine learning were primarily focused on discriminative modeling. For example, image classification, object detection, and object recognition. When performing discriminative modeling, each observation in the training data has a binary label based on the predicted probability. But we don't care about how the data was generated, instead want to know how a new example should be categorized or valued. While discriminative modeling has so far provided the bulk of the impetus behind advances in machine learning, in the last three to five years many of the most interesting advancements in the field have come through innovative applications of deep leaerning to generative modeling tasks.
 
 
 ## Advantages
