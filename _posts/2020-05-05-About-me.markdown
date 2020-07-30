@@ -10,9 +10,9 @@ categories: Me
 ## Education
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
-&emsp;[Ulsan National Institute of Science and Technology (UNIST)](https://www.unist.ac.kr/?target=_blank/)<span style="float: right"> *Feb. 2019 - Present* </span>   
-&emsp;&emsp;Majoring in [Computer Science and Engineering](http://cse.unist.ac.kr/?target=_blank) <!-- <span style="float: right">Overall GPA: 4.06 / 4.3, as of *Spring, 2020*</span>  -->
-&emsp;&emsp;Minoring in [Management Engineering](http://sme.unist.ac.kr/?target=_blank)   
+&emsp;[Ulsan National Institute of Science and Technology (UNIST)](https://www.unist.ac.kr/)<span style="float: right"> *Feb. 2019 - Present* </span>   
+&emsp;&emsp;Majoring in [Computer Science and Engineering](http://cse.unist.ac.kr/)<!-- <span style="float: right">Overall GPA: 4.06 / 4.3, as of *Spring, 2020*</span>  -->   
+&emsp;&emsp;Minoring in [Management Engineering](http://sme.unist.ac.kr/)   
 
 
 ## Research Interests
@@ -20,11 +20,11 @@ categories: Me
 
 * Optimization
 * Parallel Computing   
-    * Programming Massively Parallel Processors: A Hands-on Approach [(Book)](https://www.amazon.com/Programming-Massively-Parallel-Processors-Hands/dp/0124159923/?target=_blank) (Reading)
+    * Programming Massively Parallel Processors: A Hands-on Approach [(Book)](https://www.amazon.com/Programming-Massively-Parallel-Processors-Hands/dp/0124159923) (Reading)
 * Generative Adversarial Network (GAN)   
-    * Generative Deep Learning [(Book)](https://www.amazon.com/Generative-Deep-Learning-Teaching-Machines/dp/1492041947/?target=_blank) (Reading)
+    * Generative Deep Learning [(Book)](https://www.amazon.com/Generative-Deep-Learning-Teaching-Machines/dp/1492041947) (Reading)
 * Quantitative Analysis   
-    * [Automatic Trading BOT](https://github.com/thinkin9/Automatic_Trading_BOT/?target=_blank) with C++ API (Yet)
+    * [Automatic Trading BOT](https://github.com/thinkin9/Automatic_Trading_BOT) with C++ API (Yet)
 
 ## Language
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black"> 
@@ -43,10 +43,11 @@ categories: Me
     * Fusion 360 of Autodesk, Inc. (Intermediate)
 * Fluid Simulation Software
     * Fluent of Ansys, Inc. (Beginner)   
-    High School Research Project (<a href="/inventory/Report.hwp/?target=_blank">Report</a>, Presentation, and <a href="/inventory/Poster.pdf/?target=_blank">Poster</a>)
+    High School Research Project (<a href="/inventory/Report.hwp">Report</a>, Presentation, and <a href="/inventory/Poster.pdf">Poster</a>)
 
 ## Honors and Awards
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
-&emsp; **Dean's List**, UNIST (For students whose Grade Point of semester is higher than 3.9 / 4.3) <span style="float: right">  *Spring 2019, Fall 2019, and Spring 2020* </span>   
+&emsp; **Dean's List**, UNIST (For students whose GPA is higher than 3.9 / 4.3) <span style="float: right">  *Spring 2019, Fall 2019, and Spring 2020* </span>    
+
 &emsp; **Honor Scholarship**, UNIST (&#8773; $3,000 / Semester) <span style="float: right">  *Spring 2019, Fall 2019, Spring 2020, and Fall 2020* </span>   
