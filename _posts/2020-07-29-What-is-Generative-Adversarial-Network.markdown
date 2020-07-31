@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What's the Generative Adversarial Network?"
+title:  "What is Generative Adversarial Network?"
 date:   2020-07-29 22:06:21 +0900
 categories: Generative_Adversarial_Network
 ---
@@ -14,6 +14,7 @@ In last two decades, many improvements of machine learning were primarily focuse
 
 ## Advantages
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
+
 1. 
 2. 
 3. 
