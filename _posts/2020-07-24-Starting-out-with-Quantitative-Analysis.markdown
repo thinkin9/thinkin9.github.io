@@ -7,15 +7,6 @@ categories: Quantitative_Analysis
 
 <div style="text-align: center"><i><b>Last Updated on July 30th, 2020</b></i></div>
 
-## Contents
-<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
-
-1. What is Quantitative Research?
-2. Goal
-3. Programming language
-4. Aplication Programming Interface(API) Selection
-5. Module configuration
-
 ## What is Quantitative Research?
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
