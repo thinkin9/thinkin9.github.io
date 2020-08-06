@@ -30,11 +30,11 @@ categories: Quantitative_Analysis
         * t, t-period SMA of Fast %K == Slow %K   
         t-period SMA of Fast %D == Slow %D
     * Type
-        * Fast Stochastic & N-m   
+        * Fast Stochastic(N, m)   
         Fast %K = %K basic calculation for last N days   
         Fast %D = m-period SMA of Fast %K   
         그래프의 변동성이 크고 노이즈가 많아 거의 사용하지 않음
-        * Slow Stochastic & N-m-t   
+        * Slow Stochastic(N, m, t)   
         Slow %K = Fast %K for last N days smoothed with t-period SMA   
         Slow %D = t-period SMA of Fast %D   
         Fast Stochastic에 Simple Moving Average (SMA)를 적용함
