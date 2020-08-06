@@ -6,11 +6,7 @@ categories: System_Programming
 ---
 <div style="text-align: center"><i><b>Last Updated on July 9th, 2020</b></i></div>
 
-## Source code
-<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
-
-[Github](https://github.com/thinkin9/CS-15-213-Introduction-to-Computer-Systems/tree/master/LAB0_Cprogramming)
-
+# Source code
 ## queue.h
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
@@ -193,7 +189,7 @@ void q_reverse(queue_t* q) {
 }
 ```
 
-## Learned
+## Lesson Learned
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
 1. typedef struct

@@ -465,3 +465,11 @@ int float_f2i(unsigned uf) {
 }
 
 ```
+
+## Lesson Learned
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
+
+1. Be familiar with Bit-level operations and logical reasoning to implement the given functions
+2. Change my perspectives and thought
+3. Not fully understand about Floating-Point Representation   
+Need to comprehend it and complete last 3 functions related to them
