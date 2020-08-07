@@ -27,7 +27,7 @@ categories: System_Programming
     (gdb) c (continue to next break point)   
     (gdb) q (quit the current debugging)   
     Ctrl + c (quit)   
-    ``` assembly
+``` assembly
     (gdb) disas main
     Dump of assembler code for function main:
     0x0000000000400da0 <+0>:     push   %rbx
@@ -109,12 +109,12 @@ categories: System_Programming
     Starting program: /home1/oop20191298/bomb/bomb
     Welcome to my fiendish little bomb. You have 6 phases with
     which to blow yourself up. Have a nice day!
-    ```
+```
 
 ## Phase 1
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
-    ``` assembly
+``` assembly
     (gdb) disas phase_1
     Dump of assembler code for function phase_1:
     => 0x0000000000400ee0 <+0>:     sub    $0x8,%rsp
@@ -126,13 +126,12 @@ categories: System_Programming
     0x0000000000400ef7 <+23>:    add    $0x8,%rsp
     0x0000000000400efb <+27>:    retq
     End of assembler dump.
-    ```
+```
 * +9: Function call (strings_not_equal)
 * +14 Test
 * +16 Jump if equal (+23)
 * +18 Function call (explode_bomb)
-
-    ``` assembly
+``` assembly
     (gdb) disas strings_not_equal
     Dump of assembler code for function strings_not_equal:
     0x0000000000401338 <+0>:     push   %r12
@@ -174,13 +173,12 @@ categories: System_Programming
     0x000000000040139f <+103>:   pop    %r12
     0x00000000004013a1 <+105>:   retq
     End of assembler dump.
-    ```
+```
 
 * +4, +7 $rdi and #rsi are used as arguments of function
 * We need to know values in the register $rdi and $rsi
     x/s address
-
-    ``` assembly
+``` assembly
     (gdb) b strings_not_equal
     Breakpoint 2 at 0x401338
     (gdb) c
@@ -239,7 +237,7 @@ categories: System_Programming
     which to blow yourself up. Have a nice day!
     Border relations with Canada have never been better.
     Phase 1 defused. How about the next one?
-    ```
+```
 
 ## Phase 2
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
