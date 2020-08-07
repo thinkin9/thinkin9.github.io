@@ -26,7 +26,7 @@ categories: System_Programming
     (gdb) r (If permission is denied, write the code "chmod +x bomb")   
     (gdb) c (continue to next break point)   
     (gdb) q (quit the current debugging)   
-    Ctrl + c (quit)/n/n
+    Ctrl + c (quit)      
 
     (gdb) disas main
     Dump of assembler code for function main:
@@ -130,7 +130,7 @@ categories: System_Programming
 * +9: Function call (strings_not_equal)
 * +14 Test
 * +16 Jump if equal (+23)
-* +18 Function call (explode_bomb)\n\n
+* +18 Function call (explode_bomb)      
 
     (gdb) disas strings_not_equal
     Dump of assembler code for function strings_not_equal:
@@ -176,7 +176,7 @@ categories: System_Programming
 
 * +4, +7 $rdi and $rsi are used as arguments of function
 * We need to know values in the register $rdi and $rsi   
-    x/s address\n\n
+    x/s address      
 
     (gdb) b strings_not_equal
     Breakpoint 2 at 0x401338
