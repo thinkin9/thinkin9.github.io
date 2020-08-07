@@ -28,7 +28,7 @@ categories: System_Programming
     (gdb) q (quit the current debugging)   
     Ctrl + c (quit)     
 
-    <!-- -->
+<!-- -->
     (gdb) disas main
     Dump of assembler code for function main:
     0x0000000000400da0 <+0>:     push   %rbx
@@ -133,7 +133,7 @@ categories: System_Programming
 * +16 Jump if equal (+23)
 * +18 Function call (explode_bomb)      
 
-    <!-- -->
+<!-- -->
     (gdb) disas strings_not_equal
     Dump of assembler code for function strings_not_equal:
     0x0000000000401338 <+0>:     push   %r12
