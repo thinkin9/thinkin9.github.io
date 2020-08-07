@@ -27,7 +27,7 @@ categories: System_Programming
     (gdb) c (continue to next break point)   
     (gdb) q (quit the current debugging)   
     Ctrl + c (quit)      
-
+<!-- -->
     (gdb) disas main
     Dump of assembler code for function main:
     0x0000000000400da0 <+0>:     push   %rbx
@@ -131,7 +131,7 @@ categories: System_Programming
 * +14 Test
 * +16 Jump if equal (+23)
 * +18 Function call (explode_bomb)      
-
+<!-- -->
     (gdb) disas strings_not_equal
     Dump of assembler code for function strings_not_equal:
     0x0000000000401338 <+0>:     push   %r12
@@ -177,7 +177,7 @@ categories: System_Programming
 * +4, +7 $rdi and $rsi are used as arguments of function
 * We need to know values in the register $rdi and $rsi   
     x/s address      
-
+<!-- -->
     (gdb) b strings_not_equal
     Breakpoint 2 at 0x401338
     (gdb) c
