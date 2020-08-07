@@ -7,23 +7,26 @@ categories: System_Programming
 <div style="text-align: center"><i><b>Last Updated on August 8th, 2020</b></i></div>
 
 ## Reference
-1. [밤랩을 풀어보자!](https://medium.com/@hyungsukkang/%EB%B0%A4%EB%9E%A9%EC%9D%84-%ED%92%80%EC%96%B4%EB%B3%B4%EC%9E%90-%ED%95%B4%EC%B2%B4-%ED%99%98%EA%B2%BD-%EC%84%B8%ED%8C%85-b8d323ff4730)
-2. [Bomb Lab - Phase 1](https://if100.tistory.com/2?category=762111)
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
+
+1. [Bomb Lab - Phase 1](https://if100.tistory.com/2?category=762111)
+2. [밤랩을 풀어보자!](https://medium.com/@hyungsukkang/%EB%B0%A4%EB%9E%A9%EC%9D%84-%ED%92%80%EC%96%B4%EB%B3%B4%EC%9E%90-%ED%95%B4%EC%B2%B4-%ED%99%98%EA%B2%BD-%EC%84%B8%ED%8C%85-b8d323ff4730)
 3. [Binary Bomb Lab Phase 1 Walkthrough](https://woonohyo.tistory.com/11)
 
 ## Set up
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
+
 1. Take bomb32.tar file
 2. Decompress the file
     tar -xf bomb.tar
 3. Start!
-    gdb bomb
-    (gdb) disas main (Disassemble main file)
-    (gdb) break(or b) phase 1 (If you need)
-    (gdb) r (If permission is denied, write the code "chmod +x bomb")
-    (gdb) c (continue to next break point)
-    (gdb) q (quit the current debugging)
-    Ctrl + c (quit)
-
+    gdb bomb   
+    (gdb) disas main (Disassemble main file)   
+    (gdb) break(or b) phase 1 (If you need)   
+    (gdb) r (If permission is denied, write the code "chmod +x bomb")   
+    (gdb) c (continue to next break point)   
+    (gdb) q (quit the current debugging)   
+    Ctrl + c (quit)   
     ``` assembly
     (gdb) disas main
     Dump of assembler code for function main:
@@ -109,134 +112,137 @@ categories: System_Programming
     ```
 
 ## Phase 1
-``` assembly
-(gdb) disas phase_1
-Dump of assembler code for function phase_1:
-=> 0x0000000000400ee0 <+0>:     sub    $0x8,%rsp
-   0x0000000000400ee4 <+4>:     mov    $0x402400,%esi
-   0x0000000000400ee9 <+9>:     callq  0x401338 <strings_not_equal>
-   0x0000000000400eee <+14>:    test   %eax,%eax
-   0x0000000000400ef0 <+16>:    je     0x400ef7 <phase_1+23>
-   0x0000000000400ef2 <+18>:    callq  0x40143a <explode_bomb>
-   0x0000000000400ef7 <+23>:    add    $0x8,%rsp
-   0x0000000000400efb <+27>:    retq
-End of assembler dump.
-```
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
+
+    ``` assembly
+    (gdb) disas phase_1
+    Dump of assembler code for function phase_1:
+    => 0x0000000000400ee0 <+0>:     sub    $0x8,%rsp
+    0x0000000000400ee4 <+4>:     mov    $0x402400,%esi
+    0x0000000000400ee9 <+9>:     callq  0x401338 <strings_not_equal>
+    0x0000000000400eee <+14>:    test   %eax,%eax
+    0x0000000000400ef0 <+16>:    je     0x400ef7 <phase_1+23>
+    0x0000000000400ef2 <+18>:    callq  0x40143a <explode_bomb>
+    0x0000000000400ef7 <+23>:    add    $0x8,%rsp
+    0x0000000000400efb <+27>:    retq
+    End of assembler dump.
+    ```
 * +9: Function call (strings_not_equal)
 * +14 Test
 * +16 Jump if equal (+23)
 * +18 Function call (explode_bomb)
 
-``` assembly
-(gdb) disas strings_not_equal
-Dump of assembler code for function strings_not_equal:
-   0x0000000000401338 <+0>:     push   %r12
-   0x000000000040133a <+2>:     push   %rbp
-   0x000000000040133b <+3>:     push   %rbx
-   0x000000000040133c <+4>:     mov    %rdi,%rbx
-   0x000000000040133f <+7>:     mov    %rsi,%rbp
-   0x0000000000401342 <+10>:    callq  0x40131b <string_length>
-   0x0000000000401347 <+15>:    mov    %eax,%r12d
-   0x000000000040134a <+18>:    mov    %rbp,%rdi
-   0x000000000040134d <+21>:    callq  0x40131b <string_length>
-   0x0000000000401352 <+26>:    mov    $0x1,%edx
-   0x0000000000401357 <+31>:    cmp    %eax,%r12d
-   0x000000000040135a <+34>:    jne    0x40139b <strings_not_equal+99>
-   0x000000000040135c <+36>:    movzbl (%rbx),%eax
-   0x000000000040135f <+39>:    test   %al,%al
-   0x0000000000401361 <+41>:    je     0x401388 <strings_not_equal+80>
-   0x0000000000401363 <+43>:    cmp    0x0(%rbp),%al
-   0x0000000000401366 <+46>:    je     0x401372 <strings_not_equal+58>
-   0x0000000000401368 <+48>:    jmp    0x40138f <strings_not_equal+87>
-   0x000000000040136a <+50>:    cmp    0x0(%rbp),%al
-   0x000000000040136d <+53>:    nopl   (%rax)
-   0x0000000000401370 <+56>:    jne    0x401396 <strings_not_equal+94>
-   0x0000000000401372 <+58>:    add    $0x1,%rbx
-   0x0000000000401376 <+62>:    add    $0x1,%rbp
-   0x000000000040137a <+66>:    movzbl (%rbx),%eax
-   0x000000000040137d <+69>:    test   %al,%al
-   0x000000000040137f <+71>:    jne    0x40136a <strings_not_equal+50>
-   0x0000000000401381 <+73>:    mov    $0x0,%edx
-   0x0000000000401386 <+78>:    jmp    0x40139b <strings_not_equal+99>
-   0x0000000000401388 <+80>:    mov    $0x0,%edx
-   0x000000000040138d <+85>:    jmp    0x40139b <strings_not_equal+99>
-   0x000000000040138f <+87>:    mov    $0x1,%edx
-   0x0000000000401394 <+92>:    jmp    0x40139b <strings_not_equal+99>
-   0x0000000000401396 <+94>:    mov    $0x1,%edx
-   0x000000000040139b <+99>:    mov    %edx,%eax
-   0x000000000040139d <+101>:   pop    %rbx
-   0x000000000040139e <+102>:   pop    %rbp
-   0x000000000040139f <+103>:   pop    %r12
-   0x00000000004013a1 <+105>:   retq
-End of assembler dump.
-```
+    ``` assembly
+    (gdb) disas strings_not_equal
+    Dump of assembler code for function strings_not_equal:
+    0x0000000000401338 <+0>:     push   %r12
+    0x000000000040133a <+2>:     push   %rbp
+    0x000000000040133b <+3>:     push   %rbx
+    0x000000000040133c <+4>:     mov    %rdi,%rbx
+    0x000000000040133f <+7>:     mov    %rsi,%rbp
+    0x0000000000401342 <+10>:    callq  0x40131b <string_length>
+    0x0000000000401347 <+15>:    mov    %eax,%r12d
+    0x000000000040134a <+18>:    mov    %rbp,%rdi
+    0x000000000040134d <+21>:    callq  0x40131b <string_length>
+    0x0000000000401352 <+26>:    mov    $0x1,%edx
+    0x0000000000401357 <+31>:    cmp    %eax,%r12d
+    0x000000000040135a <+34>:    jne    0x40139b <strings_not_equal+99>
+    0x000000000040135c <+36>:    movzbl (%rbx),%eax
+    0x000000000040135f <+39>:    test   %al,%al
+    0x0000000000401361 <+41>:    je     0x401388 <strings_not_equal+80>
+    0x0000000000401363 <+43>:    cmp    0x0(%rbp),%al
+    0x0000000000401366 <+46>:    je     0x401372 <strings_not_equal+58>
+    0x0000000000401368 <+48>:    jmp    0x40138f <strings_not_equal+87>
+    0x000000000040136a <+50>:    cmp    0x0(%rbp),%al
+    0x000000000040136d <+53>:    nopl   (%rax)
+    0x0000000000401370 <+56>:    jne    0x401396 <strings_not_equal+94>
+    0x0000000000401372 <+58>:    add    $0x1,%rbx
+    0x0000000000401376 <+62>:    add    $0x1,%rbp
+    0x000000000040137a <+66>:    movzbl (%rbx),%eax
+    0x000000000040137d <+69>:    test   %al,%al
+    0x000000000040137f <+71>:    jne    0x40136a <strings_not_equal+50>
+    0x0000000000401381 <+73>:    mov    $0x0,%edx
+    0x0000000000401386 <+78>:    jmp    0x40139b <strings_not_equal+99>
+    0x0000000000401388 <+80>:    mov    $0x0,%edx
+    0x000000000040138d <+85>:    jmp    0x40139b <strings_not_equal+99>
+    0x000000000040138f <+87>:    mov    $0x1,%edx
+    0x0000000000401394 <+92>:    jmp    0x40139b <strings_not_equal+99>
+    0x0000000000401396 <+94>:    mov    $0x1,%edx
+    0x000000000040139b <+99>:    mov    %edx,%eax
+    0x000000000040139d <+101>:   pop    %rbx
+    0x000000000040139e <+102>:   pop    %rbp
+    0x000000000040139f <+103>:   pop    %r12
+    0x00000000004013a1 <+105>:   retq
+    End of assembler dump.
+    ```
+
 * +4, +7 $rdi and #rsi are used as arguments of function
 * We need to know values in the register $rdi and $rsi
     x/s address
 
-``` assembly
-(gdb) b strings_not_equal
-Breakpoint 2 at 0x401338
-(gdb) c
-Continuing.
+    ``` assembly
+    (gdb) b strings_not_equal
+    Breakpoint 2 at 0x401338
+    (gdb) c
+    Continuing.
 
-Breakpoint 2, 0x0000000000401338 in strings_not_equal ()
-(gdb) i r
-rax            0x603780 6305664
-rbx            0x0      0
-rcx            0x2      2
-rdx            0x1      1
-rsi            0x402400 4203520
-rdi            0x603780 6305664
-rbp            0x0      0x0
-rsp            0x7fffffffe268   0x7fffffffe268
-r8             0x2aaaaaad0003   46912496271363
-r9             0x0      0
-r10            0x7fffffffde00   140737488346624
-r11            0x2aaaaacfd780   46912498554752
-r12            0x400c90 4197520
-r13            0x7fffffffe360   140737488348000
-r14            0x0      0
-r15            0x0      0
-rip            0x401338 0x401338 <strings_not_equal>
-eflags         0x202    [ IF ]
-cs             0x33     51
-ss             0x2b     43
-ds             0x0      0
-es             0x0      0
-fs             0x0      0
-gs             0x0      0
-(gdb) x/s $rdi
-0x603780 <input_strings>:       "hi"
-(gdb) x/s $rsi
-0x402400:       "Border relations with Canada have never been better."
-(gdb) q
-A debugging session is active.
+    Breakpoint 2, 0x0000000000401338 in strings_not_equal ()
+    (gdb) i r
+    rax            0x603780 6305664
+    rbx            0x0      0
+    rcx            0x2      2
+    rdx            0x1      1
+    rsi            0x402400 4203520
+    rdi            0x603780 6305664
+    rbp            0x0      0x0
+    rsp            0x7fffffffe268   0x7fffffffe268
+    r8             0x2aaaaaad0003   46912496271363
+    r9             0x0      0
+    r10            0x7fffffffde00   140737488346624
+    r11            0x2aaaaacfd780   46912498554752
+    r12            0x400c90 4197520
+    r13            0x7fffffffe360   140737488348000
+    r14            0x0      0
+    r15            0x0      0
+    rip            0x401338 0x401338 <strings_not_equal>
+    eflags         0x202    [ IF ]
+    cs             0x33     51
+    ss             0x2b     43
+    ds             0x0      0
+    es             0x0      0
+    fs             0x0      0
+    gs             0x0      0
+    (gdb) x/s $rdi
+    0x603780 <input_strings>:       "hi"
+    (gdb) x/s $rsi
+    0x402400:       "Border relations with Canada have never been better."
+    (gdb) q
+    A debugging session is active.
 
-        Inferior 1 [process 8096] will be killed.
+            Inferior 1 [process 8096] will be killed.
 
-Quit anyway? (y or n) y
-[oop20191298@uni06 bomb]$ gdb bomb
-GNU gdb (GDB) Red Hat Enterprise Linux 7.6.1-100.el7_4.1
-Copyright (C) 2013 Free Software Foundation, Inc.
-License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
-This is free software: you are free to change and redistribute it.
-There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
-and "show warranty" for details.
-This GDB was configured as "x86_64-redhat-linux-gnu".
-For bug reporting instructions, please see:
-<http://www.gnu.org/software/gdb/bugs/>...
-Reading symbols from /home1/oop20191298/bomb/bomb...done.
-(gdb) r
-Starting program: /home1/oop20191298/bomb/bomb
-Welcome to my fiendish little bomb. You have 6 phases with
-which to blow yourself up. Have a nice day!
-Border relations with Canada have never been better.
-Phase 1 defused. How about the next one?
-```
+    Quit anyway? (y or n) y
+    [oop20191298@uni06 bomb]$ gdb bomb
+    GNU gdb (GDB) Red Hat Enterprise Linux 7.6.1-100.el7_4.1
+    Copyright (C) 2013 Free Software Foundation, Inc.
+    License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+    This is free software: you are free to change and redistribute it.
+    There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+    and "show warranty" for details.
+    This GDB was configured as "x86_64-redhat-linux-gnu".
+    For bug reporting instructions, please see:
+    <http://www.gnu.org/software/gdb/bugs/>...
+    Reading symbols from /home1/oop20191298/bomb/bomb...done.
+    (gdb) r
+    Starting program: /home1/oop20191298/bomb/bomb
+    Welcome to my fiendish little bomb. You have 6 phases with
+    which to blow yourself up. Have a nice day!
+    Border relations with Canada have never been better.
+    Phase 1 defused. How about the next one?
+    ```
 
 ## Phase 2
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
-
-``` assembly
-```
+    ``` assembly
+    ```
