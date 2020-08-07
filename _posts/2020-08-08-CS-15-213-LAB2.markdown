@@ -179,8 +179,8 @@ categories: System_Programming
 * +4, +7 $rdi and $rsi are used as arguments of function
 * We need to know values in the register $rdi and $rsi   
     x/s address      
-     
-    <!-- -->
+
+<!-- -->
     (gdb) b strings_not_equal
     Breakpoint 2 at 0x401338
     (gdb) c
