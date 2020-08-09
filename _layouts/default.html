@@ -24,32 +24,6 @@
         Minoring in Management Engineering<br>
         <a href="/me/2020/05/05/About-me.html"><u>More about</u></a>
       </p>
-      <ul class="social">
-        {%- if site.plainwhite.social_links.github -%}
-        <a href="https://github.com/{{ site.plainwhite.social_links.github }}" target="_blank">
-          <li>
-            <i class="icon-github-circled"></i>
-          </li>
-        </a>
-        {%- endif -%}
-        {%- if site.plainwhite.social_links.linkedIn -%}
-        <a href="https://www.linkedin.com/{{ site.plainwhite.social_links.linkedIn }}">
-          <li>
-            <i class="icon-linkedin-squared"></i>
-          </li>
-        </a>
-        {%- endif -%}
-        <a href="https://www.acmicpc.net/user/zxzx1825" target="_blank">
-          <li>
-            <img src="/assets/baekjoon3.png" width="34" height="34" style="margin:0 3.4px;">
-          </li>
-        </a>
-        <a href="https://solved.ac/profile/zxzx1825" target="_blank">
-          <li>
-            <img src="/assets/solved.png" width="34" height="34" style="margin:0 3.4px;">
-          </li>
-        </a>
-      </ul>
       <div class="site-category">
         <p style="margin-bottom: 0.5em; margin-top: -0.5em;">Categories</p>
         <li><a href="/category/Algorithm.html">Algorithm & Data Structure</a>
@@ -117,7 +91,33 @@
         {%- endif -%}
       -->
       <p style="font-size: 15px;">Stay hungry, stay foolish &#128513;&#128513;</p>
-      <p style="font-size: 15px;">&copy;{{ "now" | date: "%Y" }}</p>
+      <ul class="social">
+        {%- if site.plainwhite.social_links.github -%}
+        <a href="https://github.com/{{ site.plainwhite.social_links.github }}" target="_blank">
+          <li>
+            <i class="icon-github-circled"></i>
+          </li>
+        </a>
+        {%- endif -%}
+        {%- if site.plainwhite.social_links.linkedIn -%}
+        <a href="https://www.linkedin.com/{{ site.plainwhite.social_links.linkedIn }}">
+          <li>
+            <i class="icon-linkedin-squared"></i>
+          </li>
+        </a>
+        {%- endif -%}
+        <a href="https://www.acmicpc.net/user/zxzx1825" target="_blank">
+          <li>
+            <img src="/assets/baekjoon3.png" width="34" height="34" style="margin:0 3.4px;">
+          </li>
+        </a>
+        <a href="https://solved.ac/profile/zxzx1825" target="_blank">
+          <li>
+            <img src="/assets/solved.png" width="34" height="34" style="margin:0 3.4px;">
+          </li>
+        </a>
+      </ul>
+      <p style="font-size: 15px;">&copy; {{ "now" | date: "%Y" }}</p>
     </section>
     <section class="content">
       {{ content }}
