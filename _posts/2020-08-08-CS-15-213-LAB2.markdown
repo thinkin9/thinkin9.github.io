@@ -19,7 +19,7 @@ categories: System_Programming
 1. Take bomb32.tar file
 2. Decompress the file
     tar -xf bomb.tar
-3. Start!
+3. Start!   
     gdb bomb   
     (gdb) disas main (Disassemble main file)   
     (gdb) break(or b) phase 1 (If you need)   

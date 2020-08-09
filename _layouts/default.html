@@ -87,6 +87,13 @@
             {% endfor %}
           </ul>
         </li>
+        <li><a href="/category/TOEFL.html">TOEFL</a>
+          <ul>
+            {% for post in site.categories["TOEFL"] %}
+            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a href="">
+            {% endfor %}
+          </ul>
+        </li>
         <li><a href="/category/Etc.html">Etc.</a>
           <ul>
             {% for post in site.categories["Etc"] %}
@@ -108,9 +115,9 @@
             </ul>
           </nav>
         {%- endif -%}
-        <p>&copy;
-          {{ "now" | date: "%Y" }}</p>
-        -->
+      -->
+      <p>Stay hungry, stay foolish - Steve Jobs &#128513;</p>
+      <p>&copy;{{ "now" | date: "%Y" }}</p>
     </section>
     <section class="content">
       {{ content }}
