@@ -39,8 +39,8 @@ categories: Quantitative_Analysis
         Slow %D = t-period SMA of Fast %D   
         Fast Stochastic에 Simple Moving Average (SMA)를 적용함
     * Analysis
-        * 매수세가 증가할 경우(%K 증가) %K의 이동평균선인 %D를 뚫고 올라오는 형태 == 골든크로스 == 매수 신호
-        * 매도세가 증가할 경우(%K 감소) %K의 이동평균선인 %D를 뚫고 내려가는 형태 == 데드크로스 == 매도 신호
+        * 매수세가 증가할 경우(%K 증가) %K의 이동평균선인 %D를 뚫고 올라오는 형태 &#128200;
+        * 매도세가 증가할 경우(%K 감소) %K의 이동평균선인 %D를 뚫고 내려가는 형태 &#128201;
 
 ## Volume Indicator
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
