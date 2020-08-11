@@ -7,14 +7,14 @@ categories: Me
 
 <div style="text-align: center"><i><b>Last Updated on August 10th, 2020</b></i></div>
 
-## Summer, 2020
+## 2020 Summer
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
-- Initiate the Personal Webpage <span style="float: right"> *~July 1, 2020* </span>   
+- ~~Create [personal webpage](https://thinkin9.github.io/)~~  <span style="float: right"> *~July 1, 2020* </span>   
 - ~~Prepare TOEIC to apply Katusa~~ <span style="float: right"> *~July 26, 2020* </span>   
 Listening/Reading/My Score/Max Score: 455(86%)/470(97%)/925/990   
 - Prepare Push-up to apply Auxiliary police      
-Fitness test ([Push-up timer](https://www.youtube.com/watch?v=c6yfWpi77i8)) <span style="float: right"> *August 19, 2020* </span>   
+Fitness test <span style="float: right"> *August 19, 2020* </span>   
 Drawing lots <span style="float: right"> *August 21, 2020* </span>   
 - System Programming with Introduction to Computer Systems in Carnegie Mellon University <span style="float: right"> *~August 30, 2020* </span>   
 ([Lecture Slides](http://www.cs.cmu.edu/afs/cs/academic/class/15213-s20/www/schedule.html), [Assigment](http://csapp.cs.cmu.edu/3e/labs.html), and [Videos](https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22b96d90ae-9871-4fae-91e2-b1627b43e25e%22&maxResults=250&sortColumn=1&sortAscending=true))
