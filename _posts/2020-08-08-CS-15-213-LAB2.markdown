@@ -216,23 +216,8 @@ categories: System_Programming
     0x603780 <input_strings>:       "hi"
     (gdb) x/s $rsi
     0x402400:       "Border relations with Canada have never been better."
-    (gdb) q
-    A debugging session is active.
 
-            Inferior 1 [process 8096] will be killed.
-
-    Quit anyway? (y or n) y
-    [oop20191298@uni06 bomb]$ gdb bomb
-    GNU gdb (GDB) Red Hat Enterprise Linux 7.6.1-100.el7_4.1
-    Copyright (C) 2013 Free Software Foundation, Inc.
-    License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
-    This is free software: you are free to change and redistribute it.
-    There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
-    and "show warranty" for details.
-    This GDB was configured as "x86_64-redhat-linux-gnu".
-    For bug reporting instructions, please see:
-    <http://www.gnu.org/software/gdb/bugs/>...
-    Reading symbols from /home1/oop20191298/bomb/bomb...done.
+<!-- -->
     (gdb) r
     Starting program: /home1/oop20191298/bomb/bomb
     Welcome to my fiendish little bomb. You have 6 phases with
@@ -244,3 +229,150 @@ categories: System_Programming
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
 #### Input 6 numbers from stdin and compares with 1, 2, 4, 8, 16, 32.
+
+    Phase 1 defused. How about the next one?
+    hi
+
+    Breakpoint 1, 0x0000000000400efc in phase_2 ()
+    (gdb) disas phase_2
+    Dump of assembler code for function phase_2:
+    => 0x0000000000400efc <+0>:     push   %rbp
+    0x0000000000400efd <+1>:     push   %rbx
+    0x0000000000400efe <+2>:     sub    $0x28,%rsp
+    0x0000000000400f02 <+6>:     mov    %rsp,%rsi
+    0x0000000000400f05 <+9>:     callq  0x40145c <read_six_numbers>
+    0x0000000000400f0a <+14>:    cmpl   $0x1,(%rsp)
+    0x0000000000400f0e <+18>:    je     0x400f30 <phase_2+52>
+    0x0000000000400f10 <+20>:    callq  0x40143a <explode_bomb>
+    0x0000000000400f15 <+25>:    jmp    0x400f30 <phase_2+52>
+    0x0000000000400f17 <+27>:    mov    -0x4(%rbx),%eax
+    0x0000000000400f1a <+30>:    add    %eax,%eax
+    0x0000000000400f1c <+32>:    cmp    %eax,(%rbx)
+    0x0000000000400f1e <+34>:    je     0x400f25 <phase_2+41>
+    0x0000000000400f20 <+36>:    callq  0x40143a <explode_bomb>
+    0x0000000000400f25 <+41>:    add    $0x4,%rbx
+    0x0000000000400f29 <+45>:    cmp    %rbp,%rbx
+    0x0000000000400f2c <+48>:    jne    0x400f17 <phase_2+27>
+    0x0000000000400f2e <+50>:    jmp    0x400f3c <phase_2+64>
+    0x0000000000400f30 <+52>:    lea    0x4(%rsp),%rbx
+    0x0000000000400f35 <+57>:    lea    0x18(%rsp),%rbp
+    0x0000000000400f3a <+62>:    jmp    0x400f17 <phase_2+27>
+    0x0000000000400f3c <+64>:    add    $0x28,%rsp
+    0x0000000000400f40 <+68>:    pop    %rbx
+    0x0000000000400f41 <+69>:    pop    %rbp
+    0x0000000000400f42 <+70>:    retq
+    End of assembler dump.
+
+* +9, call read_six_numbers function
+
+<!-- -->
+    (gdb) b read_six_numbers
+    Breakpoint 4 at 0x40145c
+    (gdb) c
+    Continuing.
+
+    Breakpoint 2, 0x000000000040145c in read_six_numbers ()
+    (gdb) disas read_six_numbers
+    Dump of assembler code for function read_six_numbers:
+    => 0x000000000040145c <+0>:     sub    $0x18,%rsp
+    0x0000000000401460 <+4>:     mov    %rsi,%rdx
+    0x0000000000401463 <+7>:     lea    0x4(%rsi),%rcx
+    0x0000000000401467 <+11>:    lea    0x14(%rsi),%rax
+    0x000000000040146b <+15>:    mov    %rax,0x8(%rsp)
+    0x0000000000401470 <+20>:    lea    0x10(%rsi),%rax
+    0x0000000000401474 <+24>:    mov    %rax,(%rsp)
+    0x0000000000401478 <+28>:    lea    0xc(%rsi),%r9
+    0x000000000040147c <+32>:    lea    0x8(%rsi),%r8
+    0x0000000000401480 <+36>:    mov    $0x4025c3,%esi
+    0x0000000000401485 <+41>:    mov    $0x0,%eax
+    0x000000000040148a <+46>:    callq  0x400bf0 <__isoc99_sscanf@plt>
+    0x000000000040148f <+51>:    cmp    $0x5,%eax
+    0x0000000000401492 <+54>:    jg     0x401499 <read_six_numbers+61>
+    0x0000000000401494 <+56>:    callq  0x40143a <explode_bomb>
+    0x0000000000401499 <+61>:    add    $0x18,%rsp
+    0x000000000040149d <+65>:    retq
+    End of assembler dump.
+
+* +41 0 -> %eax   
+Before +41, process the received arguments
+
+<!-- -->
+    (gdb) x/s 0x4025c3
+    0x4025c3:       "%d %d %d %d %d %d"
+
+* input of phase 2 must be 6 numbers
+
+<!-- -->
+    (gdb) disas phase_2
+    Dump of assembler code for function phase_2:
+    => 0x0000000000400efc <+0>:     push   %rbp
+    0x0000000000400efd <+1>:     push   %rbx
+    0x0000000000400efe <+2>:     sub    $0x28,%rsp
+    0x0000000000400f02 <+6>:     mov    %rsp,%rsi
+    0x0000000000400f05 <+9>:     callq  0x40145c <read_six_numbers>
+    0x0000000000400f0a <+14>:    cmpl   $0x1,(%rsp)
+    0x0000000000400f0e <+18>:    je     0x400f30 <phase_2+52>
+    0x0000000000400f10 <+20>:    callq  0x40143a <explode_bomb>
+    0x0000000000400f15 <+25>:    jmp    0x400f30 <phase_2+52>
+    0x0000000000400f17 <+27>:    mov    -0x4(%rbx),%eax
+    0x0000000000400f1a <+30>:    add    %eax,%eax
+    0x0000000000400f1c <+32>:    cmp    %eax,(%rbx)
+    0x0000000000400f1e <+34>:    je     0x400f25 <phase_2+41>
+    0x0000000000400f20 <+36>:    callq  0x40143a <explode_bomb>
+    0x0000000000400f25 <+41>:    add    $0x4,%rbx
+    0x0000000000400f29 <+45>:    cmp    %rbp,%rbx
+    0x0000000000400f2c <+48>:    jne    0x400f17 <phase_2+27>
+    0x0000000000400f2e <+50>:    jmp    0x400f3c <phase_2+64>
+    0x0000000000400f30 <+52>:    lea    0x4(%rsp),%rbx
+    0x0000000000400f35 <+57>:    lea    0x18(%rsp),%rbp
+    0x0000000000400f3a <+62>:    jmp    0x400f17 <phase_2+27>
+    0x0000000000400f3c <+64>:    add    $0x28,%rsp
+    0x0000000000400f40 <+68>:    pop    %rbx
+    0x0000000000400f41 <+69>:    pop    %rbp
+    0x0000000000400f42 <+70>:    retq
+    End of assembler dump.
+
+* +14, compare between 1 and (%rsp)  // (%rsp) is the first number
+* +18, jump to +52 if (%rsp) is equal to 1  // answer: 1 
+* +52, (%rsp + 4) -> (%rbx)  // (%rbx) is the second number
+* +57, (%rsp + 0x18(24)) -> (%rbp) // (%rbp) is the end of rsp
+* +62, jump to +27
+* +27, (%rbx - 4) -> %eax  // (%rbx - 4) is the first number -> %eax is the first number 
+* +30, %eax + %eax -> %eax  // %eax is equal to 2 * first number
+* +32, compare between %eax and (%rbx)
+* +34, jump to +41 if (%rbx) is equal to %eax  // answer: 1 2
+* +41, %rbx + 4  // %rbx is the second number
+* +45, compare between %rbp and %rbx
+* +48, jump to +27 if %rbp is not equal to %rbx
+* +27, (%rbx - 4) -> %eax  // (%rbx - 4) is the second number -> %eax is the second number
+* +30, %eax + %eax -> %eax  // %eax is equal to 2 * second number
+* +32, compare between %eax and (%rbx)
+* +34, jump to +41 if (%rbx) is equal to %eax  // answer: 1 2 4
+* +41, %rbx + 4  // %rbx is the third number
+* +45, compare between %rbp and %rbx
+* +48, jump to +27 if %rbp is not equal to %rbx
+* 
+* ...  // answer: 1 2 4 8 16
+* 
+* +48, jump to +27 if %rbp is not equal to %rbx
+* +27, (%rbx - 4) -> %eax  // (%rbx - 4) is the fifth number -> %eax is the fifth number
+* +30, %eax + %eax -> %eax  // %eax is equal to 2 * fifth number
+* +32, compare between %eax and (%rbx)
+* +34, jump to +41 if (%rbx) is equal to %eax  // answer: 1 2 4 8 16 32
+* +41, %rbx + 4  // %rbx is the sixth number + 4 ==  %rsp + 0x18(24)
+* +45, compare between %rbp and %rbx
+* +48, jump to +27 if %rbp is not equal to %rbx
+* +50, jump to +64
+
+<!-- -->
+    (gdb) r
+    Starting program: /home1/oop20191298/bomb/bomb
+    Welcome to my fiendish little bomb. You have 6 phases with
+    which to blow yourself up. Have a nice day!
+    Border relations with Canada have never been better.
+    Phase 1 defused. How about the next one?
+    1 2 4 8 16 32
+    That's number 2.  Keep going!
+
+## Phase 3
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
