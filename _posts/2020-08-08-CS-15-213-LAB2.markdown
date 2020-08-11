@@ -4,7 +4,7 @@ title:  "CS 15 213 LAB2"
 date:   2020-08-08 00:59:06 +0900
 categories: System_Programming
 ---
-<div style="text-align: center"><i><b>Last Updated on August 8th, 2020</b></i></div>
+<div style="text-align: center"><i><b>Last Updated on August 11th, 2020</b></i></div>
 
 ## Reference
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
@@ -263,7 +263,7 @@ categories: System_Programming
     0x0000000000400f42 <+70>:    retq
     End of assembler dump.
 
-* +9, call read_six_numbers function
+* +9, read_six_numbers function called
 
 <!-- -->
     (gdb) b read_six_numbers
@@ -293,8 +293,8 @@ categories: System_Programming
     0x000000000040149d <+65>:    retq
     End of assembler dump.
 
-* +41 0 -> %eax   
-Before +41, process the received arguments
+* +41, 0 -> %eax   
+Function processes received arguments until +41
 
 <!-- -->
     (gdb) x/s 0x4025c3
