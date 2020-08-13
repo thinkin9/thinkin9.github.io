@@ -35,3 +35,4 @@ Computer programs typically are composed of several parts or modules; these part
 * Microsoft Foundation Classes Library, [Wikipedia](https://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library)
 * MFC, [나무위키](https://namu.wiki/w/MFC)
 * [Visual Studio에서 C/C++ DLL 만들기](https://docs.microsoft.com/ko-kr/cpp/build/dlls-in-visual-cpp?view=vs-2019)
+* [Visual Studio 외부 DLL 경로(path) 추가하기](https://m.blog.naver.com/PostView.nhn?blogId=sharonichoya&logNo=220817543315&proxyReferer=https:%2F%2Fwww.google.com%2F)
