@@ -33,6 +33,13 @@
             {% endfor %}
           </ul>
         </li>
+        <li><a href="/category/Algorithm.html">C/C++</a>
+          <ul>
+            {% for post in site.categories["C/C++"] %}
+            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a href="">
+            {% endfor %}
+          </ul>
+        </li>
         <li><a href="/category/Generative_Adversarial_Network.html">Generative Adversarial Network</a>
           <ul>
             {% for post in site.categories["Generative_Adversarial_Network"] %}
@@ -57,13 +64,6 @@
         <li><a href="/category/System_Programming.html">System Programming</a>
           <ul>
             {% for post in site.categories["System_Programming"] %}
-            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a href="">
-            {% endfor %}
-          </ul>
-        </li>
-        <li><a href="/category/TOEFL.html">TOEFL</a>
-          <ul>
-            {% for post in site.categories["TOEFL"] %}
             <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a href="">
             {% endfor %}
           </ul>
