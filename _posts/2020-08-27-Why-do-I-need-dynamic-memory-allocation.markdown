@@ -39,9 +39,7 @@ categories: C/C++
 
 * [When do I need dynamic memory?/ stackoverflow](https://stackoverflow.com/questions/12161774/when-do-i-need-dynamic-memory)
     1. When you need a lot of memory. Typical stack size is 1 MB, so anything bigger than 50-100KB should better be dynamically allocated, or you're risking crash. Some platforms can have this limit even lower.
-
     2. When the memory must live after the function returns. Stack memory gets destroyed when function ends, dynamic memory is freed when you want.
-
     3. When you're building a structure (like array, or graph) of size that is unknown (i.e. may get big), dynamically changes or is too hard to precalculate. Dynamic allocation allows your code to naturally request memory piece by piece at any moment and only when you need it. It is not possible to repeatedly request more and more stack space in a for loop.
 * Worth to remember
     1. When I need a lots of memory
