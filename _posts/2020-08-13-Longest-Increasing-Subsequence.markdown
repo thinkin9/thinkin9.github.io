@@ -2,10 +2,10 @@
 layout: post
 title:  "Longest Increasing Subsequence"
 date:   2020-08-13 17:26:43 +0900
-categories: Algorithm&Data_Structure
+categories: Algorithm_and_Problem_Solving
 ---
 
-<div style="text-align: center"><i><b>Last Updated on July 16th, 2020</b></i></div>
+<div style="text-align: center"><i><b>Last Updated on September 1st, 2020</b></i></div>
 
 ## Longest Increasing Subsequence, LIS
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">

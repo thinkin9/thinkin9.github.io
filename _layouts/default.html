@@ -26,9 +26,16 @@
       </p>
       <div class="site-category">
         <p style="margin-bottom: 0px; margin-top: 0px;">Categories</p>
-        <li><a href="/category/Algorithm.html">Algorithm & Data Structure</a>
+        <li><a href="/category/Algorithm_and_Problem_Solving.html">Algorithm and Problem Solving</a>
           <ul>
-            {% for post in site.categories["Algorithm&Data_Structure"] %}
+            {% for post in site.categories["Algorithm_and_Problem_Solving"] %}
+            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a href="">
+            {% endfor %}
+          </ul>
+        </li>
+        <li><a href="/category/Data_Structure.html">Data Structure</a>
+          <ul>
+            {% for post in site.categories["Data_Structure"] %}
             <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a href="">
             {% endfor %}
           </ul>

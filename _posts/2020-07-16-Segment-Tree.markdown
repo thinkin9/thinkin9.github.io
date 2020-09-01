@@ -2,7 +2,7 @@
 layout: post
 title:  "Segment Tree"
 date:   2020-07-16 12:39:55 +0900
-categories: Algorithm&Data_Structure
+categories: Data_Structure
 ---
 
 <div style="text-align: center"><i><b>Last Updated on July 16th, 2020</b></i></div>
@@ -21,8 +21,9 @@ categories: Algorithm&Data_Structure
     * Maximum
     * Minimum
 * Problem Solving
-    * [2042, 구간 합 구하기 (Platinum V)](https://www.acmicpc.net/problem/2042)
-    * [10999, 구간 합 구하기 2 (Platinum IV)](https://www.acmicpc.net/problem/10999)
-    * [10868, 최솟값 (Platinum V)](https://www.acmicpc.net/problem/10868)
-    * [2357, 최솟값과 최댓값 (Platinum V)](https://www.acmicpc.net/problem/2357)
-    * [7578, 공장 (Platinum V)](https://www.acmicpc.net/problem/7578) - [Inverse Counting](https://justicehui.github.io/koi/2018/11/20/BOJ7578/)
+    * [Tag: segtree @ Solved.ac](https://solved.ac/problems/tags/segtree)
+    * [2042, 구간 합 구하기 (P5)](https://www.acmicpc.net/problem/2042)
+    * [10999, 구간 합 구하기 2 (P4)](https://www.acmicpc.net/problem/10999)
+    * [10868, 최솟값 (P5)](https://www.acmicpc.net/problem/10868)
+    * [2357, 최솟값과 최댓값 (P5)](https://www.acmicpc.net/problem/2357)
+    * [7578, 공장 (P5)](https://www.acmicpc.net/problem/7578) - [Inverse Counting](https://justicehui.github.io/koi/2018/11/20/BOJ7578/)
