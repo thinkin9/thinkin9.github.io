@@ -12,7 +12,8 @@ categories: Algorithm_and_Problem_Solving
 
 * Find the longest increasing **sub**sequence   
 e.g. 1 2 3 4 5 => 1 2 3 4 5 (5) and 10 20 10 30 20 50 => 10 20 30 50 (4)
-* [LIS(Longest Increasing Subsequence) 알고리즘](https://www.crocus.co.kr/583)
+* [LIS(Longest Increasing Subsequence) 알고리즘 written by crocus](https://www.crocus.co.kr/583)
+* [LIS의 길이를 구하는 3가지 알고리즘 written by shoark7](https://shoark7.github.io/programming/algorithm/3-LIS-algorithms)
 * Problem Solving
     * [14002 가장 긴 증가하는 부분 수열 4 (Gold IV)](https://www.acmicpc.net/problem/14002)
     * [14003 가장 긴 증가하는 부분 수열 5 (Gold I)](https://www.acmicpc.net/problem/14003)

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Tree Structure"
+title:  "Two Pointers"
 date:   2020-09-01 10:14:39 +0900
 categories: Algorithm_and_Problem_Solving
 ---
