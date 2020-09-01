@@ -11,7 +11,6 @@ categories: Algorithm_and_Problem_Solving
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
 * [투 포인터스 알고리즘 (Two Pointers Algorithm) written by naivep](https://naivep.tistory.com/52)
-
 * Problem Solving
     * [Tag: two_pointer @ Solved.ac](https://solved.ac/problems/tags/two_pointer?sort=solved&direction=desc&page=1)
     * [1806, 부분합 (G3)](https://www.acmicpc.net/problem/1806)
