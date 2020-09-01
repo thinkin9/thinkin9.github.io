@@ -14,6 +14,9 @@ categories: Me
 &emsp;&emsp;Majoring in [Computer Science and Engineering](http://cse.unist.ac.kr/)<span style="float: right">Overall GPA: 4.06 / 4.3, as of *Spring, 2020*</span>   
 &emsp;&emsp;Minoring in [Management Engineering](http://sme.unist.ac.kr/)   
 
+## Experience
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
+
 
 ## Research Interests
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
