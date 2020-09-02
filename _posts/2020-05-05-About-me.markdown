@@ -42,11 +42,9 @@ categories: Me
     * C/ C++   
     * Python
     * HTML/ CSS
-* 3D modeling 
-    * Autodesk Fusion 360 (Intermediate)
-* Fluid Simulation Software
-    * Ansys Fluent (Beginner)   
-    High School Research Project (<a href="/inventory/Report.hwp">Report</a>, Presentation, and <a href="/inventory/Poster.pdf">Poster</a>)
+* Etc.
+    * 3D modeling - Autodesk Fusion 360 (Intermediate)
+    * Fluid Simulation Software - Ansys Fluent (Beginner)
 
 ## Honors and Awards
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
