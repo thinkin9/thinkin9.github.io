@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Valgrind"
+title:  "Valgrind and Ghidra"
 date:   2020-09-03 08:14:42 +0900
 categories: C/C++
 ---
