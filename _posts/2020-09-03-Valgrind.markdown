@@ -17,12 +17,8 @@ categories: C/C++
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
 * [The Valgrind Quick Start Guide](https://www.valgrind.org/docs/manual/quick-start.html#quick-start.intro)
-* $ valgrind ./main 
-<img src="/img/val1.jpg">
-
-* $ valgrind --leak-check=yes ./main (More detailed with compile option '-g')
-<img src="/img/val2.jpg">
-
+* $ valgrind ./main <img src="/img/val1.jpg">
+* $ valgrind --leak-check=yes ./main (More detailed with compile option '-g') <img src="/img/val2.jpg">
 * $ valgrind --leak-check=full --trace-children=yes ./main
     * 기본적으로 로드한 동적 라이브러리의 메모리 누수는 확인하지 않는다
     * 위와 같은 Option을 적어주어야한다
