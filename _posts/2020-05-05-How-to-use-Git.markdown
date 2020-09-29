@@ -70,3 +70,5 @@ To use branch process is effective in building up the prototype of program
         Push the Local Storage to the Virtual Storage
     11. Cancel (add, commit, push)
         [[Git] git add 취소하기, git commit 취소하기, git push 취소하기](https://gmlwjd9405.github.io/2018/05/25/git-add-cancle.html)
+    12. Check for remote url and remote branch
+        * git remote -v
