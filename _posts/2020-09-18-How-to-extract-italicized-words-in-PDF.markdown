@@ -5,7 +5,7 @@ date:   2020-09-18 01:31:43 +0900
 categories: Etc
 ---
 
-<div style="text-align: center"><i><b>Last Updated on September 18th, 2020</b></i></div>
+<div style="text-align: center"><i><b>Last Updated on September 29th, 2020</b></i></div>
 
 ## Reference
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
@@ -84,7 +84,6 @@ public class ExtractItalicText {
                                 outItalic.println(italicText + "\n");
                     }
                 }
-                out.println("==== Page " + pageNumber + " =========================================================\n");
                 outItalic.println("==== Page " + (pageNumber+7) + " =========================================================\n");
             }
 
