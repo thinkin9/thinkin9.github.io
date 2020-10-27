@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Control"
+date:   2020-10-05 20:57:44 +0900
+categories: System_Programming
+---
+
+<div style="text-align: center"><i><b>Last Updated on October 5th, 2020</b></i></div>
+
+## Control Procedure
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
+
+1. control flow
+    * With a condition codes which store the characteristics of the recently performed operations
+        * CF: Carry flag
+        * ZF: Zero flag
+        * SF: Sign flag
+        * OF: Overflow flag
+
+2. data flow
+    * pipelining
+    * Overlapping the successive instructions
+    * Using conditional jump => Large Overhead if the branch prediction logic does not work well 
+

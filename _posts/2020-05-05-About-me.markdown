@@ -5,7 +5,7 @@ date:   2020-05-05 12:01:36 +0900
 categories: Me
 ---
 
-<div style="text-align: center"><i><b>Last Updated on July 17th, 2020</b></i></div>
+<div style="text-align: center"><i><b>Last Updated on Oct 27th, 2020</b></i></div>
 
 ## Education
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
@@ -14,8 +14,13 @@ categories: Me
 &emsp;&emsp;Majoring in [Computer Science and Engineering](http://cse.unist.ac.kr/)<span style="float: right">Overall GPA: 4.06 / 4.3, as of *Spring, 2020*</span>   
 &emsp;&emsp;Minoring in [Management Engineering](http://sme.unist.ac.kr/)   
 
-## Experience
+## Extracurricular Activities
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
+
+&emsp;**Freshman Tutoring** <span style="float: right"> *Mar. 2020 - Dec. 2020* </span> 
+&emsp;&emsp;*Tutor, Introduction to AI Programming I, II*
+
+
 
 
 ## Research Interests
