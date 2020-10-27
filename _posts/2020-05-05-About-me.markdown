@@ -10,14 +10,14 @@ categories: Me
 ## Education
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
-&emsp;[Ulsan National Institute of Science and Technology (UNIST)](https://www.unist.ac.kr/)<span style="float: right"> *Feb. 2019 - Present* </span>   
+&emsp;**Ulsan National Institute of Science and Technology (UNIST)**<span style="float: right"> *Feb. 2019 - Present* </span>   
 &emsp;&emsp;Majoring in [Computer Science and Engineering](http://cse.unist.ac.kr/)<span style="float: right">Overall GPA: 4.06 / 4.3, as of *Spring, 2020*</span>   
 &emsp;&emsp;Minoring in [Management Engineering](http://sme.unist.ac.kr/)   
 
 ## Extracurricular Activities
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
-&emsp;**Freshman Tutoring** <span style="float: right"> *Mar. 2020 - Dec. 2020* </span> 
+&emsp;**Freshman Tutoring** <span style="float: right"> *Mar. 2020 - Dec. 2020* </span>   
 &emsp;&emsp;*Tutor, Introduction to AI Programming I, II*
 
 
@@ -54,6 +54,6 @@ categories: Me
 ## Honors and Awards
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
-&emsp; **Dean's List**, UNIST (For students whose GPA is higher than 3.9 / 4.3) <span style="float: right">  *Spring 2019, Fall 2019, and Spring 2020* </span>   
+&emsp; **Dean's List**, UNIST <span style="float: right">  *Spring 2019, Fall 2019, and Spring 2020* </span>   
 
-&emsp; **Honor Scholarship**, UNIST (&#8773; $3,000 / semester) <span style="float: right">  *Spring 2019, Fall 2019, Spring 2020, and Fall 2020* </span>   
+&emsp; **Academic Performance Scholarship**, UNIST ($3,000 / semester) <span style="float: right">  *Spring 2019, Fall 2019, Spring 2020, and Fall 2020* </span>   
