@@ -17,6 +17,8 @@ categories: Me
 ## Extracurricular Activities
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
+&emsp;**Ulju-gun Science Prodigy Mentoring** <span style="float: right"> *Jan. 2020* </span>   
+&emsp;&emsp;*Mathematics Mentor*
 &emsp;**Freshman Tutoring** <span style="float: right"> *Mar. 2020 - Dec. 2020* </span>   
 &emsp;&emsp;*Tutor, Introduction to AI Programming I, II*
 
