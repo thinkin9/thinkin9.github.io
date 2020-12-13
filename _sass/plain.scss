@@ -17,6 +17,9 @@ $leftWidth: 220px;
 body {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
+  @media screen and (max-width: $mobileW) {
+    font-size: 12px;
+  }
   line-height: 1.2em;
   margin: 0;
   -webkit-font-smoothing: antialiased;
