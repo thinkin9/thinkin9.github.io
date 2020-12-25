@@ -14,7 +14,7 @@ categories: Records
     * the string may only contain characters 'a', 'b', or 'c'
     * the maximum length of a substring of this string that is a palindrome does not exceed k
 2. **Thinkin9**
-    * There is no case that has a substring palindrome if the order of string is sequential   
+    * There is no case that has a substring palindrome if the order of string is sequential repeated   
     Because the string is ordered repeatedly through three different characters, 'a', 'b', and 'c'   
 3. **Code**   
     ```cpp
@@ -67,6 +67,7 @@ categories: Records
 
         int n;
         cin >> n;
+
         while (n--) {
             int n, m;
             cin >> n >> m;
@@ -75,9 +76,9 @@ categories: Records
             vector<vector<int>> seq(n, vector<int>(m)); // Vector for what number of sequential cells are filled with '*'
 
             //e.g.  .***. => 0 1 2 3 0   
-            //	    *****    1 2 3 4 5
+            //       *****    1 2 3 4 5
             //      *****    1 2 3 4 5
-            // 	    *.*.*    1 0 1 0 1
+            //   *.*.*    1 0 1 0 1
 
             // 위 경우에서 data[0][1]을 origin point로 하는 spruce tree를 찾기 위해서
             // seq[i + k - 1][j + k - 1]이 주어진 높이에 따라서 요구되는 "연속하는 '*'의 개수"를 충족하는지 확인하면 된다.
@@ -143,6 +144,7 @@ categories: Records
 
         int n;
         cin >> n;
+
         while (n--) {
             int n, m;
             cin >> n >> m;
