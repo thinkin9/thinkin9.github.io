@@ -75,6 +75,13 @@
             {% endfor %}
           </ul>
         </li>
+        <li><a href="/category/Records.html">Records</a>
+          <ul>
+            {% for post in site.categories["Records"] %}
+            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a href="">
+            {% endfor %}
+          </ul>
+        </li>
         <li><a href="/category/Etc.html">Etc.</a>
           <ul>
             {% for post in site.categories["Etc"] %}

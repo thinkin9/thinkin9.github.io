@@ -5,7 +5,7 @@ date:   2020-07-07 16:04:19 +0900
 categories: Me
 ---
 
-<div style="text-align: center"><i><b>Last Updated on December 13th, 2020</b></i></div>
+<div style="text-align: center"><i><b>Last Updated on December 14th, 2020</b></i></div>
 
 ## 2020 Summer
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
@@ -42,3 +42,13 @@ Listening/Reading/My Score/Max Score: 455(86%)/470(97%)/925/990
 
     - Quantitative Analysis
         - *Generative Adversarial Networks for Financial Trading Strategies Fine-Tuning and Combination / Koshiyama, A., Firoozye, N., and Treleaven, P.* [(PDF)](https://arxiv.org/abs/1901.01751)
+
+## 2020 Winter
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
+
+- Problem solving with [Baekjoon Online Judge](https://www.acmicpc.net/) and [Solved.ac](https://solved.ac/)   
+- Operating System
+- System security
+- Robotics
+- Bioinformatics
+- Quantum Computing
