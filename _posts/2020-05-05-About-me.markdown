@@ -5,14 +5,15 @@ date:   2020-05-05 12:01:36 +0900
 categories: Me
 ---
 
-<div style="text-align: center"><i><b>Last Updated on Oct 27th, 2020</b></i></div>
+<div style="text-align: center"><i><b>Last Updated on Dec 27th, 2020</b></i></div>
 
 ## Education
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
 &emsp;**Ulsan National Institute of Science and Technology (UNIST)**<span style="float: right"> *Feb. 2019 - Present* </span>   
-&emsp;&emsp;Majoring in [Computer Science and Engineering](http://cse.unist.ac.kr/)<span style="float: right"> Overall GPA: 4.06 / 4.3</span>   
+&emsp;&emsp;Majoring in [Computer Science and Engineering](http://cse.unist.ac.kr/)   
 &emsp;&emsp;Minoring in [Management Engineering](http://sme.unist.ac.kr/)    
+&emsp;&emsp;*Overall GPA: 4.093 / 4.3 as of Dec. 2020*   
 
 ## Extracurricular Activities
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
@@ -21,8 +22,8 @@ categories: Me
 &emsp;&emsp;*Mathematics Mentor*   
 &emsp;**Freshman Tutoring** <span style="float: right"> *Mar. 2020 - Dec. 2020* </span>   
 &emsp;&emsp;*Tutor, Introduction to AI Programming I, II*
-
-
+&emsp;**UNIST's Code Competition** <span style="float: right"> *Nov. 2020* </span>   
+&emsp;&emsp; *3 solves*
 
 
 ## Research Interests
@@ -56,5 +57,5 @@ categories: Me
 ## Honors and Awards
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
-&emsp; **Dean's List**, UNIST <span style="float: right">  *Spring 2019, Fall 2019, and Spring 2020* </span>   
+&emsp; **Dean's List**, UNIST <span style="float: right">  *Spring 2019, Fall 2019, Spring 2020, and Fall 2020* </span>   
 &emsp; **Academic Performance Scholarship**, UNIST <span style="float: right">  *Spring 2019, Fall 2019, Spring 2020, and Fall 2020* </span>   

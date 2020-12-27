@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Codeforces Round #689 (Div.2)"
-date:   2020-11-22 19:51:47 +0900
+date:   2020-12-26 00:00:00 +0900
 categories: Records
 ---
 
@@ -76,9 +76,9 @@ categories: Records
             vector<vector<int>> seq(n, vector<int>(m)); // Vector for what number of sequential cells are filled with '*'
 
             //e.g.  .***. => 0 1 2 3 0   
-            //       *****    1 2 3 4 5
             //      *****    1 2 3 4 5
-            //   *.*.*    1 0 1 0 1
+            //      *****    1 2 3 4 5
+            //      *.*.*    1 0 1 0 1
 
             // 위 경우에서 data[0][1]을 origin point로 하는 spruce tree를 찾기 위해서
             // seq[i + k - 1][j + k - 1]이 주어진 높이에 따라서 요구되는 "연속하는 '*'의 개수"를 충족하는지 확인하면 된다.
@@ -169,6 +169,82 @@ categories: Records
             }
             if (max_idx == 0) ans = 1.0;
             cout << ans << '\n';
+        }
+        return 0;
+    }
+    ```
+
+## [D. Divide and Summarize](http://codeforces.com/contest/1461/problem/D)
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
+
+1. **Condition**
+    * An array has the ith prettiness if and only if a sum of elements is i
+    * Likewise Quick Sort Algorithm, divide the given array and determine whether the subsequential array has the ith prettiness or not 
+
+2. **Thinkin9**
+    * Array division is akin to the Quick Sort Algorithm
+    * Recursion
+    * All possible prettiness into the unordered map
+    * &lt;Algorithm&gt;   
+    upper_bound(start, end, val): iterator to the position where val &lt; element
+    lower_bound(start, end, val): iterator to the position where element &le; val 
+3. **Code**
+    ```cpp
+    #include<iostream>
+    #include<algorithm>
+    #include<unordered_map>
+    using namespace std;
+
+    typedef long long ll;
+    const int N = 1e5 + 1;
+
+    ll arr[N], sum[N];
+    unordered_map <ll, int> unord_map;
+
+    void qs(int start, int end) {
+        // Update the unordered map
+        unord_map[sum[end] - sum[start - 1]] = 1;
+        
+        if (start == end) return;
+
+        // mid and the index of mid
+        ll mid = (arr[start] + arr[end]) / 2; 
+        int pos = upper_bound(arr + start, arr + end + 1, mid) - arr;
+        
+        if (pos > end) return;
+        
+        // Recursion
+        qs(start, pos - 1);
+        qs(pos, end);
+    }
+
+    int main() {
+        ios_base::sync_with_stdio(false); cin.tie(nullptr);
+
+        int t;
+        cin >> t;
+        while (t--) {
+            unord_map.clear();
+            int n, q;
+            cin >> n >> q;
+            for (int i = 1; i <= n; i++) {
+                cin >> arr[i];
+            }
+
+            sort(arr + 1, arr + n + 1);
+            
+            for (int i = 1; i <= n; i++) {
+                sum[i] = sum[i - 1] + arr[i];
+            }
+
+            qs(1, n);
+
+            while (q--) {
+                int num;
+                cin >> num;
+                if (unord_map[num]) cout << "Yes" << '\n';
+                else cout << "No" << '\n';
+            }
         }
         return 0;
     }
