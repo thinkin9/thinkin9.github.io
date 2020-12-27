@@ -2,7 +2,7 @@
 layout: post
 title:  "Why do I need dynamic memory allocation"
 date:   2020-08-27 22:34:11 +0900
-categories: C/C++
+categories: C C++
 ---
 
 <div style="text-align: center"><i><b>Last Updated on August 27th, 2020</b></i></div>

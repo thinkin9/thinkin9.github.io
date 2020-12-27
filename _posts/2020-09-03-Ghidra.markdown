@@ -2,7 +2,7 @@
 layout: post
 title:  "Ghidra"
 date:   2020-09-03 08:56:33 +0900
-categories: C/C++
+categories: C C++
 ---
 
 <div style="text-align: center"><i><b>Last Updated on September 3rd, 2020</b></i></div>

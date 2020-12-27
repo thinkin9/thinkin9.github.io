@@ -186,7 +186,7 @@ categories: Records
     * Recursion
     * All possible prettiness into the unordered map
     * &lt;Algorithm&gt;   
-    upper_bound(start, end, val): iterator to the position where val &lt; element
+    upper_bound(start, end, val): iterator to the position where val &lt; element   
     lower_bound(start, end, val): iterator to the position where element &le; val 
 3. **Code**
     ```cpp
