@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Codeforces Round #689 (Div.2)"
-date:   2020-12-26 00:00:00 +0900
+date:   2020-12-26 12:00:00 +0900
 categories: Records
 ---
 
-<div style="text-align: center"><i><b>Last Updated on December 26th, 2020</b></i></div>
+<div style="text-align: center"><i><b>Last Updated on December 27th, 2020</b></i></div>
 
 ## [A. String Generation](http://codeforces.com/contest/1461/problem/A)
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">

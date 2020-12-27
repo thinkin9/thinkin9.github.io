@@ -21,7 +21,7 @@ categories: Me
 &emsp;**Ulju-gun Science Mentoring** <span style="float: right"> *Jan. 2020* </span>   
 &emsp;&emsp;*Mathematics Mentor*   
 &emsp;**Freshman Tutoring** <span style="float: right"> *Mar. 2020 - Dec. 2020* </span>   
-&emsp;&emsp;*Tutor, Introduction to AI Programming I, II*
+&emsp;&emsp;*Tutor, Introduction to AI Programming I, II*   
 &emsp;**UNIST's Code Competition** <span style="float: right"> *Nov. 2020* </span>   
 &emsp;&emsp; *3 solves*
 
