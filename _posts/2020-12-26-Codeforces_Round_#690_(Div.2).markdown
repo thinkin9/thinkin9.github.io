@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Codeforces Round #689 (Div.2)"
+title:  "Codeforces Round #690 (Div.2)"
 date:   2020-12-28 12:00:00 +0900
 categories: Records
 ---
