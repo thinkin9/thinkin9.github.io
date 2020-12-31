@@ -13,7 +13,9 @@ categories: Quantitative_Analysis
 * Application Software, [Wikipedia](https://en.wikipedia.org/wiki/Application_software)
 
 ## Windows API
-*[나무위키](https://namu.wiki/w/Windows%20API)
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
+
+* [나무위키](https://namu.wiki/w/Windows%20API)
 ## Call Convention
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
