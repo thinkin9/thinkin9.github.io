@@ -11,8 +11,8 @@ categories: Quantitative_Analysis
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
 1. *~~Connect and Disconnect both real-time and virtual servers (Simulated investment)~~  @20201231*
-2. *Account balance inquiry*
-3. *Automated a single stock trading (단주거래) (거래량 착시효과)*
+2. *Account balance inquiry (잔고조회)*
+3. *Automated a single stock trading (단주거래 - 거래량 착시효과)*
 
 ## 20201231
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
@@ -20,8 +20,6 @@ categories: Quantitative_Analysis
 1. .Connect
 2. .Disconnect
 3. Enable/Disable Buttons
-4. SetWindowText
-
-<img src="/img/MFC_idle.JPG" width = "50%">   
-<img src="/img/MFC_real.JPG" width = "50%">   
-<img src="/img/MFC_virtual.JPG" width = "50%">   
+4. SetWindowText   
+    <img src="/img/MFC_idle.JPG" width = "400px"><img src="/img/MFC_real.JPG" width = "400px">   
+    <img src="/img/MFC_virtual.JPG" width = "400px">   
