@@ -28,7 +28,7 @@ categories: Quantitative_Analysis
     * 5강까지 시청완료
 * 이정도 UI는 구현가능하긴한데,   
     <img src="/img/example_qt.JPG">   
-1. 계획하는 Program의 수준이 그렇게 높은 게 아니라, 혹자들이 말하는 "Qt를 사용함으로써 얻는 개발의 편의성"을 아직 못 느끼겠다 (MFC로 위 사진정도의 UI는 구현해봤을 때 ㅇㅇ) &#128514;&#128514; 
+1. 계획하는 Program의 수준이 그렇게 높은 게 아니라, 혹자들이 말하는 "Qt를 사용함으로써 얻는 개발의 편의성"을 아직 못 느끼겠다   (MFC로 위 사진정도의 UI는 구현해봤을 때 ㅇㅇ) &#128514;&#128514; 
 2. Shared library를 어떻게 Dynamically link하는 지 잘 모르겠다 &rarr; API를 쓰지를 못한다 &#128514;&#128514;   
 Visual Studio에서는 환경변수 쪽 Path를 수정해주면 됐었는데 [(link)](https://m.blog.naver.com/PostView.nhn?blogId=sharonichoya&logNo=220817543315&proxyReferer=https:%2F%2Fwww.google.com%2F), 분명 쓰는 방법은 있을텐데 구글링해봐도 진전이 없다   
 3. MFC기반 예제다보니, dll 내에서 afx관련 함수가 쓰이면 runtime error가 날 거 같다 &#128514;&#128514;   

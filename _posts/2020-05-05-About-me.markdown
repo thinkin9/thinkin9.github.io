@@ -11,7 +11,6 @@ categories: Me
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
 &emsp;**Ulsan National Institute of Science and Technology (UNIST)**<span style="float: right"> *Feb. 2019 - Present* </span>   
-
 &emsp;&emsp;Majoring in [Computer Science and Engineering](http://cse.unist.ac.kr/)   
 &emsp;&emsp;Minoring in [Management Engineering](http://sme.unist.ac.kr/)    
 &emsp;&emsp;*Overall GPA: 4.093 / 4.3 as of Dec. 2020*   
