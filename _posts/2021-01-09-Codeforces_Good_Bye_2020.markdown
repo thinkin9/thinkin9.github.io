@@ -141,4 +141,129 @@ categories: Records
 
 3. **Code**
     ```cpp
+    #include<iostream>
+    #include<queue>
+    #include<vector>
+    using namespace std;
+    
+    typedef long long ll;
+    int T, N;
+
+    void solve() {
+        cin >> N;
+        vector<int> vertice(N);
+        vector<vector<int>> edge(N, vector<int>());
+
+        ll ans = 0;
+
+        for (int i = 0; i < N; i++) {
+            cin >> vertice[i];
+            ans += vertice[i];
+        }
+
+        int start, end;
+        for (int i = 1; i < N; i++) {
+            cin >> start >> end;
+            edge[start - 1].push_back(end - 1);
+            edge[end - 1].push_back(start - 1);
+        }
+        
+        priority_queue<int> pq;
+        for (int i = 0; i < N; i++) {
+            for (int j = 1; j < edge[i].size(); j++) {
+                pq.push(vertice[i]);
+            }
+        }
+
+        cout << ans << ' ';
+        while (!pq.empty()) {
+            ans += pq.top();
+            cout << ans << ' ';
+            pq.pop();
+        }
+        cout << '\n';
+    }
+
+    int main() {
+        ios_base::sync_with_stdio(false); cin.tie(nullptr);
+        cin >> T;
+        while (T--) {
+            solve();
+        }
+        return 0;
+    }
+    ```
+
+## [E. Apollo versus Pan](http://codeforces.com/contest/1466/problem/E)
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
+
+1. **Thinkin9**
+    disassemble sigmas   
+    key points   
+    1. ```cpp
+        vector<ll> s(60)
+        ```
+    2. ```cpp
+        if (v[i] & (1ll << j)) {
+            sum_bitwise_and += (1ll << j) % MOD * s[j];
+            sum_bitwise_or += (1ll << j) % MOD * N;
+        }
+        else {
+            sum_bitwise_or += (1ll << j) % MOD * s[j];
+        }
+        ```
+3. **Code**
+    ```cpp
+    #include<iostream>
+    #include<vector>
+    using namespace std;
+
+    typedef long long ll;
+    const int MOD = 1e9 + 7;
+    int T, N;
+
+    void solve() {
+        cin >> N;
+        vector<ll> v(N);
+        vector<ll> s(60);
+
+        for (int i = 0; i < N; i++) {
+            cin >> v[i];
+            for (int j = 0; j < 60; j++) {
+                if (v[i] & (1ll << j)) {
+                    s[j]++;
+                }
+            }
+        }
+
+        ll ans = 0;
+        for (int i = 0; i < N; i++) {
+            ll sum_bitwise_and = 0;
+            ll sum_bitwise_or = 0;
+            for (int j = 0; j < 60; j++) {
+                if (v[i] & (1ll << j)) {
+                    sum_bitwise_and += (1ll << j) % MOD * s[j];
+                    sum_bitwise_or += (1ll << j) % MOD * N;
+                }
+                else {
+                    sum_bitwise_or += (1ll << j) % MOD * s[j];
+                }
+                sum_bitwise_and %= MOD;
+                sum_bitwise_or %= MOD;
+            }
+            ans += (sum_bitwise_and * sum_bitwise_or) % MOD;
+        }
+        cout << ans % MOD << '\n';
+
+        return;
+    }
+
+    int main() {
+        ios_base::sync_with_stdio(false); cin.tie(nullptr);
+        cin >> T;
+        while (T--) {
+            solve();
+        }
+        return 0;
+    }
     ```
