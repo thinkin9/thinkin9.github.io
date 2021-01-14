@@ -199,20 +199,18 @@ categories: Records
 
 1. **Thinkin9**
     tie up & disassemble sigmas   
-    <img src="/img/20210109E.jpg" width="50%">   
+    <img src="/img/20210109E.jpg">
     key points   
-    1. ```cpp
-        vector<ll> s(60)
-        ```
-    2. ```cpp
-        if (v[i] & (1ll << j)) {
-            sum_bitwise_and += (1ll << j) % MOD * s[j];
-            sum_bitwise_or += (1ll << j) % MOD * N;
-        }
-        else {
-            sum_bitwise_or += (1ll << j) % MOD * s[j];
-        }
-        ```
+    ```cpp
+    vector<ll> s(60)
+    if (v[i] & (1ll << j)) {
+        sum_bitwise_and += (1ll << j) % MOD * s[j];
+        sum_bitwise_or += (1ll << j) % MOD * N;
+    }
+    else {
+        sum_bitwise_or += (1ll << j) % MOD * s[j];
+    }
+    ```
 3. **Code**
     ```cpp
     #include<iostream>

@@ -21,5 +21,6 @@ categories: Quantitative_Analysis
 2. .Disconnect
 3. Enable/Disable Buttons
 4. SetWindowText   
-    <img src="/img/MFC_idle.JPG" width = "400px"><img src="/img/MFC_real.JPG" width = "400px">   
+    <img src="/img/MFC_idle.JPG" width = "400px">
+    <img src="/img/MFC_real.JPG" width = "400px">   
     <img src="/img/MFC_virtual.JPG" width = "400px">   
