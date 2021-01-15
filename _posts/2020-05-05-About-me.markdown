@@ -7,23 +7,18 @@ categories: Me
 
 <div style="text-align: center"><i><b>Last Updated on Dec 30th, 2020</b></i></div>
 
+<span style="font-family: Times New Roman">
 
 ## Education
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
-
-<span style="font-family: Merriweather">
 
 &emsp;**Ulsan National Institute of Science and Technology (UNIST)**<span style="float: right"> *Feb. 2019 - Present* </span>   
 &emsp;&emsp;Majoring in [Computer Science and Engineering](http://cse.unist.ac.kr/)   
 &emsp;&emsp;Minoring in [Management Engineering](http://sme.unist.ac.kr/)    
 &emsp;&emsp;*Overall GPA: 4.093 / 4.3 as of Dec. 2020*   
 
-</span>
-
 ## Extracurricular Activities
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
-
-<span style="font-family: Merriweather">
 
 &emsp;**Ulju-gun Science Mentoring** <span style="float: right"> *Jan. 2020* </span>   
 &emsp;&emsp;*Mathematics Mentor*   
@@ -32,12 +27,8 @@ categories: Me
 &emsp;**UNIST's Code Competition** <span style="float: right"> *Nov. 2020* </span>   
 &emsp;&emsp; *3 solves*
 
-</span>
-
 ## Research Interests
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
-
-<span style="font-family: Merriweather">
 
 <!-- * Optimization
 * Parallel Computing   
@@ -47,22 +38,14 @@ categories: Me
 &emsp;**Quantitative Analysis**   
 &emsp;&emsp;[Automatic Trading BOT](https://github.com/thinkin9/Automatic_Trading_BOT) with C++ API (Yet)   
 
-</span>
-
 ## Language
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black"> 
-
-<span style="font-family: Merriweather">
 
 &emsp;**Korean (Native)**   
 &emsp;**English (Intermediate)**   
 
-</span>
-
 ## Technical Skills
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
-
-<span style="font-family: Merriweather">
 
 &emsp;**Programming Language**   
 &emsp;&emsp;C/ C++   
@@ -75,14 +58,8 @@ categories: Me
 &emsp;&emsp;3D modeling - Autodesk Fusion 360 (Intermediate)   
 &emsp;&emsp;Fluid Simulation Software - Ansys Fluent (Beginner)   
 
-</span>
-
 ## Honors and Awards
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
-<span style="font-family: Merriweather">
-
 &emsp; **Dean's List**, UNIST <span style="float: right">  *Spring 2019 - Fall 2020* </span>   
 &emsp; **Academic Performance Scholarship**, UNIST <span style="float: right">  *Spring 2019 - Fall 2020* </span>   
-
-</span>
