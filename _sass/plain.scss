@@ -318,6 +318,13 @@ details {
   summary::-webkit-details-marker {
     display: none;
   }
+  ul li details summary {
+    font-size: 1.17em;
+  }
+  ul li details ul li details summary {
+    font-size: 1em;
+    font-weight: normal;
+  }
   ul {
     list-style: none;
     margin-block-start: 0px;

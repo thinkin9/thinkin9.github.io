@@ -15,8 +15,6 @@ categories: Quantitative_Analysis
 ## My Fibonacci Value
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
-* 0, 
-
 ## AB = CD
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
