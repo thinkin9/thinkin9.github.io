@@ -306,3 +306,11 @@ main {
     padding: 0;
   }
 }
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > ul {
+  list-style: none;
+}
