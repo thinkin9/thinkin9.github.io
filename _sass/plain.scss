@@ -261,7 +261,7 @@ main {
   font-weight: normal;
 }
 
-.site-category{
+.site-category {
   font-size: 18px;
   background-color: white;
   color: #222222;
@@ -272,13 +272,13 @@ main {
   @media screen and (max-width: $mobileW) {
     align-self: center;
   }
-  li{
+  li {
     position: relative;
     display: inline;
     margin: 0;
     padding: 0;
   }
-  li a{
+  li a {
     display: block;
     font-size: 15px;
     text-decoration: none;
@@ -286,18 +286,18 @@ main {
     margin-left: 8px;
     padding: 0;
   }
-  li ul{
+  li ul {
     position: relative;
     display: none;
     list-style: none;
     margin: 0;
     padding: 0;
   }
-  li:hover ul{
+  li:hover ul {
     display: flex;
     flex-direction: column-reverse;
   }
-  li ul li a{
+  li ul li a {
     display: block;
     font-size: 12px;
     text-decoration: none;
