@@ -307,10 +307,12 @@ main {
   }
 }
 
-details > summary::-webkit-details-marker {
-  display: none;
-}
-
-details > ul {
-  list-style: none;
+details {
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  ul {
+    list-style: none;
+    margin: 0 auto;
+  }
 }

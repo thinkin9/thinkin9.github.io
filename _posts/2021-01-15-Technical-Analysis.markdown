@@ -8,12 +8,12 @@ categories: Quantitative_Analysis
 <div style="text-align: center"><i><b>Last Updated on January 15th, 2021</b></i></div>
 
 <details><summary>PLAN FOR THE FUTURE</summary>
-    <ul><li>
-        <details><summary>20200115 KOSDAQ 한솔홈데코</summary>
-        <li>20210120 Biden 취임식 및 정책 발표 기대감에 따른 상승 예측</li>
-        <img src="/img/025750_20210115_Technical_Analysis.png">
-        </details>
-    </li><ul>
+    <ul>
+        <li><details><summary>20200115 KOSDAQ 한솔홈데코</summary>
+            <li>20210120 Biden 취임식 및 정책 발표 기대감에 따른 상승 예측</li>
+            <img src="/img/025750_20210115_Technical_Analysis.png">
+        </details><li>
+    </ul>
 </details>
 
 
