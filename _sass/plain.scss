@@ -318,15 +318,22 @@ details {
   summary::-webkit-details-marker {
     display: none;
   }
-  ul li details summary {
+  ul li details {
+    summary {
     font-size: 1.17em;
-  }
-  ul li details ul li details summary {
-    font-size: 1em;
-    font-weight: normal;
-  }
-  ul li details ul li details ul {
-    padding-inline-start: 0em;
+    }
+    ul li details {
+      summary {
+      font-size: 1em;
+      font-weight: normal;
+      }
+      ul{
+        font-size: 0.83em;
+      }
+      ul ul{
+        padding-inline-start: 0em;
+      }
+    }
   }
   ul {
     list-style: none;

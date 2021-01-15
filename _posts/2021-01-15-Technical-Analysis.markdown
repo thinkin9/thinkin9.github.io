@@ -13,7 +13,7 @@ categories: Quantitative_Analysis
             <ul>
                 <li><details><summary>KOSDAQ 한솔홈데코</summary>
                     <ul>
-                        20210115일자
+                        2021/01/15
                         <ul>
                             <li>20210120 Biden 취임식 및 정책 발표 기대감에 따른 상승 예측</li>
                             <li><img src="/img/025750_20210115_Technical_Analysis.png"></li>
@@ -30,11 +30,14 @@ categories: Quantitative_Analysis
     <ul>
         <li><details><summary>Biotechnology</summary>
             <ul>
-                <li><details><summary>20200116 KOSPI 삼성바이오로직스</summary>
+                <li><details><summary>KOSPI 삼성바이오로직스</summary>
                     <ul>
-                        <li>201703~201903 분석</li>
-                        <li>RSI Hidden Divergence & Bullish AB = CD에도 추세가 유지되는 이유는 아직 이해 X</li>
-                        <li><img src="/img/207940_20210116_Technical_Analysis.png"></li>
+                        2021/01/16  
+                        <ul>
+                            <li>201703~201903 분석</li>
+                            <li>RSI Hidden Divergence & Bullish AB = CD에도 추세가 유지되는 이유는 아직 이해 X</li>
+                            <li><img src="/img/207940_20210116_Technical_Analysis.png"></li>
+                        </ul>
                     </ul>
                 </details></li>
             </ul>
