@@ -10,4 +10,6 @@ categories: Quantitative_Analysis
 ## KRX:025750 한솔홈데코
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
+* 20210120 Biden 취임식 및 정책 발표에 따른 상승 예측
+
 <img src="/img/025750_20210115_Technical_Analysis.png">
