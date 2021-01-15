@@ -21,4 +21,5 @@ categories: Quantitative_Analysis
     * Regular Divergence
     * Hidden Divergence
     * Exaggerated Divergence
+
 <img src="/img/rsi.JPG">

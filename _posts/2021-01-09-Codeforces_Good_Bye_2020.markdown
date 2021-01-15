@@ -211,7 +211,7 @@ categories: Records
         sum_bitwise_or += (1ll << j) % MOD * s[j];
     }
     ```
-3. **Code**
+2. **Code**
     ```cpp
     #include<iostream>
     #include<vector>
