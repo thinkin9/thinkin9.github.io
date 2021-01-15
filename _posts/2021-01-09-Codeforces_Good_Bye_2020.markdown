@@ -197,7 +197,7 @@ categories: Records
 ## [E. Apollo versus Pan](http://codeforces.com/contest/1466/problem/E)
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
-1. **Thinkin9**
+1. **thinkin9**
     tie up & disassemble sigmas   
     <img src="/img/20210109E.jpg">
     key points   

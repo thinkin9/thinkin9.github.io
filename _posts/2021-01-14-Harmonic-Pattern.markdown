@@ -30,6 +30,7 @@ categories: Quantitative_Analysis
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
 * AB = CD + X 
+* 기술적 반등 (또는 하락)이 상대적으로 큰 경우
 * [타이롱의 트레이딩을 위한 공간](https://tailong.tistory.com/40)  
 
 <img src="/img/gartely_pattern.JPG">   
@@ -38,6 +39,7 @@ categories: Quantitative_Analysis
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
 * AB = CD + X 
+* 기술적 반등 (또는 하락)이 상대적으로 작은 경우
 * [타이롱의 트레이딩을 위한 공간](https://tailong.tistory.com/34)  
 
 <img src="/img/bat_pattern.JPG">   
