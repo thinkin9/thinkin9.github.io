@@ -5,18 +5,36 @@ date:   2021-01-15 12:00:00 +0900
 categories: Quantitative_Analysis
 ---
 
-<div style="text-align: center"><i><b>Last Updated on January 15th, 2021</b></i></div>
+<div style="text-align: center"><i><b>Last Updated on January 16th, 2021</b></i></div>
 
 <details><summary>PLAN FOR THE FUTURE</summary>
     <ul>
-        <li><details><summary>20200115 KOSDAQ 한솔홈데코</summary>
-            <li>20210120 Biden 취임식 및 정책 발표 기대감에 따른 상승 예측</li>
-            <img src="/img/025750_20210115_Technical_Analysis.png">
-        </details><li>
+        <!-- Environment Sector -->
+        <li><details><summary>Environments</summary>
+            <ul>
+                <li><details><summary>20200115 KOSDAQ 한솔홈데코</summary>
+                    <ul>
+                        <li>20210120 Biden 취임식 및 정책 발표 기대감에 따른 상승 예측</li>
+                        <li><img src="/img/025750_20210115_Technical_Analysis.png"></li>
+                    </ul>
+                </details></li>
+            </ul>
+        </details></li>
     </ul>
 </details>
 
-
-# LEARN FROM THE PAST
-### KRX:207940 삼성바이오로직스
-<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
+<details><summary>LEARN FROM THE PAST</summary>
+    <ul>
+        <!--Biotechnology -->
+        <li><details><summary>Biotechnology</summary>
+            <ul>
+                <li><details><summary>20200116 KOSPI 삼성바이오로직스</summary>
+                    <ul>
+                        <li>201703~201903 분석</li>
+                        <li>RSI Hidden Divergence & Bullish AB = CD에도 추세가 유지되는 이유는 아직 이해 X</li>
+                        <li><img src="/img/207940_20210116_Technical_Analysis.png"></li>
+                    </ul>
+                </details></li>
+            </ul>
+        </details></li>
+    </ul>

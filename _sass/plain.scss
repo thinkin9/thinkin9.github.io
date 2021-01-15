@@ -223,7 +223,8 @@ main {
   padding-left: 30px;
 }
 .post {
-  font-family: "Merriweather", sans-serif;
+  //font-family: "Merriweather", sans-serif;
+  font-family: sans-serif;
   font-weight: 300;
   color: #222;
   line-height: 1.9em;
@@ -308,11 +309,19 @@ main {
 }
 
 details {
+  summary {
+    display: block;
+    font-size: 1.5em;
+    font-family: "Raleway";
+    font-weight: bold;
+  }
   summary::-webkit-details-marker {
     display: none;
   }
   ul {
     list-style: none;
-    margin: 0 auto;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+
   }
 }
