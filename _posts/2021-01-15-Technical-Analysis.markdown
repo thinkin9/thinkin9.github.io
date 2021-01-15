@@ -9,7 +9,6 @@ categories: Quantitative_Analysis
 <hr style="height: 2px; border:none; padding: 0; background:black">
 <details><summary>PLAN FOR THE FUTURE</summary>
     <ul>
-        <!-- Environment Sector -->
         <li><details><summary>Environments</summary>
             <ul>
                 <li><details><summary>KOSDAQ 한솔홈데코</summary>
@@ -29,7 +28,6 @@ categories: Quantitative_Analysis
 
 <details><summary>LEARN FROM THE PAST</summary>
     <ul>
-        <!--Biotechnology -->
         <li><details><summary>Biotechnology</summary>
             <ul>
                 <li><details><summary>20200116 KOSPI 삼성바이오로직스</summary>
