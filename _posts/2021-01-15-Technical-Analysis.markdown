@@ -19,7 +19,7 @@ categories: Quantitative_Analysis
                             <li>이렇게까지 오를 종목인가?라는 의문이 들지만, 평단 9층은 든든하다 ㅎ.ㅎ</li>
                             <li>매도시기는, RSI Regular Pattern이 나타나고, 거래량이 2천을 넘었을 때 33~50% 매도</li>
                             <li>비슷한 재료로 묶이는 한농화성은 시총이 작아서 수익률은 더 크겠지만, index 편입과 같은 근거가 부족해서 리스크도 크다고 생각한다</li>
-                            <li>2차전지에 대한 수급이 코스피 우량주(삼성 SDI, LG화학, SK이노베이션, 또는 LG에너지 솔루션 상장 예고)로 돌아갔을 때, 주가를 주의깊게 살펴볼 필요가 있다</li>
+                            <li>2차전지에 대한 수급이 코스피 우량주(삼성 SDI, LG화학, SK이노베이션, 또는 LG에너지 솔루션 상장)로 돌아갔을 때, 주가가 급락할 가능성이 있다</li>
                             <li><img src="/img/222080_20210117_Technical_Analysis.png"></li>
                         </ul>
                     </ul>
@@ -75,7 +75,7 @@ categories: Quantitative_Analysis
                     <ul>
                         2021/01/17
                         <ul>
-                            <li>Bear Robotics PR @KAIST를 HeXA의 어느 한 선배의 도움으로 Zoom을 통해 참석하여 알게되었고, 해당 기업에 투자한 Venture Capitals를 찾다가 알게됨</li>
+                            <li>Bear Robotics PR @KAIST를 HeXA의 어느 한 선배의 도움으로 Zoom을 통해 참석하여 알게되었고, 해당 기업에 투자한 Venture Capital(VC)를 찾다가 알게됨</li>
                             <li>작년 11월 중 D(AD) 0.382 @4210에서 2번의 지지를 받고 약 100% 상승 (지놈앤컴퍼니(Seed, Series A, Series B 투자), 프리시젼바이오(Series B, Pre-IPO 투자)가 12월 중순 경 코스닥 상장 예정 기대감에 의한 상승)</li>
                             <li>대량보유상황 보고서를 공시로 찾아본 결과 지분 보유 현황은 아래와 같다</li>
                             <li>지놈앤컴퍼니 - 70,000 * 1,553,800 @2020/08/10</li>
@@ -86,7 +86,8 @@ categories: Quantitative_Analysis
                             <li>네오펙트(의료기기) - 3,000 * 582,795 (705,045 -> 582,795) @2019/07/04</li>
                             <li>미확인 - 엔젠바이오, 무신사, 마켓컬리</li>
                             <li>펀드 - 포인트모바일(60,000 * (36,842 + 9,378)),  프리시젼바이오(30,000 * (0 + 128,205)), 지놈앤컴퍼니(70,000 * (0 + 66,777 * 3))</li>
-                            <li><img src="/img/093320_20210117_Technical_Analysis.png"></li>
+                            <li>VC의 Fundamental과 Insight는 훌륭하며 저평가 되어있지만, Series A 같은 초기 단계에 투자하는 회사 특성 상 다음 반등은 Earning Suprise/ 투자회사 IPO (무신사, 마켓컬리)에 일어날 듯하며 그 때까지는 횡보와 하락을 반복할 것으로 보임</li>
+                            <li><img src="/img/241520_20210117_Technical_Analysis.png"></li>
                         </ul>
                     </ul>
                 </details></li>
