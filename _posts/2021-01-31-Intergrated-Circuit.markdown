@@ -46,7 +46,7 @@ categories: Quantitative_Analysis
 ## Thinkin9
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
-* GPU, FPGA, ASIC의 장, 단점 및 Power-Performance Ratio를 고려해봤을 때,   
+* GPU, FPGA, ASIC의 장점, 단점, Power-Performance Ratio, Price를 고려해봤을 때,   
 Fixed Environment에서 Power를 안정적으로 공급받을 수 있다면, GPU가 사용 (A.I. 연구, 데이터센터(AWS, Azure 딥러닝 가속), 일반 사용자)   
 Power-Performance Ratio를 Optimize 해야하는 Autonomous Driving에서는 ASIC가 사용   
 그리고 그 과도기(~2025/~2030)에서 내연기관 기반의 자동차에서 전기, 수소차 기반으로 패러다임이 변화하며 FPGA가 초석을 다질 것으로 예상
@@ -64,12 +64,13 @@ Power-Performance Ratio를 Optimize 해야하는 Autonomous Driving에서는 ASI
     * Biden이 트럼프 지우기를 할 것인가?
     * 화웨이가 꼬리내리면서 철저하게 검사받고, 바이든이 허용해줄 것으로 예상 (Chip Shortage)
 
-* <img src="/img/XLNX_M_20210205_Technical_Analysis.png">
-    * A: Dot-com Bubble & Correction
-    * B: 악성매물 처리 및 쌍바닥
-    * C: Fundamental 우수, 스마트폰 보급으로 인해 라우터, 중계기 등등 Network & Communication Chip 호조
-    * D: Correction & 헤지펀드 1차 매수 구간 ([Marketbeat - XLNX](https://www.marketbeat.com/stocks/NASDAQ/XLNX/institutional-ownership/))
-    * E: May, 2019 - U.S. sanction to Huawei & 1차 매수 헤지펀드 수익실현 및 자본의 손 바뀜
-    * F: March, 2020 - Covid-19 & BIG TECH BOOM! & AMD Acquisition   
+<img src="/img/XLNX_M_20210205_Technical_Analysis.png">
+
+* A: Dot-com Bubble & Correction
+* B: 악성매물 처리 및 쌍바닥
+* C: Fundamental 우수, 스마트폰 보급으로 인해 라우터, 중계기 등등 Network & Communication Chip 호조
+* D: Correction &rarr; 헤지펀드 1차 매수 구간 ([Marketbeat - XLNX](https://www.marketbeat.com/stocks/NASDAQ/XLNX/institutional-ownership/))
+* E: May, 2019 - U.S. sanction to Huawei & 1차 매수 헤지펀드 수익실현 및 자본의 손 바뀜
+* F: March, 2020 - Covid-19 &rarr; BIG TECH BOOM! & AMD Acquisition   
 
 
