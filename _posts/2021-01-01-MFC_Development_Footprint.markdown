@@ -5,8 +5,9 @@ date:   2021-01-01 12:00:00 +0900
 categories: Quantitative_Analysis
 ---
 
-<div style="text-align: center"><i><b>Last Updated on January 1st, 2021</b></i></div>
+<div style="text-align: center"><i><b>Last Updated on January 22th, 2021</b></i></div>
 
+## Temporarily cease this project because analyzing charts will be bringing more opportunities to earn the money than this :D 
 ## TODO
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 

@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "News"
+date:   2021-01-20 12:00:00 +0900
+categories: Quantitative_Analysis
+---
+
+<div style="text-align: center"><i><b>Last Updated on January 20th, 2021</b></i></div>
+<hr style="height: 2px; border:none; padding: 0; background:black">
+
+### 1월 20일
+#### Technology
+* [SoftBank Gets First Sell Rating in Four Years After 80% Surge](https://www.bloomberg.com/news/articles/2021-01-20/softbank-gets-first-sell-rating-in-four-years-after-80-surge?srnd=technology-vp)
+    Market Cap이 9.583B인 금융회사에서 SoftBank에 Sell 의견   
+    대형 금융회사가 아닌, 상대적으로 작은 금융회사에서 Sell 의견을 날렸으니 실제로 하락할 가능성이 있다
+* [Google Sidelines Second Artificial Intelligence Researcher](https://www.bloomberg.com/news/articles/2021-01-20/google-sidelines-second-artificial-intelligence-researcher?srnd=technology-vp)
+    GOOGLE AI 기술에 윤리적인 문제가 있는 거 같음
+* [EBay Explores Strategic Alternatives for Marketplace in Korea](https://www.bloomberg.com/news/articles/2021-01-19/ebay-explores-strategic-alternatives-for-marketplace-in-korea?srnd=technology-vp)
+    Ebay에게는 지금의 선택이 제일 중요함(자국에서는 Amazon에, 한국에서는 쿠팡 + 11번가에 밀리는 양상)   
+    급격하게 치솟는 쿠팡의 점유율(당장 유니스트 택배실만 봐도), 아마존과 협력하는 11번가와의 경쟁에서 Ebay가 할 수 있는 선택은...?   
+    ['몸값 5조원' 이베이코리아 매각한다](https://www.mk.co.kr/news/business/view/2021/01/65548/)
+* [ASML Beats Estimates, Grapples With Chip Supply Shortage](https://www.bloomberg.com/news/articles/2021-01-20/asml-sales-burst-past-estimates-after-chip-boom-continues?srnd=technology-vp)
+    ASML 어닝서프라이즈, 반도체 슈퍼 사이클, 기술주
+* [EV Startup Rivian Said to Reach $27.6 Billion Value on New Funds](https://www.bloomberg.com/news/articles/2021-01-19/amazon-backed-ev-startup-rivian-raises-2-65-billion?srnd=technology-vp)
+    진입 및 기술 장벽: 내연기관 > 전기   
+    친환경 추세, 주행 비용 감소 &rarr; 전기차   
+    * 전기차 이외의 전기 기반 이동수단 (UAM)
+    * 2차전지
+    * 충전소 패러다임 변화 &rarr; 휘발유나 경유와 다르게 충전할 시간이 필요하다, Killing Time Facilities nearby a charging location
+    * 전기 생산, 송/배전 Infrastructure 
+
+### 1월 21일
+#### Automative Semiconductor
+* [Use FPGAs to Streamline Automotive Electronics](https://www.electronicdesign.com/markets/automotive/document/21805451/use-fpgas-to-streamline-automotive-electronics-pdf-download)
+    
