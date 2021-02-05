@@ -6,10 +6,11 @@ categories: Quantitative_Analysis
 ---
 
 <div style="text-align: center"><i><b>Last Updated on January 20th, 2021</b></i></div>
-<hr style="height: 2px; border:none; padding: 0; background:black">
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
-### 1월 20일
-#### Technology
+### 1월 20일 Technology
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
+
 * [SoftBank Gets First Sell Rating in Four Years After 80% Surge](https://www.bloomberg.com/news/articles/2021-01-20/softbank-gets-first-sell-rating-in-four-years-after-80-surge?srnd=technology-vp)
     Market Cap이 9.583B인 금융회사에서 SoftBank에 Sell 의견   
     대형 금융회사가 아닌, 상대적으로 작은 금융회사에서 Sell 의견을 날렸으니 실제로 하락할 가능성이 있다
@@ -29,7 +30,10 @@ categories: Quantitative_Analysis
     * 충전소 패러다임 변화 &rarr; 휘발유나 경유와 다르게 충전할 시간이 필요하다, Killing Time Facilities nearby a charging location
     * 전기 생산, 송/배전 Infrastructure 
 
-### 1월 21일
-#### Automative Semiconductor
+### 1월 21일 Automative Semiconductor
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
+
 * [Use FPGAs to Streamline Automotive Electronics](https://www.electronicdesign.com/markets/automotive/document/21805451/use-fpgas-to-streamline-automotive-electronics-pdf-download)
+* [AI와 딥러닝에서 FPGA가 GPU보다 나은 이유는?](http://www.aitimes.com/news/articleView.html?idxno=134014)
+* AI의 핵심, GPU… 딥러닝의 유행을 불러오다 [1](http://www.aitimes.com/news/articleView.html?idxno=133691), [2](http://www.aitimes.com/news/articleView.html?idxno=133819)
     

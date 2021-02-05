@@ -46,6 +46,8 @@ categories: Quantitative_Analysis
                             <br>20210120 Biden 취임식 및 정책 발표 기대감에 따른 상승 예측
                             <br>1월 15일 2345/410 매수
                             <br><img src="/img/025750_20210115_Technical_Analysis.png">
+                            <br>고점 돌파 실패 확인 후 2300 전량 매도
+                            <br>실적이 뒷받침되지 않는 테마주 & 너무 높은 신용잔고
                         </li>
                     </ul>
                 </details></li>
@@ -59,6 +61,28 @@ categories: Quantitative_Analysis
                             <br>Bullish Bat Pattern으로 매수할 수 있는 기회가 2번 있었는데, 그 때는 차트분석을 하지 않았어서 매수 기회를 놓쳤다 ㅠ.ㅠ
                             <br>FnGuide E커머스 지수에 편입되어있으며, Cloud 관련 정부 정책 및 NYSE:SNOW (SNOWFLAKE INC)과 연동되어 움직일 가능성이 있다
                             <br><img src="/img/093320_20210117_Technical_Analysis.png">
+                        </li>
+                    </ul>
+                </details></li>
+                <li><details><summary>KOSDAQ 하나머티리얼즈</summary>
+                    <ul>
+                        <li>2021/02/01
+                            <br>이번 반도체 슈퍼 사이클에서는 데이터 센터의 DRAM 교체시기와 DDR5, NAND의 보급이 맞물리면서 메모리 반도체발 호황이 될 거라 생각
+                            <br>삼성이 엑시노스 개발하면서 시스템 반도체쪽 꾸준히 해오다가 팹리스(애플, 퀄컴)한테는 밀리다보니까 파운드리로 변화를 꾀했는데, 하지만 실제로 양산되어 시장에 제품이 나올 때까지는 1~2년이라는 시간이 필요하다고 봄 (미국 Austin 공장 부지 관련해서 뉴스 나오는 거 보니까 그 쪽으로 공장 지을 듯, 공장 지어지는데 1~2년 소요)
+                            <br>파운드리 관련 뉴스와 반도체 슈퍼 사이클이 온다라는 뉴스를 동시에 내보내면서 이번 반도체 슈퍼 사이클이 시스템 반도체와 크게 연관있는 듯한 뉘앙스의 뉴스를 내보내는 것을 봤을 때, 파운드리는 미끼가 아닐까 생각
+                            <br>메모리 반도체쪽 기업도 상대적으로 관심을 적게 받는 중
+                            <br>경쟁사라고 할 수 있는 티씨케이에 비해 주가 상승 수준이 너무 약함
+                            <br>실적 컨센서스 +30% 가량
+                            <br>레포트 by snusmic, SAMSUNG Securities Co., Ltd.
+                            <br>2월 2일 28000/50 매수
+                            <br>2월 4일 29500/42 매수 (잠정실적(컨센서스 상회) 공시 후 단일가 마지막틱 진입)
+                        </li>
+                    </ul>
+                </details></li>
+                <li><details><summary>NASDAQ Xilinx, XLNX</summary>
+                    <ul>
+                        <li>2021/02/05
+                            <br><a href="https://thinkin9.github.io/quantitative_analysis/2021/01/31/Intergrated-Circuit.html">Intergrated Circuit - FPGA</a>
                         </li>
                     </ul>
                 </details></li>
