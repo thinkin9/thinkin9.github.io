@@ -51,7 +51,7 @@ Fixed Environment에서 Power를 안정적으로 공급받을 수 있다면, GPU
 Power-Performance Ratio를 Optimize 해야하는 Autonomous Driving에서는 ASIC가 사용   
 그리고 그 과도기(~2025/~2030)에서 내연기관 기반의 자동차에서 전기, 수소차 기반으로 패러다임이 변화하며 FPGA가 초석을 다질 것으로 예상
 
-## Intel Corp (INTC)
+## Intel Corp. (INTC)
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
 ## Xilinx, Inc. (XLNX)
@@ -74,13 +74,13 @@ Power-Performance Ratio를 Optimize 해야하는 Autonomous Driving에서는 ASI
 * F: March, 2020 - Covid-19 &rarr; BIG TECH BOOM! & AMD Acquisition   
 * 긍정적인 측면에서 봤을 때, NVDA와 비슷한 차트를 그릴 수 있다 (AB 0.618 Retracement &rarr; BC 2.xxx Retracement)
 
-##
+## NVIDIA Corp. (NVDA)
 <img src="/img/NVDA_M_20210205_Technical_Analysis.png">
 
-* 2015 ~ Present GPU 수요 급증 (A.I. 및 머신러닝에 의한 Computation Needs 증가, 비트코인 Mining)
+* 2015 ~ Present: GPU 수요 급증 (A.I 및 머신러닝에 의한 Computation Needs 증가, 비트코인 Mining)
 * A: 헤지펀드 1차 매수 구간 ([Marketbeat - NVDA](https://www.marketbeat.com/stocks/NASDAQ/NVDA/institutional-ownership/), [Fintel.io - NVDA](https://fintel.io/so/us/nvda))
 * B-1: 1차 매수 헤지펀드 수익 실현 (SMALL) & 암호화폐 BOOM! & SOFTBANK
-* B-2: 암호화폐 POP + 채굴에 쓰인 악성 GPU 중고(일반 소비자 입장에서는 값싼 GPU로 보임) &rarr; GPU 매출 급감
+* B-2: 암호화폐 POP + 채굴에 쓰인 악성 중고 매물 (일반 소비자 입장에서는 값싼 GPU로 보임) &rarr; GPU 매출 급감
 * C: 헤지펀드 2차 매수 구간 & 암호화폐 관련 GPU 매출 급감을 명분으로 Correction (매수 기회: AB 0.618 Retracement) &rarr; BC 1.414 Retracement
-* D: GPU 수요 극대화 (데이터센터, A.I, 머신러닝, 고사양 게임, 암호화폐, etc) &rarr; 매우 강한 슈팅 (BC 2.414 ~ 2.618 Retracement)
+* D: GPU 수요 극대화 (데이터센터, A.I, 머신러닝, 고사양 게임, 암호화폐, etc) &rarr; 매우 강한 슈팅 (BC 2.414 ~ 2.618 Retracement) &rarr; 횡보
 
