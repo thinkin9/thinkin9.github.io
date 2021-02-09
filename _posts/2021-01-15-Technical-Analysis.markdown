@@ -57,13 +57,13 @@ categories: Quantitative_Analysis
                             <br>1월 28일 126000/7 매도
                         </li>
                         <li>2021/02/08
-                            <br>한국과학기술기획평가원(KISTEP) 유튜브의 KISTEP이 선정한 2021년 10대 미래유망기술은? 이라는 영상을 보고 생분해성플라스틱에 대해서 검색함
+                            <br>한국과학기술기획평가원(KISTEP) 유튜브의 "KISTEP이 선정한 2021년 10대 미래유망기술은?" 이라는 영상을 보고 생분해성플라스틱에 대해서 검색함
                             <br>한국화학연구원으로부터 생분해성 바이오플라스틱 기술을 이전받고, 양산기술 개발 시작, <a href="https://biz.chosun.com/site/data/html_dir/2020/05/25/2020052502621.html">SKC, '친환경 생분해 신소재' 양산기술 개발 속도</a>, <a href="https://www.ebn.co.kr/news/view/1435194">SKC, 식물성 고강도 바이오플라스틱 기술 확보…"조기 상업화 추진"</a>
                             <br><img src="/img/011790_20210208_Technical_Analysis.png">
                             <br>AB = 1 CD로 138000 ~ 140500을 고점으로 예상하고 도달 시기를 1월 29일쯤 윈도우 드레싱으로 달성할 것으로 예상했으나, 외인 및 기관이 월봉 차트 이쁘게 그릴 수 있게 단기적으로 조정을 준 다음에 월초 갭상승으로 상승하도록 함 (2월에 월봉상 신고가를 Beat할 거라는 약간의 확신이 생김)
                             <br>2월 2일 목표가 달성 후 조정에 들어감
                             <br>노란선 1차, 2차, 3차 지지 또는 반등 확인 필요
-                            <br>2020년 Earning Surprise를 재료로 상승할 것으로 예측
+                            <br><del>2020년 Earning Surprise를 재료로 상승할 것으로 예측</del> - 2월 2일 목표가 달성 재료로 이미 쓰임
                         </li> 
                     </ul>
                 </details></li>
@@ -121,6 +121,35 @@ categories: Quantitative_Analysis
         </details></li>
         <li><details><summary>Biotechnology</summary>
             <ul>
+                <li><details><summary>KOSPI 셀트리온/KOSDAQ 셀트리온헬스케어</summary>
+                    <ul>
+                        <li>
+                            2021/02/08
+                            <br><img src="/img/091990_20210208_Technical_Analysis.png">
+                            <br>BOX_1: 2020/09/09 JP Morgan 1차 Report(<a href="https://www.hankyung.com/finance/article/202009091684i">'주가 40% 떨어진다'…JP모간 보고서에 급락한 셀트리온</a>) - 의도적인 BAD OPINION
+                            <br>BOX_2: 2020/10/23 한달 반 간의 매집을 끝냈다는 걸 알림과 동시에 주가를 상승시킬 수 있는 NEWS (<a href="https://www.econovill.com/news/articleView.html?idxno=501367">"셀트리온 sell" JP모건, 3일간 22만주 이상 샀다</a>), 실제로 이 정보는 한국거래소 회원사별 거래실적을 살펴보면 뉴스가 뜨기 전에 쉽게 알 수 있던 내용
+                            <br>BOX_3: 2020/12/09 JP Morgan 2차 Report(<a href="https://www.donga.com/news/Economy/article/all/20201209/104355585/1">JP모건, 코스피 3200 간다…“셀트리온은 사지 마라”</a>) - 의도적인 BAD OPINION & 대차거래를 통한 SHORT
+                            <br>2021/01 COVID-19 치료제 "렉키로나주" 식약처 삼고초려를 명분으로 횡보
+                            <br>2021/02/01 <a href="http://www.biospectator.com/view/news_view.php?varAtcId=12425">피하주사 제형 자가면역질환 치료제 램시마SC 캐나다 임상 승인</a> & <a href="http://www.hani.co.kr/arti/economy/economy_general/981463.html">SHORT RESISTANCE를 명분으로 한 SHORT COVERING</a>
+                            <br>셀트리온, 셀트리온헬스케어, 셀트리온 제약에 대해서 잘 정리한 블로그 - <a href="https://m.blog.naver.com/ooks12/222148684595">불여치 리서치</a>
+                            <br>COVID-19이 처음 확산될 때 - 마스크, 알코올 테마
+                            <br>COVID-19이 크게 창궐할 때 - 백신, 치료제, Untact 테마
+                            <br>백신이 개발되었을 때 - Contact 테마
+                            <br>위와 같이 테마 및 수급이 순환했다고 생각하고, 각 테마가 결정되는 명분 및 근거는 충분했다. 일반적인 사람이 수긍할 만한 재료를 가진 기업을 작전했으니
+                            <br>현재의 백신이 도입되는 상황에서 테마 및 수급 순환이 어떻게 일어날 지 예상하고 매수 자리를 선점해야한다
+                            <br>백신은 맞고 난 뒤 얼마나 효능이 있는지 확인하기 어렵다 (백신을 맞은 사람이 COVID-19 확진자와 접촉했고 Virus가 침투해야 그 효능을 확인할 수 있으니까)
+                            <br>하지만 그에 반해 치료제는 효능을 확인하기 쉽다(확진자에게 투여하면 되니까)
+                            <br>인간의 정서상, 긍정적인 뉴스(예방 혹은 완치)보다는 부정적인 뉴스(부작용)이 대중에게 더욱 많이 주목받는다
+                            <br>P, M, A 백신과 C 치료제가 있다고 했을 때
+                            <br>1: P, M, A 백신을 맞은 사람이 COVID-19 확진 or 부작용 (A 백신의 고령자에 대한 임상 데이터 부족, 실제 효능에 대한 의문 등의 비판이 있는 상황에서의 확진 or 부작용)
+                            <br>2: 고령자에 대한 효능이 일부 검증된 C 치료제의 반사이익
+                            <br>와 같은 뉴스로 수급 및 테마가 집중될 수 있고
+                            <br>3: C 치료제로 인한 부작용 
+                            <br>와 같은 뉴스로 심한 조정을 받을 수 있다
+                            <br>그리고 장기적인 합병 ISSUE를 생각해봤을 때, 1번 뉴스(단기적), 3번 뉴스(장기적)로 인해 매수하기 좋은 자리가 생길 수도 있다고 생각 (합병에 관한 내용은 위 블로그에 잘 정리되어있다)
+                        </li>
+                    </ul>
+                </details></li>
                 <li><details><summary>KOSPI SK바이오팜</summary>
                     <ul>
                         <li>
@@ -171,6 +200,17 @@ categories: Quantitative_Analysis
 
 <details><summary>LEARN FROM THE PAST</summary>
     <ul>
+        <li><details><summary>Technology</summary>
+            <ul>
+                <li><details><summary>KOSDAQ 하나머티리얼즈</summary>
+                    <ul>
+                        <li>2021/02/09
+                            <br><img src="/img/166090_20210209_Technical_Analysis.png">
+                        </li>
+                    </ul>
+                </details></li>
+            </ul>
+        </details></li>
         <li><details><summary>Biotechnology</summary>
             <ul>
                 <li><details><summary>KOSPI 삼성바이오로직스</summary>
