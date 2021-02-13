@@ -110,7 +110,7 @@ categories: Quantitative_Analysis
                         </li>
                     </ul>
                 </details></li>
-                <li><details><summary>NASDAQ Xilinx, XLNX</summary>
+                <li><details><summary>NASDAQ Xilinx, Inc. (XLNX)</summary>
                     <ul>
                         <li>2021/02/05
                             <br><a href="https://thinkin9.github.io/quantitative_analysis/2021/01/31/Intergrated-Circuit.html">Intergrated Circuit - Xilinx</a>
@@ -137,7 +137,7 @@ categories: Quantitative_Analysis
                             <br>백신이 개발되었을 때 - Contact 테마
                             <br>위와 같이 테마 및 수급이 순환했다고 생각하며, 각 테마가 결정되는 명분 및 근거는 충분했다. (일반적인 사람이 수긍할 만한 재료를 가진 기업을 작전했으므로)
                             <br><br>현재의 백신이 도입되는 상황에서 테마 및 수급 순환이 어떻게 일어날 지 예상하고 매수 자리를 선점해야한다
-                            <br>백신은 맞고 난 뒤 얼마나 효능이 있는지 확인하기 어렵다 (백신을 맞은 사람이 COVID-19 확진자와 접촉했고 Virus가 침투해야 그 효능을 확인할 수 있으니까)
+                            <br>백신은 맞고 난 뒤 얼마나 효능이 있는지 확인하기 어렵다 (백신을 맞은 사람이 COVID-19 확진자와 접촉했고 Virus가 침투해야 그 효능을 확인할 수 있으니까, 임상 시 플라시보 약을 사용하는 이유)
                             <br>하지만 그에 반해 치료제는 효능을 확인하기 쉽다(확진자에게 투여하면 되니까)
                             <br>인간의 정서상, 긍정적인 뉴스(예방 혹은 완치)보다는 부정적인 뉴스(부작용)이 대중에게 더욱 많이 주목받는다
                             <br><br>P, M, A 백신과 C 치료제가 있다고 했을 때
@@ -168,7 +168,8 @@ categories: Quantitative_Analysis
             <ul>
                 <li><details><summary>KOSDAQ DSC인베스트먼트</summary>
                     <ul>
-                        <li>2021/01/17
+                        <li>
+                            2021/01/17
                             <br>Bear Robotics PR @KAIST를 HeXA의 어느 한 선배의 도움으로 Zoom을 통해 참석하여 알게되었고, 해당 기업에 투자한 Venture Capital(VC)를 찾다가 알게됨
                             <br>작년 11월 중 D(AD) 0.382 @4210에서 2번의 지지를 받고 약 100% 상승 (지놈앤컴퍼니(Seed, Series A, Series B 투자), 프리시젼바이오(Series B, Pre-IPO 투자)가 12월 중순 경 코스닥 상장 예정 기대감에 의한 상승)
                             <br>대량보유상황 보고서를 공시로 찾아본 결과 지분 보유 현황은 아래와 같다
@@ -183,7 +184,8 @@ categories: Quantitative_Analysis
                             <br>VC의 Fundamental과 Insight는 훌륭하며 저평가 되어있지만, Series A 같은 초기 단계에 투자하는 회사 특성 상 다음 반등은 Earning Suprise/ 투자회사 IPO (무신사, 마켓컬리)에 일어날 듯하며 그 때까지는 횡보와 하락을 반복할 것으로 보임
                             <br><img src="/img/241520_20210117_Technical_Analysis.png">
                         </li>
-                        <li>2021/01/20
+                        <li>
+                            2021/01/20
                             <br>JP Morgan은 지속적으로 매집 중, CS는 12월 16일까지 880,000 보유 중에 매집하면서 5.5%까지 지분을 확대했으나(2020/12/21 공시), 12월 20일 전후로 LOSS CUT하여 기존 보유 수량과 비슷한 수준(2020/12/24 공시) 
                             <br>외인 비율이 2020년 10월 초 1%를 기점으로, 11월 말 4.96%, 12월 말 10.32%
                             <br>기관 수급은 전무하고, 외인은 매집하며, 세력은 주가를 누른다 &rarr; 재미있는 상황
@@ -192,6 +194,19 @@ categories: Quantitative_Analysis
                         </li>
                     </ul>
                 </details></li>
+            </ul>
+        </details></li>
+        <li><details><summary>Penny Stock</summary>
+            <ul>
+                <li>한 번의 하락으로 시장에서 퇴출될 수 있기때문에 신중하게, 원칙을 지키면서 매매</li>
+                <li>상승의 눌림목을 공략하되, DIRECT OFFERING을 조심해야함</li>
+                <li>VISLINK TECHNOLOGIES, INC. (XNAS:VISL) - 위성통신/실시간 방송</li>
+                <li>@BUY(2.32/8/20210201 + 2.70/62/20210202) @SELL(2.78/70/20210203) 8.07$(4.34%)</li>
+                <li>INSPIREMD, INC. (XNYS:NSPR) - Vascular and coronary disease Diagnosis</li>
+                <li>@BUY(0.75/261/20210204) @SELL(1.15/261/20210209) 102.94$(52.36%)</li>
+                <li>REWALK ROBOTICS LTD (XNAS:RWLK) - Medical exoskeleton device Maker, Rumor with Hyundai Motor Group</li>
+                <li>@BUY(3.86/125/20210209) @SELL(3.79/125/20210210) -9.11$(-1.89%)</li>
+                <li>@BUY(3.82/124/20210211)
             </ul>
         </details></li>
     </ul>
