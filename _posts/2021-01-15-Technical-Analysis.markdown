@@ -206,7 +206,7 @@ categories: Quantitative_Analysis
                 <li>@BUY(0.75/261/20210204) @SELL(1.15/261/20210209) 102.94$(52.36%)</li>
                 <li>REWALK ROBOTICS LTD (XNAS:RWLK) - Medical exoskeleton device Maker, Rumor with Hyundai Motor Group</li>
                 <li>@BUY(3.86/125/20210209) @SELL(3.79/125/20210210) -9.11$(-1.89%)</li>
-                <li>@BUY(3.82/124/20210211)
+                <li>@BUY(3.82/124/20210211)</li>
             </ul>
         </details></li>
     </ul>
