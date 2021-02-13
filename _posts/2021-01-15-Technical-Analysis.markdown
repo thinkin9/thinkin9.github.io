@@ -10,9 +10,8 @@ categories: Quantitative_Analysis
 <details><summary>Sector & Trigger</summary>
     <ul>
         <li><details><summary>Sector</summary>
-            <ul>
-                1월 말, 설날
-            </ul>
+            <li>Feb. 2020 - U.S. HEALTHCARE SECTOR CALL</li>
+            <li>Feb 12. 2020 - COUPANG IPO Registration to SEC - KOREA E-Commerce SECTOR CALL (COUPANG이 한국에 상장되어서 흡수해야할 E-Commerce Sector 자금이 다른 E-Commerce 기업으로 흘러들어간다)</li> 
         </details></li>
     </ul>
 </details>
@@ -57,13 +56,13 @@ categories: Quantitative_Analysis
                             <br>@BUY(109000/7/20210121) @SELL(126000/7/20210128) +&#8361;119000(+5.59%)
                         </li>
                         <li>2021/02/08
-                            <br>한국과학기술기획평가원(KISTEP) 유튜브의 "KISTEP이 선정한 2021년 10대 미래유망기술은?" 이라는 영상을 보고 생분해성플라스틱에 대해서 검색함
-                            <br>한국화학연구원으로부터 생분해성 바이오플라스틱 기술을 이전받고, 양산기술 개발 시작, <a href="https://biz.chosun.com/site/data/html_dir/2020/05/25/2020052502621.html">SKC, '친환경 생분해 신소재' 양산기술 개발 속도</a>, <a href="https://www.ebn.co.kr/news/view/1435194">SKC, 식물성 고강도 바이오플라스틱 기술 확보…"조기 상업화 추진"</a>
                             <br><img src="/img/011790_20210208_Technical_Analysis.png">
                             <br>AB = 1 CD로 138000 ~ 140500을 고점으로 예상하고 도달 시기를 1월 29일쯤 윈도우 드레싱으로 달성할 것으로 예상했으나, 외인 및 기관이 월봉 차트 이쁘게 그릴 수 있게 단기적으로 조정을 준 다음에 월초 갭상승으로 상승하도록 함 (2월에 월봉상 신고가를 Beat할 거라는 약간의 확신이 생김)
                             <br>2월 2일 목표가 달성 후 조정에 들어감
                             <br>노란선 1차, 2차, 3차 지지 또는 반등 확인 필요
                             <br><del>2020년 Earning Surprise를 재료로 상승할 것으로 예측</del> - 2월 2일 목표가 달성 재료로 이미 쓰임
+                            <br>한국과학기술기획평가원(KISTEP) 유튜브의 "KISTEP이 선정한 2021년 10대 미래유망기술은?" 이라는 영상을 보고 생분해성플라스틱에 대해서 검색함
+                            <br>한국화학연구원으로부터 생분해성 바이오플라스틱 기술을 이전받고, 양산기술 개발 시작, <a href="https://biz.chosun.com/site/data/html_dir/2020/05/25/2020052502621.html">SKC, '친환경 생분해 신소재' 양산기술 개발 속도</a>, <a href="https://www.ebn.co.kr/news/view/1435194">SKC, 식물성 고강도 바이오플라스틱 기술 확보…"조기 상업화 추진"</a>
                         </li> 
                     </ul>
                 </details></li>
