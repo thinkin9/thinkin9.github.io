@@ -75,6 +75,7 @@ Power-Performance Ratio를 Optimize 해야하는 Autonomous Driving에서는 ASI
 * 긍정적인 측면에서 봤을 때, NVDA와 비슷한 차트를 그릴 수 있다 (AB 0.618 Retracement &rarr; BC 2.xxx Retracement)
 
 ## NVIDIA Corp. (NVDA)
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 <img src="/img/NVDA_M_20210205_Technical_Analysis.png">
 
 * 2015 ~ Present: GPU 수요 급증 (A.I 및 머신러닝에 의한 Computation Needs 증가, 비트코인 Mining)
