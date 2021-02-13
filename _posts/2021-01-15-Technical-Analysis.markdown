@@ -194,19 +194,19 @@ categories: Quantitative_Analysis
                         </li>
                     </ul>
                 </details></li>
-            </ul>
-        </details></li>
-        <li><details><summary>Penny Stock</summary>
-            <ul>
-                <li>한 번의 하락으로 시장에서 퇴출될 수 있기때문에 신중하게, 원칙을 지키면서 매매</li>
-                <li>상승의 눌림목을 공략하되, DIRECT OFFERING을 조심해야함</li>
-                <li>VISLINK TECHNOLOGIES, INC. (XNAS:VISL) - 위성통신/실시간 방송</li>
-                <li>@BUY(2.32/8/20210201 + 2.70/62/20210202) @SELL(2.78/70/20210203) 8.07$(4.34%)</li>
-                <li>INSPIREMD, INC. (XNYS:NSPR) - Vascular and coronary disease Diagnosis</li>
-                <li>@BUY(0.75/261/20210204) @SELL(1.15/261/20210209) 102.94$(52.36%)</li>
-                <li>REWALK ROBOTICS LTD (XNAS:RWLK) - Medical exoskeleton device Maker, Rumor with Hyundai Motor Group</li>
-                <li>@BUY(3.86/125/20210209) @SELL(3.79/125/20210210) -9.11$(-1.89%)</li>
-                <li>@BUY(3.82/124/20210211)</li>
+                <li><details><summary>Penny Stock</summary>
+                    <ul>
+                        <li>한 번의 하락으로 시장에서 퇴출될 수 있기때문에 신중하게, 원칙을 지키면서 매매</li>
+                        <li>상승의 눌림목을 공략하되, DIRECT OFFERING 및 SHORT FLOAT을 생각할 것</li>
+                        <br><li>VISLINK TECHNOLOGIES, INC. (XNAS:VISL) - 위성통신/실시간 방송</li>
+                        <li>@BUY(2.32/8/20210201 + 2.70/62/20210202) @SELL(2.78/70/20210203) 8.07$(4.34%)</li>
+                        <br><li>INSPIREMD, INC. (XNYS:NSPR) - Vascular and coronary disease Diagnosis</li>
+                        <li>@BUY(0.75/261/20210204) @SELL(1.15/261/20210209) 102.94$(52.36%)</li>
+                        <br><li>REWALK ROBOTICS LTD (XNAS:RWLK) - Medical exoskeleton device maker, Rumor with Hyundai Motor Group</li>
+                        <li>@BUY(3.86/125/20210209) @SELL(3.79/125/20210210) -9.11$(-1.89%)</li>
+                        <li>@BUY(3.82/124/20210211)</li>
+                    </ul>
+                </details></li>
             </ul>
         </details></li>
     </ul>
