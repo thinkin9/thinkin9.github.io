@@ -5,13 +5,14 @@ date:   2021-01-15 12:00:00 +0900
 categories: Quantitative_Analysis
 ---
 
-<div style="text-align: center"><i><b>보유중인 종목은 공개하지 않음</b></i></div>
+<div style="text-align: center"><i><b>Last Updated on Febrary 19th, 2021</b></i></div>
+<div style="text-align: center"><i><b>보유중인 종목은 일부만 공개함</b></i></div>
 <hr style="height: 2px; border:none; padding: 0; background:black">
 <details><summary>Sector & Trigger</summary>
     <ul>
         <li><details><summary>Sector</summary>
             <li>Feb. 2020 - U.S. HEALTHCARE SECTOR CALL</li>
-            <li>Feb 12. 2020 - COUPANG IPO Registration to SEC - KOREA E-Commerce SECTOR CALL (COUPANG이 한국에 상장되어서 흡수해야할 E-Commerce Sector 자금이 다른 E-Commerce 기업으로 흘러들어간다)</li> 
+            <li>Feb 12. 2020 - COUPANG IPO Registration to SEC - KOREA E-Commerce SECTOR CALL (COUPANG이 한국에 상장되어서 흡수해야할 E-Commerce Sector 자금이 다른 E-Commerce 기업으로 흘러들어간다 -> 네이버, 이마트 수혜확인 @20210215~16)</li> 
         </details></li>
     </ul>
 </details>
@@ -29,10 +30,8 @@ categories: Quantitative_Analysis
                             <br>매도시기는, RSI Regular Pattern이 나타나고, 거래량이 2천을 넘었을 때 33~50% 매도
                             <br>비슷한 재료로 묶이는 한농화성은 시총이 작아서 수익률은 더 크겠지만, index 편입과 같은 근거가 부족해서 리스크도 크다고 생각한다
                             <br>2차전지에 대한 수급이 코스피 우량주(삼성 SDI, LG화학, SK이노베이션, 또는 LG에너지 솔루션 상장)로 돌아갔을 때, 주가가 급락할 가능성이 있다
-                            <!--
                             <br>1월 6일 9829/180 매수
                             <br>1월 18일 17350/60 매도
-                            -->
                             <br><img src="/img/222080_20210117_Technical_Analysis.png">
                         </li>
                         <li>2021/02/04
@@ -70,17 +69,6 @@ categories: Quantitative_Analysis
         </details></li>
         <li><details><summary>Environments</summary>
             <ul>
-                <li><details><summary>KOSDAQ 한솔홈데코</summary>
-                    <ul>
-                        <li>2021/01/15
-                            <br>20210120 Biden 취임식 및 정책 발표 기대감에 따른 상승 예측
-                            <br>@BUY(2345/410/20210115)
-                            <br><img src="/img/025750_20210115_Technical_Analysis.png">
-                            <br>@SELL(2300/410/20210116) -&#8361;18450(-1.92%)
-                            <br>실적이 뒷받침되지 않는 테마주 & 너무 높은 신용잔고 & 타점이 너무 높았다
-                        </li>
-                    </ul>
-                </details></li>
             </ul>
         </details></li>
         <li><details><summary>Technologies</summary>
@@ -99,16 +87,23 @@ categories: Quantitative_Analysis
                         <li>2021/02/01
                             <br>이번 반도체 슈퍼 사이클에서는 데이터 센터의 DRAM 교체시기와 DDR5, NAND의 보급이 맞물리면서 메모리 반도체발 호황이 될 거라 생각
                             <br><br>삼성이 엑시노스 개발하면서 시스템 반도체쪽 꾸준히 해오다가 팹리스(애플, 퀄컴)한테는 밀리다보니까 파운드리로 변화를 꾀했는데, 하지만 실제로 양산되어 시장에 제품이 나오고 매출 및 영업이익에 찍힐 때까지 1~2년이라는 시간이 필요하다고 봄 (미국 Austin 공장 부지 관련해서 뉴스 나오는 거 보니까 그 쪽으로 공장 지을 듯, 공장 지어지는데 1~2년 소요)
-                            <br>파운드리 관련 뉴스와 반도체 슈퍼 사이클이 온다라는 뉴스를 동시에 내보내면서 이번 반도체 슈퍼 사이클이 시스템 반도체와 크게 연관있는 듯한 뉘앙스의 뉴스를 내보내는 것을 봤을 때, 파운드리는 미끼가 아닐까 생각
+                            <br><br>파운드리 관련 뉴스와 반도체 슈퍼 사이클이 온다라는 뉴스를 동시에 내보내면서 이번 반도체 슈퍼 사이클이 시스템 반도체와 크게 연관있는 듯한 뉘앙스의 뉴스를 내보내는 것을 봤을 때, 파운드리는 미끼가 아닐까 생각
                             <br>메모리 반도체쪽 기업은 반도체 슈퍼 사이클이라는 호재에 비해 상대적으로 관심을 적게 받는 중
                             <br><br>경쟁사라고 할 수 있는 티씨케이에 비해 주가 상승 수준이 너무 약함
                             <br>실적 컨센서스 +30% 가량
                             <br>Si, SiC 식각 필수 소모품 (레포트 by snusmic, SAMSUNG Securities Co., Ltd.)
-                            <!--
                             <br>2월 2일 28000/50 매수
                             <br>2월 4일 29500/42 매수 (잠정실적(컨센서스 상회) 공시 후 단일가 마지막틱 진입)
-                            -->
                         </li>
+                        <li>2021/02/19
+                            <br>15%정도로 반등을 예상했는데 2월 18일, 19일 노무라증권의 장내매수로 인해서 (양일간 약 30만주 매수) 강한 슈팅을 받아서 예상보다 크게 상승했다
+                            <br><img src="/img/166090_20210219_Technical_Analysis.png">
+                            <br>저항선에서 횡보 또는 하락시 비중 줄이면서 이익실현하려고했으나, 예상했던 저항선 및 신고가 영역을 강한 거래량으로 돌파했다는 점에 착안하여 조금 더 보유를 할 예정이다.
+                            <br>그렸던 저항선이 이제 지지선 역할을 하는 지 잘 살펴봐야한다.
+                            <br><br><a href="http://www.thelec.net/news/articleView.html?idxno=2364">Hana considered alternative to Silfex as Si ring supplier to Lam Research - 2021/02/16</a>
+                            <br>Summary - 고객사 다변화, 현재 Si, SiC RING은 TEL, Semes, and Applied Materials에 각각 80%, 9%, 8% 가량의 비중으로 부품을 공급하고 있으며, Lam Research로의 부품 공급을 고려 중 
+                            <br><br>경쟁사인 티씨케이의 주가 추이 뿐만 아니라 고객사인 <a href="https://www.google.com/finance/quote/8035:TYO">Tokyo Electron Ltd. (TYO: 8035)</a>, <a href="http://www.k-otc.or.kr/">Semes (K-OTC: 042380)</a>, <a href="https://finance.yahoo.com/quote/AMAT/">Applied Materials (NASDAQ: AMAT)</a>, <a href="https://finance.yahoo.com/quote/LRCX?p=LRCX&.tsrc=fin-srch">Lam Research (NASDAQ: LRCX)</a>의 주가 추이를 관찰해야한다.
+                            <br>나아가 최종 판매자인 <a href="https://finance.naver.com/item/main.nhn?code=005930">Samsung Electronics Co. Ltd. (KRX:005930)</a>, <a href="https://finance.naver.com/item/main.nhn?code=000660">SK Hynix Inc. (KRX:000660)</a>, <a href="https://finance.yahoo.com/quote/mu?ltr=1">Micron Technology, Inc. (NASDAQ: MU)</a>도 관심을 가져야한다. 
                     </ul>
                 </details></li>
                 <li><details><summary>NASDAQ Xilinx, Inc. (XLNX)</summary>
@@ -197,17 +192,20 @@ categories: Quantitative_Analysis
                 </details></li>
                 <li><details><summary>Penny Stock</summary>
                     <ul>
-                        <li>한 번의 하락으로 시장에서 퇴출될 수 있기때문에 신중하게, 원칙을 지키면서 매매</li>
-                        <li>상승의 눌림목을 공략하되, DIRECT OFFERING 및 SHORT FLOAT을 생각할 것</li>
-                        <br><li>VISLINK TECHNOLOGIES, INC. (XNAS:VISL) - 위성통신/실시간 방송</li>
-                        <li>@BUY(2.32/8/20210201 + 2.70/62/20210202) @SELL(2.78/70/20210203) +$8.07(+4.34%)</li>
-                        <br><li>INSPIREMD, INC. (XNYS:NSPR) - Vascular and coronary disease Diagnosis</li>
-                        <li>@BUY(0.75/261/20210204) @SELL(1.15/261/20210209) +$102.94(+52.36%)</li>
-                        <br><li>REWALK ROBOTICS LTD (XNAS:RWLK) - Medical exoskeleton device maker, Rumor with Hyundai Motor Group</li>
-                        <li>@BUY(3.86/125/20210209) @SELL(3.79/125/20210210) -$9.11(-1.89%)</li>
-                        <!--
-                        <li>@BUY(3.82/124/20210211)</li>
-                        -->
+                        <li>
+                            2021/02/13
+                            <br>한 번의 하락으로 시장에서 퇴출될 수 있기때문에 신중하게, 원칙을 지키면서 매매<
+                            <br>상승의 눌림목을 공략하되, DIRECT OFFERING 및 SHORT FLOAT을 생각할 것
+                            <br><br>VISLINK TECHNOLOGIES, INC. (XNAS:VISL) - 위성통신/실시간 방송
+                            <br>@BUY(2.32/8/20210201 + 2.70/62/20210202) @SELL(2.78/70/20210203) +$8.07(+4.34%)
+                            <br><br>INSPIREMD, INC. (XNYS:NSPR) - Vascular and coronary disease Diagnosis
+                            <br>@BUY(0.75/261/20210204) @SELL(1.15/261/20210209) +$102.94(+52.36%)
+                            <br><br>REWALK ROBOTICS LTD (XNAS:RWLK) - Medical exoskeleton device maker, Rumor with Hyundai Motor Group
+                            <br>@BUY(3.86/125/20210209) @SELL(3.79/125/20210210) -$9.11(-1.89%)
+                            <!--
+                            <li>@BUY(3.82/124/20210211)</li>
+                            -->
+                        </li>
                     </ul>
                 </details></li>
             </ul>
@@ -242,8 +240,44 @@ categories: Quantitative_Analysis
                 </details></li>
             </ul>
         </details></li>
+        <li><details><summary>Environments</summary>
+            <ul>
+                <li><details><summary>KOSDAQ 한솔홈데코</summary>
+                    <ul>
+                        <li>2021/01/15
+                            <br>20210120 Biden 취임식 및 정책 발표 기대감에 따른 상승 예측
+                            <br>@BUY(2345/410/20210115)
+                            <br><img src="/img/025750_20210115_Technical_Analysis.png">
+                            <br>@SELL(2300/410/20210116) -&#8361;18450(-1.92%)
+                            <br>실적이 뒷받침되지 않는 테마주 & 너무 높은 신용잔고 & 타점이 너무 높았다
+                        </li>
+                    </ul>
+                </details></li>
+            </ul>
+        </details></li>
     </ul>
 </details>
 <hr style="height: 2px; border:none; padding: 0; background:black">
-
+<details><summary>Get Brilliant Insight from the BLOG</summary>
+    <ul>
+        <li><details><summary>Trading Strategies</summary>
+            <ul>
+                <li><a href="https://stock79.tistory.com/">systrader79의 왕초보를 위한 주식투자</a> - 투자 전략</li>
+            </ul>
+        </details></li>
+        <li><details><summary>Market Strategies</summary>
+            <ul>
+                <li><a href="https://ha2mandx.tistory.com/">MARKETS NOW</a> - 시황</li>
+            </ul>
+        </details></li>
+        <li><details><summary>Reports</summary>
+            <ul>
+                <li><a href="http://snusmic.com/research/">SMIC</a> - 서울대학교 경영대학 소속 학술동아리의 배포용 리포트(발간하는 시기와 배포하는 시기가 약 2달정도 차이나고, 다른 증권사들의 Report 정보를 재가공한 형태의 Report도 보임)</li>
+                <li><a href="https://www.samsungpop.com/">삼성증권</a> - 계좌기반의 로그인 필요</li>
+                <li>흥국증권 Research <a href="http://www.heungkuksec.co.kr/research/industry/list.do">투자전략</a>, <a href="http://www.heungkuksec.co.kr/research/company/list.do">산업/기업분석</a>(퀄리티 낮아서 잘 안봄)</li>
+            </ul>
+        </details></li>
+    </ul>
+</details>
+<hr style="height: 2px; border:none; padding: 0; background:black">
     
