@@ -12,7 +12,7 @@ categories: Quantitative_Analysis
     <ul>
         <li><details><summary>Sector</summary>
             <li>Feb. 2020 - U.S. HEALTHCARE SECTOR CALL</li>
-            <li>Feb 12. 2020 - COUPANG IPO Registration to SEC - KOREA E-Commerce SECTOR CALL (COUPANG이 한국에 상장되어서 흡수해야할 E-Commerce Sector 자금이 다른 E-Commerce 기업으로 흘러들어간다 -> 네이버, 이마트 수혜확인 @20210215~16)</li> 
+            <li>Feb 12. 2020 - COUPANG IPO Registration to SEC - KOREA E-Commerce SECTOR CALL (COUPANG이 한국에 상장되어서 흡수해야할 E-Commerce Sector 자금이 다른 E-Commerce 기업으로 흘러들어간다 = 포장/E-Commerce companies(네이버, 이마트)/전자결제순으로 수급이 순환)</li> 
         </details></li>
     </ul>
 </details>
@@ -104,6 +104,7 @@ categories: Quantitative_Analysis
                             <br>Summary - 고객사 다변화, 현재 Si, SiC RING은 TEL, Semes, and Applied Materials에 각각 80%, 9%, 8% 가량의 비중으로 부품을 공급하고 있으며, Lam Research로의 부품 공급을 고려 중 
                             <br><br>경쟁사인 티씨케이의 주가 추이 뿐만 아니라 고객사인 <a href="https://www.google.com/finance/quote/8035:TYO">Tokyo Electron Ltd. (TYO: 8035)</a>, <a href="http://www.k-otc.or.kr/">Semes (K-OTC: 042380)</a>, <a href="https://finance.yahoo.com/quote/AMAT/">Applied Materials (NASDAQ: AMAT)</a>, <a href="https://finance.yahoo.com/quote/LRCX?p=LRCX&.tsrc=fin-srch">Lam Research (NASDAQ: LRCX)</a>의 주가 추이를 관찰해야한다.
                             <br>나아가 최종 판매자인 <a href="https://finance.naver.com/item/main.nhn?code=005930">Samsung Electronics Co. Ltd. (KRX:005930)</a>, <a href="https://finance.naver.com/item/main.nhn?code=000660">SK Hynix Inc. (KRX:000660)</a>, <a href="https://finance.yahoo.com/quote/mu?ltr=1">Micron Technology, Inc. (NASDAQ: MU)</a>도 관심을 가져야한다. 
+                        </li>
                     </ul>
                 </details></li>
                 <li><details><summary>NASDAQ Xilinx, Inc. (XLNX)</summary>
