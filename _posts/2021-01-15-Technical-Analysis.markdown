@@ -28,20 +28,34 @@ categories: Quantitative_Analysis
                             <br>생각보다 Fundamental이 저평가되어있고, FnGuide 2차전지와 전기&수소차에 각각 작년 6월 15일, 12월 16일에 편입되고 기관과 외국인의 수급이 엄청나다
                             <br>이렇게까지 오를 종목인가?라는 의문이 들지만, 평단 9층은 든든하다 ㅎ.ㅎ
                             <br>매도시기는, RSI Regular Pattern이 나타나고, 거래량이 2천을 넘었을 때 33~50% 매도
-                            <br>비슷한 재료로 묶이는 한농화성은 시총이 작아서 수익률은 더 크겠지만, index 편입과 같은 근거가 부족해서 리스크도 크다고 생각한다
-                            <br>2차전지에 대한 수급이 코스피 우량주(삼성 SDI, LG화학, SK이노베이션, 또는 LG에너지 솔루션 상장)로 돌아갔을 때, 주가가 급락할 가능성이 있다
-                            <br>1월 6일 9829/180 매수
+                            <br><br>비슷한 재료로 묶이는 한농화성은 시총이 작아서 수익률은 더 크겠지만, index 편입과 같은 근거가 부족해서 리스크도 크다고 생각한다
+                            <br><br>2차전지에 대한 수급이 코스피 우량주(삼성 SDI, LG화학, SK이노베이션, 또는 LG에너지 솔루션 상장)로 돌아갔을 때, 주가가 급락할 가능성이 있다
+                            <br><br>1월 6일 9829/180 매수
                             <br>1월 18일 17350/60 매도
                             <br><img src="/img/222080_20210117_Technical_Analysis.png">
-                        </li>
+                        </li><br>
                         <li>2021/02/04
-                            <br>주식 등의 대량보유상황보고서 by 삼성자산운용: 기관 수급의 정체가 드러남
-                            <br>2,884,691주(5.02%) 장내매수
-                            <br>2019년 6월부터 매집하다가 슈팅 크게 2번 받으면서 고점(20,000원)찍고 조정받고 있을 때, 5% 완성하면서 공시 발표
+                            <br>주식 등의 대량보유상황보고서 by 삼성자산운용: 기관 수급의 정체가 드러남 - 2,884,691주(5.02%) 장내매수
+                            <br><br>2019년 6월부터 매집하다가 슈팅 크게 2번 받으면서 고점(20,000원)찍고 조정받고 있을 때, 5% 완성하면서 공시 발표
                             <br>고의성이 다분하고(의도적이라고 보면 될 듯), 일부러 포지션을 보여줬다
                             <br>2월 둘째 주 기관 포지션 관찰하면 삼각수렴 후에 어떤 추세가 나올지 예상할 수 있을 듯?
                             <br>2019년 6월 28일 (기관 63만주 순매수) ~ 2021년 2월 4일: 평균 매수단가 - 매도단가(외인/개인/금투/투신) - +6408-6522/+7689-7694/+9650-9385/+7549-7313
-                        </li> 
+                        </li><br>
+                        <li>2021/02/19
+                            <br>미국 전고체배터리 가치주 <a href="https://finance.yahoo.com/quote/QS/">QuantumScape Corp. (NYSE: QS)</a>와 차트를 비교해보면 연관성이 있지 않을까? 하는 궁금증이 생겨서 바로 비교 ㄱㄱ.
+                            <br><img src="/img/QS_20210219_Technical_Analysis.png">
+                            <br>실질적 시세 및 수급 발생 시점은 02, Nov '20
+                            <br>Begining of the BOOM!! 13, Nov '20
+                            <br>Till 22 Dec '20 (Begining of the Correction!!, 갭상승 + 꽉찬 양봉 띄워서 매물 넘기고 폭락은 좀... 코스닥 세력도 저렇게는 안하겠다...)
+                            <br>DEAD CAT BOUNCE!! 05, Jan '21
+                            <br>Begining of the Retracement!! 01, Feb '21 - 스마트머니, 헤지펀드 매수구간
+                            <br><br><img src="/img/222080_20210219_Technical_Analysis.png">
+                            <br>QS와 주가가 반대로 가는 거 같은 느낌...?
+                            <br><br>2월 4일 수급의 정체가 삼성자산운용으로 드러나고, 2월 9일 전환사채 발행가격과 주가간 차이가 발생함에 따라 파생금융상품 평가손실로 인식(90억 + 70억)함
+                            <br>실적 모멘텀을 받아서 하락 추세 반등 및 돌파해야할 시점에, 실적이 숫자 상으로는 Earning Shock라서 저항선을 추세선으로 하여 하락함 (전환사채로 인한 Earning Shock라는 사실을 반영하여 많이 하락한 것은 아니고, 오히려 이를 고려한 매출액 및 영업이익은 전년도에 비해 각각 약 17.4%, 93.89% (153.9억 &rarr; 298.4억)이라는 Super Earning Suprise)
+                            <br><br>주가를 급하게 상승시키고, 전환사채 전환손실 및 평가손실을 반영하여, 실적을 Earning Shock처럼 보이게 만들어서 하락 추세를 만들어냈다. 하지만, 이것이 Earning Suprise에 의한 주가 상승을 막고, 물량 매집 및 더 큰 상승을 위한 설계라고 생각할 수 있을까...??
+                            <br>그럴 가능성에 대해서 조금 더 생각해봐야겠다 ㅎ
+                        </li>
                     </ul>
                 </details></li>
                 <li><details><summary>KOSPI SKC</summary>
@@ -53,7 +67,7 @@ categories: Quantitative_Analysis
                             <br>투자회사로 변화 중인 SK(주)에서 중국 동박 1위 기업 Waston 투자 및 재투자, 법적으로는 금지되어있겠지만 거래처, 기술력, 단가쪽으로 이익을 볼 수 있지 않을까라고 추측
                             <br>기관 매수세에도 장 중에 약간의 조정을 받는 모습을 보고, 지금 진입했을 때 기관이랑 단기적으로 평단 차이가 그렇게 크지 않다고 생각하여 진입
                             <br>@BUY(109000/7/20210121) @SELL(126000/7/20210128) +&#8361;119000(+5.59%)
-                        </li>
+                        </li><br>
                         <li>2021/02/08
                             <br><img src="/img/011790_20210208_Technical_Analysis.png">
                             <br>AB = 1 CD로 138000 ~ 140500을 고점으로 예상하고 도달 시기를 1월 29일쯤 윈도우 드레싱으로 달성할 것으로 예상했으나, 외인 및 기관이 월봉 차트 이쁘게 그릴 수 있게 단기적으로 조정을 준 다음에 월초 갭상승으로 상승하도록 함 (2월에 월봉상 신고가를 Beat할 거라는 약간의 확신이 생김)
@@ -94,16 +108,17 @@ categories: Quantitative_Analysis
                             <br>Si, SiC 식각 필수 소모품 (레포트 by snusmic, SAMSUNG Securities Co., Ltd.)
                             <br>2월 2일 28000/50 매수
                             <br>2월 4일 29500/42 매수 (잠정실적(컨센서스 상회) 공시 후 단일가 마지막틱 진입)
-                        </li>
+                        </li><br>
                         <li>2021/02/19
                             <br>15%정도로 반등을 예상했는데 2월 18일, 19일 노무라증권의 장내매수로 인해서 (양일간 약 30만주 매수) 강한 슈팅을 받아서 예상보다 크게 상승했다
                             <br><img src="/img/166090_20210219_Technical_Analysis.png">
-                            <br>저항선에서 횡보 또는 하락시 비중 줄이면서 이익실현하려고했으나, 예상했던 저항선 및 신고가 영역을 강한 거래량으로 돌파했다는 점에 착안하여 조금 더 보유를 할 예정이다.
+                            <br>저항선에서 횡보 또는 하락시 비중 줄이면서 이익실현하려고했으나, 예상했던 저항선 및 신고가 영역을 강한 거래량으로 돌파했다는 점에 착안하여 조금 더 보유를 할 예정이다. (주가 하락 시킬 생각이었으면, 갭상승으로 시작해서 신고가 돌파하는 모습 보여주다가 하락으로 시가깨고 전일종가깨는 모습을 보여줬을듯)
                             <br>그렸던 저항선이 이제 지지선 역할을 하는 지 잘 살펴봐야한다.
                             <br><br><a href="http://www.thelec.net/news/articleView.html?idxno=2364">Hana considered alternative to Silfex as Si ring supplier to Lam Research - 2021/02/16</a>
-                            <br>Summary - 고객사 다변화, 현재 Si, SiC RING은 TEL, Semes, and Applied Materials에 각각 80%, 9%, 8% 가량의 비중으로 부품을 공급하고 있으며, Lam Research로의 부품 공급을 고려 중 
-                            <br><br>경쟁사인 티씨케이의 주가 추이 뿐만 아니라 고객사인 <a href="https://www.google.com/finance/quote/8035:TYO">Tokyo Electron Ltd. (TYO: 8035)</a>, <a href="http://www.k-otc.or.kr/">Semes (K-OTC: 042380)</a>, <a href="https://finance.yahoo.com/quote/AMAT/">Applied Materials (NASDAQ: AMAT)</a>, <a href="https://finance.yahoo.com/quote/LRCX?p=LRCX&.tsrc=fin-srch">Lam Research (NASDAQ: LRCX)</a>의 주가 추이를 관찰해야한다.
-                            <br>나아가 최종 판매자인 <a href="https://finance.naver.com/item/main.nhn?code=005930">Samsung Electronics Co. Ltd. (KRX:005930)</a>, <a href="https://finance.naver.com/item/main.nhn?code=000660">SK Hynix Inc. (KRX:000660)</a>, <a href="https://finance.yahoo.com/quote/mu?ltr=1">Micron Technology, Inc. (NASDAQ: MU)</a>도 관심을 가져야한다. 
+                            <br>Summary - 현재 Si, SiC RING은 TEL, Semes, and Applied Materials에 각각 80%, 9%, 8% 가량의 비중으로 부품을 공급하고 있으며, Lam Research로의 부품 공급을 고려 중
+                            <br>고객사 다변화에 따른 매출액 및 기업가치 증대에 대한 기대감으로 강한 상승을 이끌어냄
+                            <br><br>BUT, 경쟁사인 티씨케이의 주가 추이 뿐만 아니라 고객사인 <a href="https://www.google.com/finance/quote/8035:TYO">Tokyo Electron Ltd. (TYO: 8035)</a>, <a href="http://www.k-otc.or.kr/">Semes (K-OTC: 042380)</a>, <a href="https://finance.yahoo.com/quote/AMAT/">Applied Materials (NASDAQ: AMAT)</a>, <a href="https://finance.yahoo.com/quote/LRCX?p=LRCX&.tsrc=fin-srch">Lam Research (NASDAQ: LRCX)</a>의 주가 추이를 관찰해야한다.
+                            <br>나아가 DRAM and NAND 최종 판매자인 <a href="https://finance.naver.com/item/main.nhn?code=005930">Samsung Electronics Co. Ltd. (KRX:005930)</a>, <a href="https://finance.naver.com/item/main.nhn?code=000660">SK Hynix Inc. (KRX:000660)</a>, <a href="https://finance.yahoo.com/quote/mu?ltr=1">Micron Technology, Inc. (NASDAQ: MU)</a>도 관심을 가져야한다. 
                         </li>
                     </ul>
                 </details></li>
