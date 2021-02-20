@@ -83,7 +83,7 @@ main {
     padding-bottom: 15vh;
     @media screen and (max-width: $mobileW) {
       height: auto;
-      padding: 10vh 0;
+      padding: 10vh 0 0 0;
     }
     @media screen and (min-width: $mobileW + 1) {
       position: fixed;
