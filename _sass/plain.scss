@@ -270,9 +270,12 @@ main {
   text-decoration: none;
   line-height: 1.5;
   align-self: normal;
-  //@media screen and (max-width: $mobileW) {
-  //  align-self: center;
-  //}
+  @media screen and (max-width: $mobileW) {
+    padding: 10vh 0;
+  }
+  @media screen and (min-width: $mobileW + 1) {
+    max-width: 285px;
+  }
   li {
     position: relative;
     display: inline;
