@@ -269,21 +269,10 @@ main {
   display: block;
   text-decoration: none;
   line-height: 1.5;
+  align-self: normal;
   //@media screen and (max-width: $mobileW) {
   //  align-self: center;
-  //
-  @media screen and (max-width: $mobileW) {
-    height: auto;
-    padding: 10vh 0;
-  }
-  @media screen and (min-width: $mobileW + 1) {
-    position: fixed;
-    max-width: 285px;
-  }
-  min-width: $leftWidth;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  //}
   li {
     position: relative;
     display: inline;
