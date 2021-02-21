@@ -110,6 +110,12 @@ main {
     img {
       max-width: 150px;
     }
+    p img {
+      width: 12px;
+      height: 12px;
+      display: inline;
+      vertical-align: middle;
+    }
   }
 }
 #title {
