@@ -197,7 +197,7 @@ public:
         }
 
         bool operator==(const Edge& edge) const {
-            return (**this == *edge);
+            return (this->origin() == edge.origin() && this->dest() == edge.dest() && **this == *edge ? true : false);
         }
 
         friend class AdjacencyListDirectedGraph<V,E>;
@@ -263,27 +263,29 @@ public:
 #include "FlightMap.h"
 
 double FlightMap::calcRouteDistance(const list<string> route) {
-	double sum = 0;
+	double sum = 0.0;
 	int numofAirport = route.size();
 
-	list<string>::const_iterator LCiter = route.begin();
-	for (int i = 0; i < numofAirport - 1; i++, LCiter++) {
-		string str1 = *LCiter,
-			str2 = *(++LCiter);
-		FlightGraph::Vertex v1, v2;
-		if (!findAirport(v1, str1) || !findAirport(v2, str2)) {
+	list<string>::const_iterator LSconstI = route.begin();
+	for (int i = 0; i < numofAirport - 1; i++) {
+		string str1 = *LSconstI,
+			str2 = *(++LSconstI);
+		FlightGraph::Vertex O, D;
+
+		if (!findAirport(O, str1) || !findAirport(D, str2)) {
 			throw runtime_error("Any airport in the route does not exist.");
 		}
+
 		if (!isConnectionExist(str1, str2)) {
 			throw runtime_error("some edges on the route do not exist.");
 		}
-		FlightGraph::EdgeList elist = v1.outgoingEdges();
-		for (FlightGraph::EdgeItor iter = elist.begin(); iter != elist.end(); iter++) {
-			if (iter->dest() == v2) {
-				sum += **iter;
+
+		FlightGraph::EdgeList EL = O.outgoingEdges();
+		for (FlightGraph::EdgeItor EI = EL.begin(); EI != EL.end(); EI++) {
+			if (EI->dest() == D) {
+				sum += **EI;
 			}
 		}
-		LCiter--;
 	}
 	return sum;
 }
@@ -294,15 +296,15 @@ list<string> FlightMap::findShortestRoute(const string& airport1, const string& 
 	map<string, double> dist_DB;
 	map<string, string> backtracking_DB;
 
-	FlightGraph::VertexList vtx_list = flight_graph.vertices();
-	for (FlightGraph::VertexItor vtx_iter = vtx_list.begin(); vtx_iter != vtx_list.end(); vtx_iter++) {
-		dist_DB.insert({ **vtx_iter, INF });
-		backtracking_DB.insert({ **vtx_iter, "EMPTY" });
+	FlightGraph::VertexList VL = flight_graph.vertices();
+	for (FlightGraph::VertexItor VI = VL.begin(); VI != VL.end(); VI++) {
+		dist_DB.insert({ **VI, INF });
+		backtracking_DB.insert({ **VI, "EMPTY" });
 	}
 
 	// Starting, Ending airports check
-	FlightGraph::Vertex v1, v2;
-	if (!findAirport(v1, airport1) || !findAirport(v2, airport2)) {
+	FlightGraph::Vertex O, D;
+	if (!findAirport(O, airport1) || !findAirport(D, airport2)) {
 		throw runtime_error("some of the given airports does not exist.");
 	}
 
@@ -316,27 +318,27 @@ list<string> FlightMap::findShortestRoute(const string& airport1, const string& 
 		double cost = -pq.top().first;
 		pq.pop();
 
-		FlightGraph::Vertex now_vtx;
-		if (!findAirport(now_vtx, now)) {
+		FlightGraph::Vertex curr;
+		if (!findAirport(curr, now)) {
 			throw runtime_error("some of the given airports does not exist.");
 		}
 
 		if (cost > dist_DB.find(now)->second) continue;
 
-		FlightGraph::EdgeList edg_list = now_vtx.outgoingEdges();
-		for (FlightGraph::EdgeItor edg_iter = edg_list.begin(); edg_iter != edg_list.end(); edg_iter++) {
-			FlightGraph::Vertex nxt_vtx = edg_iter->dest();
-			double nxtCost = cost + **edg_iter;
-			if (nxtCost < dist_DB.find(*nxt_vtx)->second) {
-				dist_DB.find(*nxt_vtx)->second = nxtCost;
-				pq.push({ -nxtCost, *nxt_vtx });
-				backtracking_DB.find(*nxt_vtx)->second = now;
+		FlightGraph::EdgeList EL = curr.outgoingEdges();
+		for (FlightGraph::EdgeItor EI = EL.begin(); EI != EL.end(); EI++) {
+			FlightGraph::Vertex nxt = EI->dest();
+			double nxtCost = cost + **EI;
+			if (nxtCost < dist_DB.find(*nxt)->second) {
+				dist_DB.find(*nxt)->second = nxtCost;
+				pq.push({ -nxtCost, *nxt });
+				backtracking_DB.find(*nxt)->second = now;
 			}
 		}
 	}
-	list<string> return_list;
 
 	// Route check
+	list<string> return_list;
 	if (backtracking_DB.find(airport2)->second == "EMPTY") {
 		throw runtime_error("no route exists.");
 		return return_list;
@@ -351,26 +353,26 @@ list<string> FlightMap::findShortestRoute(const string& airport1, const string& 
 			break;
 		}
 	}
+
 	return return_list;
 }
 
 void FlightMap::printAllShortestRoutes(const string &airport) {
-	FlightGraph::Vertex vtx;
-
-	if (!findAirport(vtx, airport)) {
+	FlightGraph::Vertex V;
+	if (!findAirport(V, airport)) {
 		throw runtime_error("The given airport do not exist");
 	}
 
-	FlightGraph::VertexList vtx_list = flight_graph.vertices();
-	for (FlightGraph::VertexItor vtx_iter = vtx_list.begin(); vtx_iter != vtx_list.end(); vtx_iter++) {
-		if(*vtx_iter == vtx) continue;
-		list<string> return_list = findShortestRoute(airport, **vtx_iter);
+	FlightGraph::VertexList VL = flight_graph.vertices();
+	for (FlightGraph::VertexItor VI = VL.begin(); VI != VL.end(); VI++) {
+		if(*VI == V) continue;
+		list<string> return_list = findShortestRoute(airport, **VI);
 		if (return_list.size() > 0) {
 			printRoute(return_list);
 			cout << " (Distance = " << calcRouteDistance(return_list) << ")" << endl;
 		}
 	}
-
+	return;
 }
 
 ``` 
