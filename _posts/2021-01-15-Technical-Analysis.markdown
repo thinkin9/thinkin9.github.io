@@ -6,7 +6,6 @@ categories: Quantitative_Analysis
 ---
 
 <div style="text-align: center"><i><b>Last Updated on Febrary 19th, 2021</b></i></div>
-<div style="text-align: center"><i><b>보유중인 종목은 일부만 공개함</b></i></div>
 <hr style="height: 2px; border:none; padding: 0; background:black">
 <details><summary>Sector & Trigger</summary>
     <ul>
@@ -24,14 +23,16 @@ categories: Quantitative_Analysis
             <ul>
                 <li><details><summary>KOSDAQ 씨아이에스</summary>
                     <ul>
+                        <li><br>@BUY(9829/180/20210106)
+                            <br>@SELL(17350/80/20210118)
+                            <br>@BUY(15300/50/20210223) (전고체 배터리로 같이 묶이는 한농화성이 슈팅받길래 추격매수했는데, VI까지 갔다가 다시 내려옴 ㅠ.ㅠ 살짝 뇌동매매)
+                        </li><br>
                         <li>2021/01/18
                             <br>생각보다 Fundamental이 저평가되어있고, FnGuide 2차전지와 전기&수소차에 각각 작년 6월 15일, 12월 16일에 편입되고 기관과 외국인의 수급이 엄청나다
                             <br>이렇게까지 오를 종목인가?라는 의문이 들지만, 평단 9층은 든든하다 ㅎ.ㅎ
                             <br>매도시기는, RSI Regular Pattern이 나타나고, 거래량이 2천을 넘었을 때 33~50% 매도
                             <br><br>비슷한 재료로 묶이는 한농화성은 시총이 작아서 수익률은 더 크겠지만, index 편입과 같은 근거가 부족해서 리스크도 크다고 생각한다
                             <br><br>2차전지에 대한 수급이 코스피 우량주(삼성 SDI, LG화학, SK이노베이션, 또는 LG에너지 솔루션 상장)로 돌아갔을 때, 주가가 급락할 가능성이 있다
-                            <br><br>1월 6일 9829/180 매수
-                            <br>1월 18일 17350/60 매도
                             <br><img src="/img/222080_20210117_Technical_Analysis.png">
                         </li><br>
                         <li>2021/02/04
@@ -98,6 +99,11 @@ categories: Quantitative_Analysis
                 </details></li>
                 <li><details><summary>KOSDAQ 하나머티리얼즈</summary>
                     <ul>
+                        <li>
+                            <br>@BUY(28000/50/20210202)
+                            <br>@BUY(29500/42/20210204) (잠정실적(컨센서스 상회) 공시 후 단일가 마지막틱 진입)
+                            <br>@SELL(36600/22/20210223)
+                        </li><br>
                         <li>2021/02/01
                             <br>이번 반도체 슈퍼 사이클에서는 데이터 센터의 DRAM 교체시기와 DDR5, NAND의 보급이 맞물리면서 메모리 반도체발 호황이 될 거라 생각
                             <br><br>삼성이 엑시노스 개발하면서 시스템 반도체쪽 꾸준히 해오다가 팹리스(애플, 퀄컴)한테는 밀리다보니까 파운드리로 변화를 꾀했는데, 하지만 실제로 양산되어 시장에 제품이 나오고 매출 및 영업이익에 찍힐 때까지 1~2년이라는 시간이 필요하다고 봄 (미국 Austin 공장 부지 관련해서 뉴스 나오는 거 보니까 그 쪽으로 공장 지을 듯, 공장 지어지는데 1~2년 소요)
@@ -106,8 +112,6 @@ categories: Quantitative_Analysis
                             <br><br>경쟁사라고 할 수 있는 티씨케이에 비해 주가 상승 수준이 너무 약함
                             <br>실적 컨센서스 +30% 가량
                             <br>Si, SiC 식각 필수 소모품 (레포트 by snusmic, SAMSUNG Securities Co., Ltd.)
-                            <br>2월 2일 28000/50 매수
-                            <br>2월 4일 29500/42 매수 (잠정실적(컨센서스 상회) 공시 후 단일가 마지막틱 진입)
                         </li><br>
                         <li>2021/02/19
                             <br>15%정도로 반등을 예상했는데 2월 18일, 19일 노무라증권의 장내매수로 인해서 (양일간 약 30만주 매수) 강한 슈팅을 받아서 예상보다 크게 상승했다
@@ -172,6 +176,10 @@ categories: Quantitative_Analysis
                             <br>하지만 과도한 폭락(보호예수 해제)이 일어났고 그 물량을 개인이 받아냈기때문에 당분간은 하락 또는 횡보가 지속될 것으로 생각한다
                             <br><img src="/img/326030_20210116_Technical_Analysis.png">
                         </li>
+                        <li>
+                            2021/02/23
+                            <br>대주주(SK) 지분 블록딜 매각
+                            <br>이런 하락 요소에서 생각해봐야하는 것은, 그런 블록딜을 매수할 주체가 있었다는 것?
                     </ul>
                 </details></li>
             </ul>
