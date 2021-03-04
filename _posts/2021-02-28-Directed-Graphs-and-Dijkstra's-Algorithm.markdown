@@ -103,16 +103,19 @@ public:
         bool isAdjacentTo(const Vertex& v) const {
             EdgeList EL = this->incidentEdges();
             for (EdgeItor EI = EL.begin(); EI != EL.end(); EI++) {
-                if (EI->origin() == v || EI->dest() == v) {
+                if (EI->origin() == *this && EI->dest() == v) {
                     return true;
                 }
+                else if (EI->origin() == v && EI->dest() == *this) {
+                    return true;
             }
+            return false;
         }
 
         bool isOutgoingTo(const Vertex& v) const {
             EdgeList EL = this->incidentEdges();
             for (EdgeItor EI = EL.begin(); EI != EL.end(); EI++) {
-                if (EI->dest() == v) {
+                if (EI->origin() == *this && EI->dest() == v) {
                     return true;
                 }
             }
@@ -122,7 +125,7 @@ public:
         Edge outgoingEdge(const Vertex& v) const {
             EdgeList EL = this->incidentEdges();
             for (EdgeItor EI = EL.begin(); EI != EL.end(); EI++) {
-                if (EI->dest() == v) {
+                if (EI->origin() == *this && EI->dest() == v) {
                     return *EI;
                 }
             }
@@ -165,8 +168,8 @@ public:
         }
 
         Vertex opposite(const Vertex& v) const {
-            if (this->origin() == v) return this->origin();
-            else if (this->dest() == v) return this->dest();
+            if (this->origin() == v) return this->dest();
+            else if (this->dest() == v) return this->origin();
             else throw runtime_error("The given vertex is neither origin nor destination");
         }
 
@@ -372,3 +375,12 @@ void FlightMap::printAllShortestRoutes(const string &airport) {
 
 ``` 
 
+## Result
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
+
+Left: ./flight_map_sample   
+Right: g++ -o output assignment6.cpp FlightMap.cpp main.cpp -std=c++11, ./output   
+<img src="/img/flightmap_01.png">
+<img src="/img/flightmap_02.png">
+<img src="/img/flightmap_03.png">
+<img src="/img/flightmap_04.png">
