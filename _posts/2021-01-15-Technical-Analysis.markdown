@@ -180,6 +180,7 @@ categories: Quantitative_Analysis
                             2021/02/23
                             <br>대주주(SK) 지분 블록딜 매각
                             <br>이런 하락 요소에서 생각해봐야하는 것은, 그런 블록딜을 매수할 주체가 있었다는 것?
+                        </li>
                     </ul>
                 </details></li>
             </ul>
