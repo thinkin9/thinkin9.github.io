@@ -30,10 +30,10 @@ categories: Me
 ## Research Interests
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
-&emsp;**Computer Architecture**
-&emsp;&emsp;Specifically in Quantum computing (I'm now learning conventional computer architecture with [coursera](https://www.coursera.org/learn/comparch))
-&emsp;**Field-Programmable Gate Array (FPGA) & Application-Specific Integrated Circuit (ASIC)**
-&emsp;&emsp; I plan to read a book, [FPGA Programming for Beginners](https://www.packtpub.com/product/FPGA-Programming-for-Beginners/9781789805413?utm_source=github&utm_medium=repository&utm_campaign=9781789805413)
+&emsp;**Computer Architecture**   
+&emsp;&emsp;Specifically in Quantum computing (I'm now learning conventional computer architecture with [coursera](https://www.coursera.org/learn/comparch))   
+&emsp;**Field-Programmable Gate Array (FPGA) & Application-Specific Integrated Circuit (ASIC)**   
+&emsp;&emsp; I plan to read a book, [FPGA Programming for Beginners](https://www.packtpub.com/product/FPGA-Programming-for-Beginners/9781789805413?utm_source=github&utm_medium=repository&utm_campaign=9781789805413)   
 
 <!-- * Optimization
 * Parallel Computing   
