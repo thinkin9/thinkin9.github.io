@@ -30,13 +30,19 @@ categories: Me
 ## Research Interests
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
+&emsp;**Computer Architecture**
+&emsp;&emsp;Specifically in Quantum computing (I'm now learning conventional computer architecture with [coursera](https://www.coursera.org/learn/comparch))
+&emsp;**Field-Programmable Gate Array (FPGA) & Application-Specific Integrated Circuit (ASIC)**
+&emsp;&emsp; I plan to read a book, [FPGA Programming for Beginners](https://www.packtpub.com/product/FPGA-Programming-for-Beginners/9781789805413?utm_source=github&utm_medium=repository&utm_campaign=9781789805413)
+
 <!-- * Optimization
 * Parallel Computing   
-    * Programming Massively Parallel Processors: A Hands-on Approach [(Book)](https://www.amazon.com/Programming-Massively-Parallel-Processors-Hands/dp/0124159923) (Reading) -->
+    * Programming Massively Parallel Processors: A Hands-on Approach [(Book)](https://www.amazon.com/Programming-Massively-Parallel-Processors-Hands/dp/0124159923) (Reading)
 &emsp;**Generative Adversarial Network (GAN)**   
 &emsp;&emsp;Generative Deep Learning [(Book)](https://www.amazon.com/Generative-Deep-Learning-Teaching-Machines/dp/1492041947) (Reading)   
 &emsp;**Quantitative Analysis**   
-&emsp;&emsp;[Automatic Trading BOT](https://github.com/thinkin9/Automatic_Trading_BOT) with C++ API (Yet)   
+&emsp;&emsp;[Automatic Trading BOT](https://github.com/thinkin9/Automatic_Trading_BOT) with C++ API (Yet)  
+-->
 
 ## Language
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black"> 
@@ -52,8 +58,8 @@ categories: Me
 &emsp;&emsp;Python   
 &emsp;&emsp;HTML/ CSS   
 &emsp;**Framework Experience**   
-&emsp;&emsp;MFC with C++ (Beginner)   
-&emsp;&emsp;Qt with C++ (Beginner)   
+&emsp;&emsp;MFC (Beginner)   
+&emsp;&emsp;Qt (Beginner)   
 &emsp;**Etc.**   
 &emsp;&emsp;3D modeling - Autodesk Fusion 360 (Intermediate)   
 &emsp;&emsp;Fluid Simulation Software - Ansys Fluent (Beginner)   
