@@ -24,7 +24,7 @@ categories: Algorithm_and_Problem_Solving
 ## Problem Solving
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
-* [1463, 1로 만들기](https://www.acmicpc.net/problem/1463)
+* [1463, 1로 만들기](https://www.acmicpc.net/problem/1463)   
 1. Bottom-up (부분에서의 최소 보장, 전역에서의 최소 보장)   
   
   ```cpp
@@ -52,10 +52,10 @@ categories: Algorithm_and_Problem_Solving
   ```
   
 2. Top-bottom (Optimal Value of n가 solve(n / 2) + n % 2 + 1 또는 solve(n / 3) + n % 3 + 1)   
-일반적인 상황에서 2 혹은 3의 배수가 되는 길을 찾는 게 수를 가장 빠르게 줄이기에 적합하다   
-n이 그 자체로 2의 배수나 3의 배수일 수도 있고,   
-1을 빼서 2의 배수나, 3의 배수가 될 경우도 있고,   
-2를 빼서 3의 배수가 될 경우도 있다   
+  일반적인 상황에서 2 혹은 3의 배수가 되는 길을 찾는 게 수를 가장 빠르게 줄이기에 적합하다   
+  n이 그 자체로 2의 배수나 3의 배수일 수도 있고,   
+  1을 빼서 2의 배수나, 3의 배수가 될 경우도 있고,   
+  2를 빼서 3의 배수가 될 경우도 있다   
   
   ```cpp
   int n, ans, buf;
@@ -73,9 +73,9 @@ n이 그 자체로 2의 배수나 3의 배수일 수도 있고,
   }
   ```
 
-* [11726, 2 * n 타일링](https://www.acmicpc.net/problem/11726)
+* [11726, 2 * n 타일링](https://www.acmicpc.net/problem/11726)   
 1. Bottom-up   
-서로 겹치지 않기 위해서는 arr[i-2]에서 가로로 2개 + arr[i-1]에서 세로로 1개   
+  서로 겹치지 않기 위해서는 arr[i-2]에서 가로로 2개 + arr[i-1]에서 세로로 1개   
   
   ```cpp
   const int MAX = 1e3;
@@ -100,9 +100,9 @@ n이 그 자체로 2의 배수나 3의 배수일 수도 있고,
   }
   ```
 
-* [11727, 2 * n 타일링 2](https://www.acmicpc.net/problem/11727)
+* [11727, 2 * n 타일링 2](https://www.acmicpc.net/problem/11727)   
 1. Bottom-up   
-서로 겹치지 않기 위해서는 arr[i-2]에서 가로로 2개 큰거 하나 + arr[i-1]에서 세로로 1개   
+  서로 겹치지 않기 위해서는 arr[i-2]에서 가로로 2개 큰거 하나 + arr[i-1]에서 세로로 1개   
   
   ```cpp
   const int MAX = 1e3;
@@ -127,7 +127,7 @@ n이 그 자체로 2의 배수나 3의 배수일 수도 있고,
   }
   ```
 
-Time Limit   
+  Time Limit   
   
   ```cpp
   int n, ans, buf;
