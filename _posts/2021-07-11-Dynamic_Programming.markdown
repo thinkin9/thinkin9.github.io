@@ -169,4 +169,115 @@ categories: Algorithm_and_Problem_Solving
     return 0;
   }
   ```
+* [10844, 쉬운 계단수](https://www.acmicpc.net/problem/10844)  
+
+  ```cpp
+  const int MOD = 1e9;
+  int arr[101][10];
+  int n, ans, buf;
+  ll nll, ansll, bufll;
+
+  int main(){
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    for(int& i : arr[1]){
+      i = 1;
+    }
+    arr[1][0] = 0;
+    for(int i = 1; i < n; i++){
+      for(int j = 0; j < 10; j++){
+        // 위로 올라갈 수 있는 digit 0 ~ 8
+        if(j <= 8) {
+          arr[i + 1][j + 1] += arr[i][j];
+          arr[i + 1][j + 1] %= MOD;
+        }
+        // 아래로 내려갈 수 있는 digit 1 ~ 9
+        if(j >= 1) {
+          arr[i + 1][j - 1] += arr[i][j];
+          arr[i + 1][j - 1] %= MOD;
+        }
+      }
+    }
+    for(int i = 0; i <= 9; i++){
+      ansll += arr[n][i];
+      ansll %= MOD;
+    }
+    cout << ansll;
+  }
+  ```
   
+* [11057, 오르막수](https://www.acmicpc.net/problem/11057)  
+  ```cpp
+  const int MOD = 1e4 + 7;
+  int arr[1001][10];
+  int n, ans, buf;
+  ll nll, ansll, bufll;
+
+  int main(){
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    for(int& i : arr[1]){
+      i = 1;
+    }
+    for(int i = 2; i <= n; i++){
+      for(int j = 0; j < 10; j++){
+        for(int k = 0; k <= j; k++){
+          arr[i][j] += arr[i - 1][k];
+          arr[i][j] %= MOD;
+        }
+      }
+    }
+    for(int i = 0; i < 10; i++){
+      ansll += arr[n][i];
+      ansll %= MOD;
+    }
+    cout << ansll;
+  }
+  ```
+* [2193, 이친수](https://www.acmicpc.net/problem/2193) 
+  ```cpp
+  ll arr[91][2];
+  int n, ans, buf;
+  ll nll, ansll, bufll;
+
+  int main(){
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    arr[1][0] = 0;
+    arr[1][1] = 1;
+    for(int i = 2; i <= n; i++){
+      // n번째가 0으로 끝나면 n-1번째는 무조건 0 or 1
+      arr[i][0] = arr[i - 1][0] + arr[i - 1][1];
+      // n번째가 1으로 끝나면 n-1번째는 무조건 0
+      arr[i][1] = arr[i - 1][0];
+    }
+    cout << arr[n][0] + arr[n][1];
+  }
+  
+  ll arr[91];
+  int n, ans, buf;
+  ll nll, ansll, bufll;
+
+  int main(){
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    arr[1] = 1;  // 1
+    arr[2] = 1;  // 10
+    for(int i = 3; i <= n; i++){
+      // n번째 수가 0인 수열을 만드는 방법은 n-1번째 수가 0 or 1일 경우이므로(+ 0), arr[n-1]과 같다.
+      // n번째 수가 1인 수열을 만드는 방법은 n-2번째 수가 0 or 1일 경우이므로(+ 01), arr[n-2]과 같다
+      arr[i] = arr[i - 1] + arr[i - 2];
+    }
+    // Fibonacci는 47번째부터 int 범위를 초과한다
+    cout << arr[n];
+    return 0;
+  }
+  ```
+* [](https://www.acmicpc.net/problem/)  
+* [](https://www.acmicpc.net/problem/) 
+* [](https://www.acmicpc.net/problem/) 
+* [](https://www.acmicpc.net/problem/) 
