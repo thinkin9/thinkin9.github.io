@@ -277,7 +277,45 @@ categories: Algorithm_and_Problem_Solving
     return 0;
   }
   ```
-* [](https://www.acmicpc.net/problem/)  
+* [9465, 스티커](https://www.acmicpc.net/problem/9465)  
+  ```cpp
+  const int MAX = 1e5;
+  int a[MAX + 1][2];
+  int a2[MAX + 1][3];
+  int n, ans, buf;
+  ll nll, ansll, bufll;
+
+  void solve(){
+    cin >> buf;
+    for(int i = 0; i < 2; i++){
+      for(int j = 0; j < buf; j++){
+        cin >> a[j][i];
+      }
+    }
+    a2[0][0] = 0;
+    a2[0][1] = a[0][0];
+    a2[0][2] = a[0][1];
+
+    for(int i = 1; i < buf; i++){
+      a2[i][0] = max({a2[i - 1][0], a2[i - 1][1], a2[i - 1][2]});
+      a2[i][1] = max({a2[i - 1][0], a2[i - 1][2]}) + a[i][0];
+      a2[i][2] = max({a2[i - 1][0], a2[i - 1][1]}) + a[i][1];
+    }
+    buf--;
+    cout << max({a2[buf][0], a2[buf][1], a2[buf][2]}) << '\n';
+    return;
+  }
+
+  int main(){
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    while(n--){
+      solve();
+    }
+    return 0;
+  }
+  ```
 * [](https://www.acmicpc.net/problem/) 
 * [](https://www.acmicpc.net/problem/) 
 * [](https://www.acmicpc.net/problem/) 
