@@ -319,3 +319,37 @@ categories: Algorithm_and_Problem_Solving
 * [](https://www.acmicpc.net/problem/) 
 * [](https://www.acmicpc.net/problem/) 
 * [](https://www.acmicpc.net/problem/) 
+
+```cpp
+const int MAX = 1e4;
+int a[MAX + 1];
+int a2[MAX + 1][3];
+int n, ans, buf;
+ll nll, ansll, bufll;
+
+void solve(){
+  cin >> buf;
+  for(int i = 1; i <= buf; i++){
+      cin >> a[i];
+  }
+  a2[1][0] = 0;
+  a2[1][1] = a[0];
+  a2[1][2] = 0;
+
+  for(int i = 2; i <= buf; i++){
+    a2[i][0] = max({a2[i - 1][0], a2[i - 1][1], a2[i - 1][2]});
+    a2[i][1] = a2[i - 1][0] + a[i];
+    a2[i][2] = a2[i - 1][1] + a[i];
+
+  }
+  cout << max({a2[buf][0], a2[buf][1], a2[buf][2]}) << '\n';
+  return;
+}
+
+int main(){
+  ios_base::sync_with_stdio(false);
+  cin.tie(0);
+  solve();
+  return 0;
+}
+```
