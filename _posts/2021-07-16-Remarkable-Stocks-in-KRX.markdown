@@ -7,6 +7,51 @@ categories: Quantitative_Analysis
 
 <div style="text-align: center"><i><b>Last Updated on July 16th, 2021</b></i></div>
 
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
+
+## 2021.07.15
+* 금리연동 주택담보대출 상품이 출시된 걸로 보아서 금리가 상승하기는 하나보다   
+  특약을 추가하는 형태로 금리상승폭을 연간 0.75% or 5년간 2%로 제한한다는데, 앞으로 금리가 떨어질 일이 있을까...? 내 생각에는 미국의 금리 주도권에 의해서 금리가 상승하면 우리나라도 자금 유출 방지하려면 금리 올려야하고 그러면 시중은행에서도 금리를 올리게될텐데 나 같으면 그냥 최대한 금리 우대 조건 찾아서 한 다음에 고정금리로 하지 않을까?
+* 자본이 별로 없는 개인들이 자꾸 돈을 모아서 P2P로 부동산 투기하고 대출해서 돈 버니까 P2P 금융 상품의 위험성을 강조하네   
+  부동산은 거래 대상자가 높은 가격으로 사줘야 돈이 되는 거고, 대출은 채무자가 채무를 이행해야 돈이 되는 거고 그런 리스크를 위해 임대료와 이자를 지급하는데 당연히 부동산 가격 하락 또는 채무 불이행시에는 투자금 회수를 보장하지 않는게 원칙아닌가   
+  부동산은 돈 많은 정치인/부자들만 사고, 대출은 은행에서 받아라는 늬앙스
+* 인텔 (재무, 분기 & 연간 실적)
+  ![image](https://user-images.githubusercontent.com/53069520/126023309-7e41a0ba-6167-476e-85f4-eaa456b8fdc6.png)   
+  ![image](https://user-images.githubusercontent.com/53069520/126023362-ea7cba0a-8377-43d0-b4de-701a6e063e7c.png)   
+  ![image](https://user-images.githubusercontent.com/53069520/126023526-27eae33f-1e6a-40fe-8d69-1e5dd402f642.png)   
+  ![image](https://user-images.githubusercontent.com/53069520/126023472-64e812f7-3ad8-43f5-9515-b6b5ce5cfdba.png)
+  ![image](https://user-images.githubusercontent.com/53069520/126023510-cb9db0bc-d924-4a82-ae50-04585f76b2b0.png)   
+* 엔비디아   
+  ![image](https://user-images.githubusercontent.com/53069520/126023550-5ca7e5e0-fb03-417a-bbc8-580902eb9ac0.png)   
+  ![image](https://user-images.githubusercontent.com/53069520/126023640-4446c97d-314c-42a7-8339-3a7bc3873e8e.png)   
+* Edge processor architecture used for AI training phase in 2017 and 2025   
+  ![statistic_id1104790_ai-edge-chip-architecture-2017-and-2025](https://user-images.githubusercontent.com/53069520/126023934-3f1a24ba-f83a-42a8-b227-f181681067b8.png)   
+  Edge processor architecture used for AI inference phase in 2017 and 2025   
+  ![statistic_id1104856_ai-inference-edge-chip-architecture-2017-and-2025](https://user-images.githubusercontent.com/53069520/126024108-0aa4226b-c9b1-4523-8df5-24dcf4b3f722.png)   
+* 현재 동남아시아, 중앙아시아 위주의 건설 노동자 파이를 중국 농민공들이 한국으로 들어와서 차지하게 될 가능성이 높다
+* 매물로 나오는 기업들이 많아짐 (승계 실패, 재벌들이 회사 망하기 전에 사모펀드 회사 같은 곳에 높은 가격에 팔고 싶어함)
+* 매장 무인화 & 반려동물 프랜차이즈 매장
+* 일론 머스크의 Star Link (위성 인터넷) 구축 - 우리나라도 기술 흐름에 맞추어 위성 인터넷 통신이 도입
+  KT가 정부 몰래 무궁화호 팔아넘기긴했는데, 어짜피 그 위성엔 위성 인터넷을 위한 장비가 없을 거고 위성 인터넷하려면 위성 많이 필요해서 위성 개발 및 발사 섹터가 유망하다   
+  Desktop과 Laptop은 광케이블 통신 기반으로 Mobile과 Autonomous Driving은 전자기파 통신 기반으로 이루어짐 (광케이블보다 전자기파 통신이 더 빨라질 가능성도 있나? 나는 그럴 가능성이 적다고 생각하는데, 경로 측면에서 보면 그럴 가능성이 없진 않은 거 같음)   
+  2G/3G/4G + 5G/위성통신 (표준화/망 구축/전국망/Inflow)   
+  2G(Code Division Multiple Access, CDMA): 1991/?/?/1996
+  3G(Wideband Code Division Multiple Access, WCDMA): 2001/2002/2007~2008/2010~2011 (Galaxy S1, S2)
+  4G(Long Term Evolution, LTE): 2008.12/2011.06/2011.07~2012.05/2014~2018 (Galaxy S4~S8)
+  5G(New Radio, NR): 2018.06/2018.11/2022~2023(Expected)/2023~2027(Expected) (3.5GHz & 28GHz)
+  이 정도니까 위성통신은 너무 이른 감이 있는데, 일론 머스크가 어떻게 할까? 일단은 Autonomous Driving에 쓰면서 Mobile도 추가될텐데 미국 통신사들이 로비안하고 가만히 있을까?
+* 외국인 채권 매입 (외국인이 보유한 한국 채권 규모: 189조원, 올해 순매수 74.8조원)
+* 5개 은행, 5대 지주 사전 유언장, 몇 년안에 은행 도산시키려고하나...
+* 비트코인이 
+  
+
+
+
+
+
+
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
+
 ## 2021.07.14
 주식으로 돈을 벌기는 힘들다.
 돈을 버는 사람들이 막대한 자본으로 돈을 벌기 위해 얼마나, 그리고 어떻게 노력하는 지 배우고 그 이상의 노력을 다하면 돈을 벌 수 있다.
