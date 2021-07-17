@@ -13,6 +13,7 @@ Ha2mandx.tistory.com에서 보고 정리하는 글
 ## 2021.07.16
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
+Investor vs Trader
 * 중국인들의 한국 부동산 쇼핑, 누군가의 부동산으로 얻어지는 큰 이득은 은행의 도산 위험성을 늘리게 된다
 * 비대면 의료 사업
 * 삼성전자 '삼성 키오스크' & 스포카 '도도 포인트' (무인 매장 IT Solution)
