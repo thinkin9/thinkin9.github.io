@@ -5,9 +5,42 @@ date:   2021-07-16 12:00:00 +0900
 categories: Quantitative_Analysis
 ---
 
-<div style="text-align: center"><i><b>Last Updated on July 16th, 2021</b></i></div>
+<div style="text-align: center"><i><b>Last Updated on July 18th, 2021</b></i></div>
 
 Ha2mandx.tistory.com에서 보고 정리하는 글
+
+
+## 2021.07.16
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
+
+* 중국인들의 한국 부동산 쇼핑, 누군가의 부동산으로 얻어지는 큰 이득은 은행의 도산 위험성을 늘리게 된다
+* 비대면 의료 사업
+* 삼성전자 '삼성 키오스크' & 스포카 '도도 포인트' (무인 매장 IT Solution)
+* 내연기관 퇴출 시기 일치 X (자국 완성차 업계의 전기차 전환 속도와 충전소, 신재생에너지 인프라 부족 같은 현실적 장벽 감안)
+* 탄소 배출권 거래제를 해외 기업에다가 적용할 수 없으니 탄소 국경세   
+  철강, 발전소, 선박, 항공기 / 농업, 폐기물 / 완성차 업체
+* 소비 지상 주의 vs 일자리   
+  Smart Factory - 일자리 감소 - 단기 고용 일자리: 금융은 정점을 찍으니까 직원들이 경쟁 회사에 스카웃 되지 말고 우리 회사에 있도록 임금 올려줌
+* 미국이 중국을 기술 특허로 압도하고 있다   
+  통일해서 인구 수, 자원 늘려봤자 기술 특허로 압도할 수가 없다   
+  망해가는 동남아 국가의 인구들은 거의 1억을 넘는데, 세계 과학 기술 패권을 장악하고 있는 유럽 국가들은 안 그런 곳도 많다
+* 구글코리아, 국내 머신러닝 개발자 양성, 채용 연계 프로그램 '머신러닝 부트캠프'
+* 수소, 효성첨단소재, 상아프론테크, 일진하이솔루스
+* 50주선의 의미, 50주동안 차트를 그리는 자본들이 주식을 사들인 평균단가
+* NuScale Power, SMR
+* 3D Printing Construction
+* 바이오 섹터, 21일까지 상승하고 22일에 공매도 가능성 혹은 계속 상승
+* 상승장 시작 - 공매도 할 일 없음 - 공매도 안하니까 말로만 공매도 막는다함 - 적극적, 공격적으로 BBIG, 현대차, 삼성전자 공략
+* 중국 주식 좋다, 사라고 기사 나올 때 공매도하고, IT주 적극 공략
+* 아마도 최소 10월 14일까지 대형주 랠리, 스몰캡 랠리 또한 11월까지
+* 12월쯤엔 신라젠이 거래재개되고 그때부터 질이 안좋은 종목들이 많이 보일 것   
+  전체 시장 음봉 나오는 날, 신라젠이 2일 이상 상한가로 날라가는 모습 보일 수 있을 것
+* 내년 3월에 현대차 고점, 그 후 로보틱스와 스몰캡 랠리 예상
+* 중국이 게임 섹터에 작전을 한다
+* 삼성바이오로직스, 삼성전자, 현대차, SK이노베이션, 웹젠, SK바이오사이언스(연말), 신세계, 엔씨소프트, SNK(내년 8월), 이마트, 셀트리온, 한화솔루션, 인트론바이오, 롯데케미칼, 롯데쇼핑, 넷마블, 
+* MAXST(메타버스), 야놀자, 마켓컬리 IPO
+
+
 
 ## 2021.07.15
 <hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
@@ -37,10 +70,10 @@ Ha2mandx.tistory.com에서 보고 정리하는 글
   KT가 정부 몰래 무궁화호 팔아넘기긴했는데, 어짜피 그 위성엔 위성 인터넷을 위한 장비가 없을 거고 위성 인터넷하려면 위성 많이 필요해서 위성 개발 및 발사 섹터가 유망하다   
   Desktop과 Laptop은 광케이블 통신 기반으로 Mobile과 Autonomous Driving은 전자기파 통신 기반으로 이루어짐 (광케이블보다 전자기파 통신이 더 빨라질 가능성도 있나? 나는 그럴 가능성이 적다고 생각하는데, 경로 측면에서 보면 그럴 가능성이 없진 않은 거 같음)   
   2G/3G/4G + 5G/위성통신 (표준화/망 구축/전국망/Inflow)   
-  2G(Code Division Multiple Access, CDMA): 1991/?/?/1996
-  3G(Wideband Code Division Multiple Access, WCDMA): 2001/2002/2007~2008/2010~2011 (Galaxy S1, S2)
-  4G(Long Term Evolution, LTE): 2008.12/2011.06/2011.07~2012.05/2014~2018 (Galaxy S4~S8)
-  5G(New Radio, NR): 2018.06/2018.11/2022~2023(Expected)/2023~2027(Expected) (3.5GHz & 28GHz)
+  2G(Code Division Multiple Access, CDMA): 1991/?/?/1996   
+  3G(Wideband Code Division Multiple Access, WCDMA): 2001/2002/2007~2008/2010~2011 (Galaxy S1, S2)   
+  4G(Long Term Evolution, LTE): 2008.12/2011.06/2011.07~2012.05/2014~2018 (Galaxy S4~S8)   
+  5G(New Radio, NR): 2018.06/2018.11/2022~2023(Expected)/2023~2027(Expected) (3.5GHz & 28GHz)   
   이 정도니까 위성통신은 너무 이른 감이 있는데, 일론 머스크가 어떻게 할까? 일단은 Autonomous Driving에 쓰면서 Mobile도 추가될텐데 미국 통신사들이 로비안하고 가만히 있을까?
 * 외국인 채권 매입 (외국인이 보유한 한국 채권 규모: 189조원, 올해 순매수 74.8조원)
 * 5개 은행, 5대 지주 사전 유언장, 몇 년안에 은행 도산시키려고하나...
