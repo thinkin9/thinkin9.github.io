@@ -7,9 +7,10 @@ categories: Quantitative_Analysis
 
 <div style="text-align: center"><i><b>Last Updated on July 16th, 2021</b></i></div>
 
-<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
 
 ## 2021.07.15
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
+
 * 금리연동 주택담보대출 상품이 출시된 걸로 보아서 금리가 상승하기는 하나보다   
   특약을 추가하는 형태로 금리상승폭을 연간 0.75% or 5년간 2%로 제한한다는데, 앞으로 금리가 떨어질 일이 있을까...? 내 생각에는 미국의 금리 주도권에 의해서 금리가 상승하면 우리나라도 자금 유출 방지하려면 금리 올려야하고 그러면 시중은행에서도 금리를 올리게될텐데 나 같으면 그냥 최대한 금리 우대 조건 찾아서 한 다음에 고정금리로 하지 않을까?
 * 자본이 별로 없는 개인들이 자꾸 돈을 모아서 P2P로 부동산 투기하고 대출해서 돈 버니까 P2P 금융 상품의 위험성을 강조하네   
@@ -17,15 +18,15 @@ categories: Quantitative_Analysis
   부동산은 돈 많은 정치인/부자들만 사고, 대출은 은행에서 받아라는 늬앙스
 * 인텔 (재무, 분기 & 연간 실적)
   ![image](https://user-images.githubusercontent.com/53069520/126023309-7e41a0ba-6167-476e-85f4-eaa456b8fdc6.png)   
-  ![image](https://user-images.githubusercontent.com/53069520/126023362-ea7cba0a-8377-43d0-b4de-701a6e063e7c.png)   
-  ![image](https://user-images.githubusercontent.com/53069520/126023526-27eae33f-1e6a-40fe-8d69-1e5dd402f642.png)   
+  ![image](https://user-images.githubusercontent.com/53069520/126023362-ea7cba0a-8377-43d0-b4de-701a6e063e7c.png)
+  ![image](https://user-images.githubusercontent.com/53069520/126023526-27eae33f-1e6a-40fe-8d69-1e5dd402f642.png)
   ![image](https://user-images.githubusercontent.com/53069520/126023472-64e812f7-3ad8-43f5-9515-b6b5ce5cfdba.png)
-  ![image](https://user-images.githubusercontent.com/53069520/126023510-cb9db0bc-d924-4a82-ae50-04585f76b2b0.png)   
+  ![image](https://user-images.githubusercontent.com/53069520/126023510-cb9db0bc-d924-4a82-ae50-04585f76b2b0.png)
 * 엔비디아   
-  ![image](https://user-images.githubusercontent.com/53069520/126023550-5ca7e5e0-fb03-417a-bbc8-580902eb9ac0.png)   
-  ![image](https://user-images.githubusercontent.com/53069520/126023640-4446c97d-314c-42a7-8339-3a7bc3873e8e.png)   
+  ![image](https://user-images.githubusercontent.com/53069520/126023550-5ca7e5e0-fb03-417a-bbc8-580902eb9ac0.png)
+  ![image](https://user-images.githubusercontent.com/53069520/126023640-4446c97d-314c-42a7-8339-3a7bc3873e8e.png)
 * Edge processor architecture used for AI training phase in 2017 and 2025   
-  ![statistic_id1104790_ai-edge-chip-architecture-2017-and-2025](https://user-images.githubusercontent.com/53069520/126023934-3f1a24ba-f83a-42a8-b227-f181681067b8.png)   
+  ![statistic_id1104790_ai-edge-chip-architecture-2017-and-2025](https://user-images.githubusercontent.com/53069520/126023934-3f1a24ba-f83a-42a8-b227-f181681067b8.png)
   Edge processor architecture used for AI inference phase in 2017 and 2025   
   ![statistic_id1104856_ai-inference-edge-chip-architecture-2017-and-2025](https://user-images.githubusercontent.com/53069520/126024108-0aa4226b-c9b1-4523-8df5-24dcf4b3f722.png)   
 * 현재 동남아시아, 중앙아시아 위주의 건설 노동자 파이를 중국 농민공들이 한국으로 들어와서 차지하게 될 가능성이 높다
@@ -42,17 +43,21 @@ categories: Quantitative_Analysis
   이 정도니까 위성통신은 너무 이른 감이 있는데, 일론 머스크가 어떻게 할까? 일단은 Autonomous Driving에 쓰면서 Mobile도 추가될텐데 미국 통신사들이 로비안하고 가만히 있을까?
 * 외국인 채권 매입 (외국인이 보유한 한국 채권 규모: 189조원, 올해 순매수 74.8조원)
 * 5개 은행, 5대 지주 사전 유언장, 몇 년안에 은행 도산시키려고하나...
-* 비트코인이 
-  
-
-
-
-
-
-
-<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
+* 비트코인을 거래소에 가지고 있지 않고 Offline 지갑으로 빠져나가는 중
+* 반도체 슈퍼 사이클 이전에 원자재 슈퍼 사이클이 있다 - 원자재 먼저 순환매하고 반도체라서 오래 걸린다
+* 지금 상승하고 있는 섹터들에 몰리고 있는 돈을 관찰해야한다   
+  크래프톤 신규상장 - 게임 섹터 조정 (고점이 아닌, 신용융자를 털기 위한 조정)   
+  시장은 절대로 부채와 함께 상승하지 않는다. 전부 소화한 다음에 간다   
+  섹터를 계획적으로 공략하는 게 좋겠다
+* 로봇세와 기본소득세   
+  정부는 가장 많은 돈을 버는 영역에서 세금을 걷는다
+* 한국판 뉴딜 투자 확대 (160조원 > 220조원)
+* 아이폰12 2021년 9월 출시 예정 & Apple의 첫 5G 모델 & 초기물량 9000만대
+* 비트코인에 쓰일 전기를 원자력으로 생산하는 기업 Energy Harbour Corp
 
 ## 2021.07.14
+<hr style="height: 2px; border:none; margin-top: -1em; margin-bottom:0.5em; padding: 0; background:black">
+
 주식으로 돈을 벌기는 힘들다.
 돈을 버는 사람들이 막대한 자본으로 돈을 벌기 위해 얼마나, 그리고 어떻게 노력하는 지 배우고 그 이상의 노력을 다하면 돈을 벌 수 있다.
 
